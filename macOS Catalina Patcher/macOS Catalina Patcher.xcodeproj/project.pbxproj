@@ -1,0 +1,2885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87079C5B22B9DDF2009EBF3D /* InstallAssistant.icns in Resources */ = {isa = PBXBuildFile; fileRef = 87079C5A22B9DDF2009EBF3D /* InstallAssistant.icns */; };
+		87079C6222B9DEB3009EBF3D /* VolumeIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 87079C6122B9DEB3009EBF3D /* VolumeIcon.icns */; };
+		87079C6522B9E0AA009EBF3D /* restart.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 87079C6322B9E0AA009EBF3D /* restart.tiff */; };
+		87079C6622B9E0AA009EBF3D /* restartPressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 87079C6422B9E0AA009EBF3D /* restartPressed.tiff */; };
+		87079C6922B9E0B1009EBF3D /* moreInfo.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 87079C6722B9E0B1009EBF3D /* moreInfo.tiff */; };
+		87079C6A22B9E0B1009EBF3D /* moreInfoPressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 87079C6822B9E0B1009EBF3D /* moreInfoPressed.tiff */; };
+		87079C6D22B9E0B8009EBF3D /* cancel.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 87079C6B22B9E0B8009EBF3D /* cancel.tiff */; };
+		87079C6E22B9E0B8009EBF3D /* cancelPressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 87079C6C22B9E0B8009EBF3D /* cancelPressed.tiff */; };
+		87079C7122B9E0BE009EBF3D /* arrowbutton.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 87079C6F22B9E0BE009EBF3D /* arrowbutton.tiff */; };
+		87079C7222B9E0BE009EBF3D /* arrowbuttonPressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 87079C7022B9E0BE009EBF3D /* arrowbuttonPressed.tiff */; };
+		87079C7522B9E3A9009EBF3D /* CatalinaPatcherController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87079C7422B9E3A9009EBF3D /* CatalinaPatcherController.m */; };
+		87079C7822B9E5E7009EBF3D /* arrowbuttonLeft.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 87079C7622B9E5E7009EBF3D /* arrowbuttonLeft.tiff */; };
+		87079C7922B9E5E7009EBF3D /* arrowbuttonLeftPressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 87079C7722B9E5E7009EBF3D /* arrowbuttonLeftPressed.tiff */; };
+		87079C8B22B9F5F5009EBF3D /* Contributions.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 87079C8A22B9F5F5009EBF3D /* Contributions.rtf */; };
+		87079C8D22B9FAD1009EBF3D /* GenericFolderIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 87079C8C22B9FAD1009EBF3D /* GenericFolderIcon.icns */; };
+		87079C9322B9FB8D009EBF3D /* DownloadsFolder.icns in Resources */ = {isa = PBXBuildFile; fileRef = 87079C9222B9FB8D009EBF3D /* DownloadsFolder.icns */; };
+		87079C9622BA0225009EBF3D /* start.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 87079C9422BA0225009EBF3D /* start.tiff */; };
+		87079C9722BA0225009EBF3D /* startPressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 87079C9522BA0225009EBF3D /* startPressed.tiff */; };
+		870D355722B1C12700432A8F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D355622B1C12700432A8F /* Cocoa.framework */; };
+		870D356122B1C12700432A8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 870D355F22B1C12700432A8F /* InfoPlist.strings */; };
+		870D356322B1C12700432A8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 870D356222B1C12700432A8F /* main.m */; };
+		870D356722B1C12700432A8F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 870D356522B1C12700432A8F /* Credits.rtf */; };
+		870D356A22B1C12700432A8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 870D356922B1C12700432A8F /* AppDelegate.m */; };
+		870D356D22B1C12800432A8F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 870D356B22B1C12800432A8F /* MainMenu.xib */; };
+		870D357622B1C12800432A8F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D357522B1C12800432A8F /* XCTest.framework */; };
+		870D357722B1C12800432A8F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D355622B1C12700432A8F /* Cocoa.framework */; };
+		870D357F22B1C12800432A8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 870D357D22B1C12800432A8F /* InfoPlist.strings */; };
+		870D358122B1C12800432A8F /* macOS_Catalina_PatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 870D358022B1C12800432A8F /* macOS_Catalina_PatcherTests.m */; };
+		872AC50522C6B4D3002F847C /* LegacyPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 872AC50422C6B4D3002F847C /* LegacyPlatform.m */; };
+		872AC50822C6B71C002F847C /* SIPDisabler.m in Sources */ = {isa = PBXBuildFile; fileRef = 872AC50722C6B71C002F847C /* SIPDisabler.m */; };
+		872AC50B22C6EB55002F847C /* LegacyWiFi.m in Sources */ = {isa = PBXBuildFile; fileRef = 872AC50A22C6EB55002F847C /* LegacyWiFi.m */; };
+		872AC50E22C6EBCA002F847C /* BCM94321Patch.m in Sources */ = {isa = PBXBuildFile; fileRef = 872AC50D22C6EBCA002F847C /* BCM94321Patch.m */; };
+		872AC51122C6EF76002F847C /* LegacyEnet.m in Sources */ = {isa = PBXBuildFile; fileRef = 872AC51022C6EF76002F847C /* LegacyEnet.m */; };
+		872AC51722C70773002F847C /* LegacyAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 872AC51622C70773002F847C /* LegacyAudio.m */; };
+		873AF4D222C01D7A006A9A86 /* CDAudioVolumeIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 873AF4D122C01D7A006A9A86 /* CDAudioVolumeIcon.icns */; };
+		873AF4D422C01E26006A9A86 /* External.icns in Resources */ = {isa = PBXBuildFile; fileRef = 873AF4D322C01E26006A9A86 /* External.icns */; };
+		873AF4D622C01E45006A9A86 /* Installer.icns in Resources */ = {isa = PBXBuildFile; fileRef = 873AF4D522C01E45006A9A86 /* Installer.icns */; };
+		873AF4D922C01EF4006A9A86 /* PatchOptionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 873AF4D822C01EF4006A9A86 /* PatchOptionsView.m */; };
+		873AF53922C052FE006A9A86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A3F08422B438CF00121384 /* Foundation.framework */; };
+		873AF53C22C052FE006A9A86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 873AF53B22C052FE006A9A86 /* main.m */; };
+		873AF54022C052FE006A9A86 /* patcherd.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 873AF53F22C052FE006A9A86 /* patcherd.1 */; };
+		873AF54622C05F5E006A9A86 /* PatchHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 873AF54522C05F5E006A9A86 /* PatchHandler.m */; };
+		873AF54922C0627A006A9A86 /* InstallerPatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 873AF54822C0627A006A9A86 /* InstallerPatcher.m */; };
+		873AF54C22C06E21006A9A86 /* CreateBootableInstallerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 873AF54B22C06E21006A9A86 /* CreateBootableInstallerView.m */; };
+		873AF55022C0725B006A9A86 /* VolumeViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 873AF54E22C0725B006A9A86 /* VolumeViewItem.m */; };
+		873AF55122C0725B006A9A86 /* VolumeViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873AF54F22C0725B006A9A86 /* VolumeViewItem.xib */; };
+		87412032235925EC00084DA0 /* STPrivilegedTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EB301222C0988900B600F5 /* STPrivilegedTask.m */; };
+		8747905D22E93B20006785C2 /* BOOTX64.efi in Resources */ = {isa = PBXBuildFile; fileRef = 878F1C9622D833CE005E2EAB /* BOOTX64.efi */; };
+		8747905E22E93B20006785C2 /* EFIScriptHeader.txt in Resources */ = {isa = PBXBuildFile; fileRef = 878F1C9722D833CE005E2EAB /* EFIScriptHeader.txt */; };
+		8747905F22E93B20006785C2 /* EFIScriptMain.txt in Resources */ = {isa = PBXBuildFile; fileRef = 878F1C9822D833CE005E2EAB /* EFIScriptMain.txt */; };
+		8747907822E93F2E006785C2 /* macmodels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8797C46322C5A0E80069970F /* macmodels.plist */; };
+		874ED6C022D6D47A00A82591 /* Patch-Updater.png in Resources */ = {isa = PBXBuildFile; fileRef = 874ED6BF22D6D47A00A82591 /* Patch-Updater.png */; };
+		874ED6C222D6D4A300A82591 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874ED6C122D6D4A300A82591 /* Media.xcassets */; };
+		874ED6D222D6D5B300A82591 /* Patch Updater.app in Resources */ = {isa = PBXBuildFile; fileRef = 87AADBAA22D045B2007AB927 /* Patch Updater.app */; };
+		874ED6D322D6D5B900A82591 /* patchupdaterd in Resources */ = {isa = PBXBuildFile; fileRef = 87AADC2522D04E8D007AB927 /* patchupdaterd */; };
+		874ED6D422D6D5BD00A82591 /* Patch Updater Prefpane.prefPane in Resources */ = {isa = PBXBuildFile; fileRef = 87AADBF722D0478B007AB927 /* Patch Updater Prefpane.prefPane */; };
+		874ED6D622D6D5FA00A82591 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 874ED6D522D6D5FA00A82591 /* AppIcon.icns */; };
+		874ED6D822D6D60F00A82591 /* Patch-Updater.png in Resources */ = {isa = PBXBuildFile; fileRef = 874ED6D722D6D60F00A82591 /* Patch-Updater.png */; };
+		874ED6DA22D6D65C00A82591 /* Patch_Updater_Prefpane.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 874ED6D922D6D65C00A82591 /* Patch_Updater_Prefpane.tiff */; };
+		874ED6DD22D6D6ED00A82591 /* InstallPatchUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 874ED6DC22D6D6ED00A82591 /* InstallPatchUpdater.m */; };
+		875A7B1A22EA0BEE009973DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A3F08422B438CF00121384 /* Foundation.framework */; };
+		875A7B1D22EA0BEE009973DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 875A7B1C22EA0BEE009973DC /* main.m */; };
+		875A7B2122EA0BEE009973DC /* apfsbless.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 875A7B2022EA0BEE009973DC /* apfsbless.1 */; };
+		875A7B2D22EA0DE6009973DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A3F08422B438CF00121384 /* Foundation.framework */; };
+		875A7B3022EA0DE6009973DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 875A7B2F22EA0DE6009973DC /* main.m */; };
+		875A7B3422EA0DE6009973DC /* apfsinsta.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 875A7B3322EA0DE6009973DC /* apfsinsta.1 */; };
+		875A7B3F22EA0E6A009973DC /* apfsbless in Resources */ = {isa = PBXBuildFile; fileRef = 875A7B1922EA0BEE009973DC /* apfsbless */; };
+		875A7B4022EA0E6F009973DC /* apfsinsta in Resources */ = {isa = PBXBuildFile; fileRef = 875A7B2C22EA0DE6009973DC /* apfsinsta */; };
+		875A7B4622EA0EEF009973DC /* SystemPrep.m in Sources */ = {isa = PBXBuildFile; fileRef = 875A7B4522EA0EEF009973DC /* SystemPrep.m */; };
+		875A7B4722EA0EEF009973DC /* SystemPrep.m in Sources */ = {isa = PBXBuildFile; fileRef = 875A7B4522EA0EEF009973DC /* SystemPrep.m */; };
+		875A7B4922EA10FF009973DC /* osishelperd in Resources */ = {isa = PBXBuildFile; fileRef = 875A7B4822EA10FF009973DC /* osishelperd */; };
+		875AEC7C22E7957C001C1819 /* InPlaceInstallationPreparationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 875AEC7B22E7957C001C1819 /* InPlaceInstallationPreparationView.m */; };
+		875AEC7F22E7A5E0001C1819 /* InPlaceInstallerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 875AEC7E22E7A5E0001C1819 /* InPlaceInstallerManager.m */; };
+		875AEC8222E7AD4F001C1819 /* InPlaceInstallationPreparationSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 875AEC8122E7AD4F001C1819 /* InPlaceInstallationPreparationSuccessView.m */; };
+		8766401022C863DA0004E8F4 /* PlatformCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8766400F22C863DA0004E8F4 /* PlatformCheck.m */; };
+		8766401822C87F3C0004E8F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A3F08422B438CF00121384 /* Foundation.framework */; };
+		8766401B22C87F3C0004E8F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8766401A22C87F3C0004E8F4 /* main.m */; };
+		8766401F22C87F3C0004E8F4 /* runposti.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8766401E22C87F3C0004E8F4 /* runposti.1 */; };
+		8766402522C87F550004E8F4 /* runposti in Resources */ = {isa = PBXBuildFile; fileRef = 8766401722C87F3C0004E8F4 /* runposti */; };
+		8766402922C894B60004E8F4 /* WizardWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8766402722C894B60004E8F4 /* WizardWindowController.m */; };
+		8766402A22C894B60004E8F4 /* WizardWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8766402822C894B60004E8F4 /* WizardWindowController.xib */; };
+		87759D7922BD3C31009F9834 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D355622B1C12700432A8F /* Cocoa.framework */; };
+		87759D7F22BD3C31009F9834 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87759D7D22BD3C31009F9834 /* InfoPlist.strings */; };
+		87759D8122BD3C31009F9834 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87759D8022BD3C31009F9834 /* main.m */; };
+		87759D8522BD3C31009F9834 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 87759D8322BD3C31009F9834 /* Credits.rtf */; };
+		87759D8822BD3C31009F9834 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87759D8722BD3C31009F9834 /* AppDelegate.m */; };
+		87759D8B22BD3C31009F9834 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87759D8922BD3C31009F9834 /* MainMenu.xib */; };
+		87759D9322BD3C31009F9834 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D357522B1C12800432A8F /* XCTest.framework */; };
+		87759D9422BD3C31009F9834 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D355622B1C12700432A8F /* Cocoa.framework */; };
+		87759D9C22BD3C31009F9834 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87759D9A22BD3C31009F9834 /* InfoPlist.strings */; };
+		87759D9E22BD3C31009F9834 /* macOS_Post_InstallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87759D9D22BD3C31009F9834 /* macOS_Post_InstallTests.m */; };
+		87759DA922BD3C95009F9834 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87759DA722BD3C95009F9834 /* MainWindowController.m */; };
+		87759DAA22BD3C95009F9834 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87759DA822BD3C95009F9834 /* MainWindowController.xib */; };
+		87759DCE22BDAD9F009F9834 /* addonkexts in Resources */ = {isa = PBXBuildFile; fileRef = 87759DCB22BDAD9F009F9834 /* addonkexts */; };
+		87759DCF22BDAD9F009F9834 /* patchedkexts in Resources */ = {isa = PBXBuildFile; fileRef = 87759DCC22BDAD9F009F9834 /* patchedkexts */; };
+		87759DD022BDAD9F009F9834 /* videocardpatches in Resources */ = {isa = PBXBuildFile; fileRef = 87759DCD22BDAD9F009F9834 /* videocardpatches */; };
+		877E90FB22F6721B00AFAE35 /* PatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 877E90FA22F6721B00AFAE35 /* PatchManager.m */; };
+		87878581230C9D12005EC542 /* PatcherFlags.m in Sources */ = {isa = PBXBuildFile; fileRef = 87878580230C9D12005EC542 /* PatcherFlags.m */; };
+		87878582230CA159005EC542 /* PatcherFlags.m in Sources */ = {isa = PBXBuildFile; fileRef = 87878580230C9D12005EC542 /* PatcherFlags.m */; };
+		87878583230CA259005EC542 /* PatcherFlags.m in Sources */ = {isa = PBXBuildFile; fileRef = 87878580230C9D12005EC542 /* PatcherFlags.m */; };
+		87878584230CA2E8005EC542 /* PatcherFlags.m in Sources */ = {isa = PBXBuildFile; fileRef = 87878580230C9D12005EC542 /* PatcherFlags.m */; };
+		87878585230CA2E8005EC542 /* PatcherFlags.m in Sources */ = {isa = PBXBuildFile; fileRef = 87878580230C9D12005EC542 /* PatcherFlags.m */; };
+		87878586230CA399005EC542 /* SystemPrep.m in Sources */ = {isa = PBXBuildFile; fileRef = 875A7B4522EA0EEF009973DC /* SystemPrep.m */; };
+		87878587230CA3FE005EC542 /* PatcherFlags.m in Sources */ = {isa = PBXBuildFile; fileRef = 87878580230C9D12005EC542 /* PatcherFlags.m */; };
+		878A0BA822E6802F00421F17 /* LoggingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 878A0BA722E6802F00421F17 /* LoggingManager.m */; };
+		878A0BAB22E683C000421F17 /* CatalinaPatcherLoggingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 878A0BAA22E683C000421F17 /* CatalinaPatcherLoggingManager.m */; };
+		878A0BB422E690F100421F17 /* LoggingWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878A0BB222E690F100421F17 /* LoggingWindowController.m */; };
+		878A0BB522E690F100421F17 /* LoggingWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 878A0BB322E690F100421F17 /* LoggingWindowController.xib */; };
+		878A0BB822E6B01400421F17 /* ISOManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 878A0BB722E6B01400421F17 /* ISOManager.m */; };
+		878A0BBB22E6BBC900421F17 /* CreateISOView.m in Sources */ = {isa = PBXBuildFile; fileRef = 878A0BBA22E6BBC900421F17 /* CreateISOView.m */; };
+		878A0BC322E6DDA300421F17 /* ISOCreationSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 878A0BC222E6DDA300421F17 /* ISOCreationSuccessView.m */; };
+		878F1C9922D833CE005E2EAB /* BOOTX64.efi in Resources */ = {isa = PBXBuildFile; fileRef = 878F1C9622D833CE005E2EAB /* BOOTX64.efi */; };
+		878F1C9A22D833CE005E2EAB /* EFIScriptHeader.txt in Resources */ = {isa = PBXBuildFile; fileRef = 878F1C9722D833CE005E2EAB /* EFIScriptHeader.txt */; };
+		878F1C9B22D833CE005E2EAB /* EFIScriptMain.txt in Resources */ = {isa = PBXBuildFile; fileRef = 878F1C9822D833CE005E2EAB /* EFIScriptMain.txt */; };
+		878F1CA022D8464F005E2EAB /* APFSPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 878F1C9F22D8464F005E2EAB /* APFSPatch.m */; };
+		8793A1BD22C19173006CE486 /* macOS Post Install.app in Resources */ = {isa = PBXBuildFile; fileRef = 87759D7822BD3C31009F9834 /* macOS Post Install.app */; };
+		8793A1C822C1926D006CE486 /* brtool in Resources */ = {isa = PBXBuildFile; fileRef = 8793A1BE22C1926D006CE486 /* brtool */; };
+		8793A1CA22C1926D006CE486 /* DisableLibraryValidation.kext in Resources */ = {isa = PBXBuildFile; fileRef = 8793A1C022C1926D006CE486 /* DisableLibraryValidation.kext */; };
+		8793A1CB22C1926D006CE486 /* LegacyUSBInjector.kext in Resources */ = {isa = PBXBuildFile; fileRef = 8793A1C122C1926D006CE486 /* LegacyUSBInjector.kext */; };
+		8793A1CC22C1926D006CE486 /* OSInstall.mpkg in Resources */ = {isa = PBXBuildFile; fileRef = 8793A1C222C1926D006CE486 /* OSInstall.mpkg */; };
+		8793A1CF22C1926D006CE486 /* prelinkedkernel in Resources */ = {isa = PBXBuildFile; fileRef = 8793A1C522C1926D006CE486 /* prelinkedkernel */; };
+		8793A1D022C1926D006CE486 /* SIPManager.kext in Resources */ = {isa = PBXBuildFile; fileRef = 8793A1C622C1926D006CE486 /* SIPManager.kext */; };
+		8793A1D222C1929A006CE486 /* OSInstaller in Resources */ = {isa = PBXBuildFile; fileRef = 8793A1C322C1926D006CE486 /* OSInstaller */; };
+		8793A1D322C1929A006CE486 /* OSInstallerSetupInternal in Resources */ = {isa = PBXBuildFile; fileRef = 8793A1C422C1926D006CE486 /* OSInstallerSetupInternal */; };
+		8793A1D522C1A6EF006CE486 /* Success.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8793A1D422C1A6EF006CE486 /* Success.tiff */; };
+		8793A1D822C1A792006CE486 /* InstallerVolumeSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793A1D722C1A792006CE486 /* InstallerVolumeSuccessView.m */; };
+		8793A1DB22C1B185006CE486 /* DarkModeImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793A1DA22C1B185006CE486 /* DarkModeImageButton.m */; };
+		8797C44522C55B670069970F /* PostInstallHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8797C44422C55B670069970F /* PostInstallHandler.m */; };
+		8797C44722C55BB00069970F /* Installer.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8797C44622C55BB00069970F /* Installer.icns */; };
+		8797C44C22C55C070069970F /* restart.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8797C44A22C55C070069970F /* restart.tiff */; };
+		8797C44D22C55C070069970F /* restartPressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8797C44B22C55C070069970F /* restartPressed.tiff */; };
+		8797C45022C55C110069970F /* start.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8797C44E22C55C110069970F /* start.tiff */; };
+		8797C45122C55C110069970F /* startPressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8797C44F22C55C110069970F /* startPressed.tiff */; };
+		8797C45C22C568F70069970F /* DarkModeImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8797C45B22C568F70069970F /* DarkModeImageButton.m */; };
+		8797C46022C59BD50069970F /* skipButton.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8797C45F22C59BD50069970F /* skipButton.tiff */; };
+		8797C46222C59BD80069970F /* skipButtonPressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8797C46122C59BD80069970F /* skipButtonPressed.tiff */; };
+		8797C46422C5A0E80069970F /* macmodels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8797C46322C5A0E80069970F /* macmodels.plist */; };
+		8797C46822C5A1B50069970F /* Patch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8797C46722C5A1B50069970F /* Patch.m */; };
+		8797C46B22C5A2F70069970F /* LegacyGPU.m in Sources */ = {isa = PBXBuildFile; fileRef = 8797C46A22C5A2F70069970F /* LegacyGPU.m */; };
+		8797C46E22C5D2C80069970F /* LegacyUSB.m in Sources */ = {isa = PBXBuildFile; fileRef = 8797C46D22C5D2C80069970F /* LegacyUSB.m */; };
+		87A41E6522BE8CD100431022 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A41E6422BE8CD100431022 /* MainView.m */; };
+		87A41E6922BE8E6900431022 /* WizardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A41E6822BE8E6900431022 /* WizardView.m */; };
+		87A41E7922BEA27D00431022 /* ContributorsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A41E7422BEA27D00431022 /* ContributorsView.m */; };
+		87A41E7A22BEA27D00431022 /* DownloadMacOSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A41E7622BEA27D00431022 /* DownloadMacOSView.m */; };
+		87A41E7B22BEA27D00431022 /* InstallerAppOptionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A41E7822BEA27D00431022 /* InstallerAppOptionsView.m */; };
+		87A41E8722BECAB000431022 /* MacOSDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A41E8622BECAB000431022 /* MacOSDownloader.m */; };
+		87A41E8A22BED7E600431022 /* DownloadSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87A41E8922BED7E600431022 /* DownloadSettings.plist */; };
+		87A41E8C22BEDA3200431022 /* PrepareInstallerApp.sh in Resources */ = {isa = PBXBuildFile; fileRef = 87A41E8B22BEDA3200431022 /* PrepareInstallerApp.sh */; };
+		87A41E8E22BEDF2500431022 /* pbzx in Resources */ = {isa = PBXBuildFile; fileRef = 87A41E8D22BEDF2500431022 /* pbzx */; };
+		87A75576235BE92700B667C2 /* AMDSSE4.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A75575235BE92700B667C2 /* AMDSSE4.m */; };
+		87AADBA522CFEC14007AB927 /* LegacyIDE.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AADBA422CFEC14007AB927 /* LegacyIDE.m */; };
+		87AADBAB22D045B2007AB927 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D355622B1C12700432A8F /* Cocoa.framework */; };
+		87AADBB122D045B2007AB927 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87AADBAF22D045B2007AB927 /* InfoPlist.strings */; };
+		87AADBB322D045B2007AB927 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AADBB222D045B2007AB927 /* main.m */; };
+		87AADBB722D045B2007AB927 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 87AADBB522D045B2007AB927 /* Credits.rtf */; };
+		87AADBC522D045B3007AB927 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D357522B1C12800432A8F /* XCTest.framework */; };
+		87AADBC622D045B3007AB927 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D355622B1C12700432A8F /* Cocoa.framework */; };
+		87AADBCE22D045B3007AB927 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87AADBCC22D045B3007AB927 /* InfoPlist.strings */; };
+		87AADBD022D045B3007AB927 /* Patch_UpdaterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AADBCF22D045B3007AB927 /* Patch_UpdaterTests.m */; };
+		87AADBE622D04622007AB927 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AADBD822D04622007AB927 /* AppDelegate.m */; };
+		87AADBE722D04622007AB927 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87AADBD922D04622007AB927 /* MainMenu.xib */; };
+		87AADBE822D04622007AB927 /* UpdateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AADBDB22D04622007AB927 /* UpdateController.m */; };
+		87AADBE922D04622007AB927 /* UpdateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AADBDD22D04622007AB927 /* UpdateManager.m */; };
+		87AADBEA22D04622007AB927 /* UpdateManager.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87AADBDE22D04622007AB927 /* UpdateManager.xib */; };
+		87AADBEB22D04622007AB927 /* Update.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AADBE022D04622007AB927 /* Update.m */; };
+		87AADBEC22D04622007AB927 /* PreferencesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AADBE222D04622007AB927 /* PreferencesHandler.m */; };
+		87AADBEE22D04622007AB927 /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87AADBE522D04622007AB927 /* settings.plist */; };
+		87AADBF822D0478B007AB927 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D355622B1C12700432A8F /* Cocoa.framework */; };
+		87AADBFA22D0478B007AB927 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AADBF922D0478B007AB927 /* PreferencePanes.framework */; };
+		87AADC0022D0478B007AB927 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87AADBFE22D0478B007AB927 /* InfoPlist.strings */; };
+		87AADC1622D0479F007AB927 /* Patch_Updater_Prefpane.h in Headers */ = {isa = PBXBuildFile; fileRef = 87AADC0E22D0479F007AB927 /* Patch_Updater_Prefpane.h */; };
+		87AADC1722D0479F007AB927 /* Patch_Updater_Prefpane.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AADC0F22D0479F007AB927 /* Patch_Updater_Prefpane.m */; };
+		87AADC1822D0479F007AB927 /* PreferencesHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 87AADC1022D0479F007AB927 /* PreferencesHandler.h */; };
+		87AADC1922D0479F007AB927 /* PreferencesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AADC1122D0479F007AB927 /* PreferencesHandler.m */; };
+		87AADC1B22D0479F007AB927 /* Patch_Updater_Prefpane.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87AADC1322D0479F007AB927 /* Patch_Updater_Prefpane.xib */; };
+		87AADC2622D04E8D007AB927 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A3F08422B438CF00121384 /* Foundation.framework */; };
+		87AADC2922D04E8D007AB927 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AADC2822D04E8D007AB927 /* main.m */; };
+		87AADC2D22D04E8D007AB927 /* patchupdaterd.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87AADC2C22D04E8D007AB927 /* patchupdaterd.1 */; };
+		87AADC3222D04F44007AB927 /* com.dosdude1.PatchUpdater.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87AADC3122D04F44007AB927 /* com.dosdude1.PatchUpdater.plist */; };
+		87CA634A22FE257F00F36818 /* APFSVolumeViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 87CA634722FE257F00F36818 /* APFSVolumeViewItem.h */; };
+		87CA634B22FE257F00F36818 /* APFSVolumeViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CA634822FE257F00F36818 /* APFSVolumeViewItem.m */; };
+		87CA634C22FE257F00F36818 /* APFSVolumeViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87CA634922FE257F00F36818 /* APFSVolumeViewItem.xib */; };
+		87DAE1C0234D41C0004F11EE /* APFSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DAE1BF234D41C0004F11EE /* APFSManager.m */; };
+		87DAE1C3234D41C0004F11EE /* APFSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DAE1BF234D41C0004F11EE /* APFSManager.m */; };
+		87DAE1C4234D423B004F11EE /* APFSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DAE1BF234D41C0004F11EE /* APFSManager.m */; };
+		87DAE1C5234D4247004F11EE /* APFSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DAE1BF234D41C0004F11EE /* APFSManager.m */; };
+		87DAE1C6234D4252004F11EE /* APFSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DAE1BF234D41C0004F11EE /* APFSManager.m */; };
+		87EB301322C0988900B600F5 /* STPrivilegedTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EB301222C0988900B600F5 /* STPrivilegedTask.m */; };
+		87EB301622C09A6F00B600F5 /* patcherd in Resources */ = {isa = PBXBuildFile; fileRef = 873AF53822C052FE006A9A86 /* patcherd */; };
+		87F680C222FCFE9700D96B21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D355622B1C12700432A8F /* Cocoa.framework */; };
+		87F680C322FCFE9700D96B21 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AADBF922D0478B007AB927 /* PreferencePanes.framework */; };
+		87F680C922FCFE9700D96B21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87F680C722FCFE9700D96B21 /* InfoPlist.strings */; };
+		87F680CD22FCFE9700D96B21 /* APFS_Boot_Selector.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F680CC22FCFE9700D96B21 /* APFS_Boot_Selector.m */; };
+		87F680CF22FCFE9700D96B21 /* APFS_Boot_Selector.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 87F680CE22FCFE9700D96B21 /* APFS_Boot_Selector.tiff */; };
+		87F680D222FCFE9700D96B21 /* APFS_Boot_Selector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87F680D022FCFE9700D96B21 /* APFS_Boot_Selector.xib */; };
+		87F680D622FCFF1B00D96B21 /* EFIScriptHeader.txt in Resources */ = {isa = PBXBuildFile; fileRef = 878F1C9722D833CE005E2EAB /* EFIScriptHeader.txt */; };
+		87F680D722FCFF1B00D96B21 /* EFIScriptMain.txt in Resources */ = {isa = PBXBuildFile; fileRef = 878F1C9822D833CE005E2EAB /* EFIScriptMain.txt */; };
+		87F680D922FCFF3200D96B21 /* StartupDiskPref.icns in Resources */ = {isa = PBXBuildFile; fileRef = 87F680D822FCFF3200D96B21 /* StartupDiskPref.icns */; };
+		87F680DB22FCFF3A00D96B21 /* SystemPrefs_StartupDisk.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 87F680DA22FCFF3A00D96B21 /* SystemPrefs_StartupDisk.tiff */; };
+		87F680E122FCFFBF00D96B21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A3F08422B438CF00121384 /* Foundation.framework */; };
+		87F680E422FCFFBF00D96B21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F680E322FCFFBF00D96B21 /* main.m */; };
+		87F680E822FCFFBF00D96B21 /* apfshelperd.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87F680E722FCFFBF00D96B21 /* apfshelperd.1 */; };
+		87F680EE22FCFFD900D96B21 /* APFSPrefpaneHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F680ED22FCFFD900D96B21 /* APFSPrefpaneHelper.m */; };
+		87F680F022FD20EF00D96B21 /* com.dosdude1.apfshelperd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87F680EF22FD20EF00D96B21 /* com.dosdude1.apfshelperd.plist */; };
+		87F680F522FD215A00D96B21 /* APFS Boot Selector.prefPane in Resources */ = {isa = PBXBuildFile; fileRef = 87F680C122FCFE9700D96B21 /* APFS Boot Selector.prefPane */; };
+		87F680F622FD215A00D96B21 /* apfshelperd in Resources */ = {isa = PBXBuildFile; fileRef = 87F680E022FCFFBF00D96B21 /* apfshelperd */; };
+		87F88D6A2356B3BB006DF8B0 /* VolumeControlPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F88D692356B3BB006DF8B0 /* VolumeControlPatch.m */; };
+		87FD944222F0B9FB00EC3F3E /* AnalyticsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FD944122F0B9FB00EC3F3E /* AnalyticsManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		870D357822B1C12800432A8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870D354B22B1C12700432A8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 870D355222B1C12700432A8F;
+			remoteInfo = "macOS Catalina Patcher";
+		};
+		874ED6CC22D6D5A700A82591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870D354B22B1C12700432A8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87AADBA922D045B2007AB927;
+			remoteInfo = "Patch Updater";
+		};
+		874ED6CE22D6D5AA00A82591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870D354B22B1C12700432A8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87AADC2422D04E8D007AB927;
+			remoteInfo = patchupdaterd;
+		};
+		874ED6D022D6D5AD00A82591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870D354B22B1C12700432A8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87AADBF622D0478B007AB927;
+			remoteInfo = "Patch Updater Prefpane";
+		};
+		875A7B3B22EA0E5D009973DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870D354B22B1C12700432A8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 875A7B1822EA0BEE009973DC;
+			remoteInfo = apfsbless;
+		};
+		875A7B3D22EA0E61009973DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870D354B22B1C12700432A8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 875A7B2B22EA0DE6009973DC;
+			remoteInfo = apfsinsta;
+		};
+		8766402322C87F4A0004E8F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870D354B22B1C12700432A8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8766401622C87F3C0004E8F4;
+			remoteInfo = runposti;
+		};
+		87759D9522BD3C31009F9834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870D354B22B1C12700432A8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87759D7722BD3C31009F9834;
+			remoteInfo = "macOS Post Install";
+		};
+		8793A1BB22C19168006CE486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870D354B22B1C12700432A8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87759D7722BD3C31009F9834;
+			remoteInfo = "macOS Post Install";
+		};
+		87AADBC722D045B3007AB927 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870D354B22B1C12700432A8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87AADBA922D045B2007AB927;
+			remoteInfo = "Patch Updater";
+		};
+		87EB301422C09A5F00B600F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870D354B22B1C12700432A8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 873AF53722C052FE006A9A86;
+			remoteInfo = patcherd;
+		};
+		87F680F122FD210300D96B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870D354B22B1C12700432A8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87F680C022FCFE9700D96B21;
+			remoteInfo = "APFS Boot Selector";
+		};
+		87F680F322FD210700D96B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870D354B22B1C12700432A8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87F680DF22FCFFBF00D96B21;
+			remoteInfo = apfshelperd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		873AF53622C052FE006A9A86 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				873AF54022C052FE006A9A86 /* patcherd.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		875A7B1722EA0BEE009973DC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				875A7B2122EA0BEE009973DC /* apfsbless.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		875A7B2A22EA0DE6009973DC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				875A7B3422EA0DE6009973DC /* apfsinsta.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8766401522C87F3C0004E8F4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8766401F22C87F3C0004E8F4 /* runposti.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		87AADC2322D04E8D007AB927 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				87AADC2D22D04E8D007AB927 /* patchupdaterd.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		87F680DE22FCFFBF00D96B21 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				87F680E822FCFFBF00D96B21 /* apfshelperd.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		87079C5A22B9DDF2009EBF3D /* InstallAssistant.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = InstallAssistant.icns; sourceTree = "<group>"; };
+		87079C6122B9DEB3009EBF3D /* VolumeIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = VolumeIcon.icns; sourceTree = "<group>"; };
+		87079C6322B9E0AA009EBF3D /* restart.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = restart.tiff; sourceTree = "<group>"; };
+		87079C6422B9E0AA009EBF3D /* restartPressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = restartPressed.tiff; sourceTree = "<group>"; };
+		87079C6722B9E0B1009EBF3D /* moreInfo.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = moreInfo.tiff; sourceTree = "<group>"; };
+		87079C6822B9E0B1009EBF3D /* moreInfoPressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = moreInfoPressed.tiff; sourceTree = "<group>"; };
+		87079C6B22B9E0B8009EBF3D /* cancel.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = cancel.tiff; sourceTree = "<group>"; };
+		87079C6C22B9E0B8009EBF3D /* cancelPressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = cancelPressed.tiff; sourceTree = "<group>"; };
+		87079C6F22B9E0BE009EBF3D /* arrowbutton.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = arrowbutton.tiff; sourceTree = "<group>"; };
+		87079C7022B9E0BE009EBF3D /* arrowbuttonPressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = arrowbuttonPressed.tiff; sourceTree = "<group>"; };
+		87079C7322B9E3A9009EBF3D /* CatalinaPatcherController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalinaPatcherController.h; sourceTree = "<group>"; };
+		87079C7422B9E3A9009EBF3D /* CatalinaPatcherController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalinaPatcherController.m; sourceTree = "<group>"; };
+		87079C7622B9E5E7009EBF3D /* arrowbuttonLeft.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = arrowbuttonLeft.tiff; sourceTree = "<group>"; };
+		87079C7722B9E5E7009EBF3D /* arrowbuttonLeftPressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = arrowbuttonLeftPressed.tiff; sourceTree = "<group>"; };
+		87079C8822B9ECD1009EBF3D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		87079C8A22B9F5F5009EBF3D /* Contributions.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Contributions.rtf; sourceTree = "<group>"; };
+		87079C8C22B9FAD1009EBF3D /* GenericFolderIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = GenericFolderIcon.icns; sourceTree = "<group>"; };
+		87079C9222B9FB8D009EBF3D /* DownloadsFolder.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = DownloadsFolder.icns; sourceTree = "<group>"; };
+		87079C9422BA0225009EBF3D /* start.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = start.tiff; sourceTree = "<group>"; };
+		87079C9522BA0225009EBF3D /* startPressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = startPressed.tiff; sourceTree = "<group>"; };
+		870D355322B1C12700432A8F /* macOS Catalina Patcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macOS Catalina Patcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		870D355622B1C12700432A8F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		870D355922B1C12700432A8F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		870D355A22B1C12700432A8F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		870D355B22B1C12700432A8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		870D355E22B1C12700432A8F /* macOS Catalina Patcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "macOS Catalina Patcher-Info.plist"; sourceTree = "<group>"; };
+		870D356022B1C12700432A8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		870D356222B1C12700432A8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		870D356422B1C12700432A8F /* macOS Catalina Patcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "macOS Catalina Patcher-Prefix.pch"; sourceTree = "<group>"; };
+		870D356622B1C12700432A8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		870D356822B1C12700432A8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		870D356922B1C12700432A8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		870D357422B1C12800432A8F /* macOS Catalina PatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macOS Catalina PatcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		870D357522B1C12800432A8F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		870D357C22B1C12800432A8F /* macOS Catalina PatcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "macOS Catalina PatcherTests-Info.plist"; sourceTree = "<group>"; };
+		870D357E22B1C12800432A8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		870D358022B1C12800432A8F /* macOS_Catalina_PatcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = macOS_Catalina_PatcherTests.m; sourceTree = "<group>"; };
+		870D358A22B1C12E00432A8F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		872AC50322C6B4D3002F847C /* LegacyPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegacyPlatform.h; sourceTree = "<group>"; };
+		872AC50422C6B4D3002F847C /* LegacyPlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegacyPlatform.m; sourceTree = "<group>"; };
+		872AC50622C6B71C002F847C /* SIPDisabler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIPDisabler.h; sourceTree = "<group>"; };
+		872AC50722C6B71C002F847C /* SIPDisabler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIPDisabler.m; sourceTree = "<group>"; };
+		872AC50922C6EB55002F847C /* LegacyWiFi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegacyWiFi.h; sourceTree = "<group>"; };
+		872AC50A22C6EB55002F847C /* LegacyWiFi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegacyWiFi.m; sourceTree = "<group>"; };
+		872AC50C22C6EBCA002F847C /* BCM94321Patch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCM94321Patch.h; sourceTree = "<group>"; };
+		872AC50D22C6EBCA002F847C /* BCM94321Patch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCM94321Patch.m; sourceTree = "<group>"; };
+		872AC50F22C6EF76002F847C /* LegacyEnet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegacyEnet.h; sourceTree = "<group>"; };
+		872AC51022C6EF76002F847C /* LegacyEnet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegacyEnet.m; sourceTree = "<group>"; };
+		872AC51522C70773002F847C /* LegacyAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegacyAudio.h; sourceTree = "<group>"; };
+		872AC51622C70773002F847C /* LegacyAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegacyAudio.m; sourceTree = "<group>"; };
+		873AF4D122C01D7A006A9A86 /* CDAudioVolumeIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = CDAudioVolumeIcon.icns; sourceTree = "<group>"; };
+		873AF4D322C01E26006A9A86 /* External.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = External.icns; sourceTree = "<group>"; };
+		873AF4D522C01E45006A9A86 /* Installer.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Installer.icns; sourceTree = "<group>"; };
+		873AF4D722C01EF4006A9A86 /* PatchOptionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatchOptionsView.h; sourceTree = "<group>"; };
+		873AF4D822C01EF4006A9A86 /* PatchOptionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatchOptionsView.m; sourceTree = "<group>"; };
+		873AF53822C052FE006A9A86 /* patcherd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = patcherd; sourceTree = BUILT_PRODUCTS_DIR; };
+		873AF53B22C052FE006A9A86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		873AF53E22C052FE006A9A86 /* patcherd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "patcherd-Prefix.pch"; sourceTree = "<group>"; };
+		873AF53F22C052FE006A9A86 /* patcherd.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = patcherd.1; sourceTree = "<group>"; };
+		873AF54422C05F5E006A9A86 /* PatchHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatchHandler.h; sourceTree = "<group>"; };
+		873AF54522C05F5E006A9A86 /* PatchHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatchHandler.m; sourceTree = "<group>"; };
+		873AF54722C0627A006A9A86 /* InstallerPatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstallerPatcher.h; sourceTree = "<group>"; };
+		873AF54822C0627A006A9A86 /* InstallerPatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstallerPatcher.m; sourceTree = "<group>"; };
+		873AF54A22C06E21006A9A86 /* CreateBootableInstallerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateBootableInstallerView.h; sourceTree = "<group>"; };
+		873AF54B22C06E21006A9A86 /* CreateBootableInstallerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateBootableInstallerView.m; sourceTree = "<group>"; };
+		873AF54D22C0725B006A9A86 /* VolumeViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolumeViewItem.h; sourceTree = "<group>"; };
+		873AF54E22C0725B006A9A86 /* VolumeViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolumeViewItem.m; sourceTree = "<group>"; };
+		873AF54F22C0725B006A9A86 /* VolumeViewItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VolumeViewItem.xib; sourceTree = "<group>"; };
+		874ED6BF22D6D47A00A82591 /* Patch-Updater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Patch-Updater.png"; sourceTree = "<group>"; };
+		874ED6C122D6D4A300A82591 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		874ED6D522D6D5FA00A82591 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		874ED6D722D6D60F00A82591 /* Patch-Updater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Patch-Updater.png"; sourceTree = "<group>"; };
+		874ED6D922D6D65C00A82591 /* Patch_Updater_Prefpane.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Patch_Updater_Prefpane.tiff; sourceTree = "<group>"; };
+		874ED6DB22D6D6ED00A82591 /* InstallPatchUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstallPatchUpdater.h; sourceTree = "<group>"; };
+		874ED6DC22D6D6ED00A82591 /* InstallPatchUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstallPatchUpdater.m; sourceTree = "<group>"; };
+		875A7B1922EA0BEE009973DC /* apfsbless */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = apfsbless; sourceTree = BUILT_PRODUCTS_DIR; };
+		875A7B1C22EA0BEE009973DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		875A7B1F22EA0BEE009973DC /* apfsbless-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "apfsbless-Prefix.pch"; sourceTree = "<group>"; };
+		875A7B2022EA0BEE009973DC /* apfsbless.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = apfsbless.1; sourceTree = "<group>"; };
+		875A7B2C22EA0DE6009973DC /* apfsinsta */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = apfsinsta; sourceTree = BUILT_PRODUCTS_DIR; };
+		875A7B2F22EA0DE6009973DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		875A7B3222EA0DE6009973DC /* apfsinsta-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "apfsinsta-Prefix.pch"; sourceTree = "<group>"; };
+		875A7B3322EA0DE6009973DC /* apfsinsta.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = apfsinsta.1; sourceTree = "<group>"; };
+		875A7B4422EA0EEF009973DC /* SystemPrep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemPrep.h; sourceTree = "<group>"; };
+		875A7B4522EA0EEF009973DC /* SystemPrep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemPrep.m; sourceTree = "<group>"; };
+		875A7B4822EA10FF009973DC /* osishelperd */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = osishelperd; sourceTree = "<group>"; };
+		875AEC7A22E7957C001C1819 /* InPlaceInstallationPreparationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InPlaceInstallationPreparationView.h; sourceTree = "<group>"; };
+		875AEC7B22E7957C001C1819 /* InPlaceInstallationPreparationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InPlaceInstallationPreparationView.m; sourceTree = "<group>"; };
+		875AEC7D22E7A5E0001C1819 /* InPlaceInstallerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InPlaceInstallerManager.h; sourceTree = "<group>"; };
+		875AEC7E22E7A5E0001C1819 /* InPlaceInstallerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InPlaceInstallerManager.m; sourceTree = "<group>"; };
+		875AEC8022E7AD4F001C1819 /* InPlaceInstallationPreparationSuccessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InPlaceInstallationPreparationSuccessView.h; sourceTree = "<group>"; };
+		875AEC8122E7AD4F001C1819 /* InPlaceInstallationPreparationSuccessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InPlaceInstallationPreparationSuccessView.m; sourceTree = "<group>"; };
+		8766400E22C863DA0004E8F4 /* PlatformCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlatformCheck.h; sourceTree = "<group>"; };
+		8766400F22C863DA0004E8F4 /* PlatformCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlatformCheck.m; sourceTree = "<group>"; };
+		8766401722C87F3C0004E8F4 /* runposti */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = runposti; sourceTree = BUILT_PRODUCTS_DIR; };
+		8766401A22C87F3C0004E8F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8766401D22C87F3C0004E8F4 /* runposti-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "runposti-Prefix.pch"; sourceTree = "<group>"; };
+		8766401E22C87F3C0004E8F4 /* runposti.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = runposti.1; sourceTree = "<group>"; };
+		8766402622C894B60004E8F4 /* WizardWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WizardWindowController.h; sourceTree = "<group>"; };
+		8766402722C894B60004E8F4 /* WizardWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardWindowController.m; sourceTree = "<group>"; };
+		8766402822C894B60004E8F4 /* WizardWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WizardWindowController.xib; sourceTree = "<group>"; };
+		87759D7822BD3C31009F9834 /* macOS Post Install.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macOS Post Install.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87759D7C22BD3C31009F9834 /* macOS Post Install-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "macOS Post Install-Info.plist"; sourceTree = "<group>"; };
+		87759D7E22BD3C31009F9834 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87759D8022BD3C31009F9834 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87759D8222BD3C31009F9834 /* macOS Post Install-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "macOS Post Install-Prefix.pch"; sourceTree = "<group>"; };
+		87759D8422BD3C31009F9834 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		87759D8622BD3C31009F9834 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87759D8722BD3C31009F9834 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87759D9222BD3C31009F9834 /* macOS Post InstallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macOS Post InstallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87759D9922BD3C31009F9834 /* macOS Post InstallTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "macOS Post InstallTests-Info.plist"; sourceTree = "<group>"; };
+		87759D9B22BD3C31009F9834 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87759D9D22BD3C31009F9834 /* macOS_Post_InstallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = macOS_Post_InstallTests.m; sourceTree = "<group>"; };
+		87759DA522BD3C48009F9834 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		87759DA622BD3C95009F9834 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		87759DA722BD3C95009F9834 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		87759DA822BD3C95009F9834 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		87759DCB22BDAD9F009F9834 /* addonkexts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = addonkexts; sourceTree = "<group>"; };
+		87759DCC22BDAD9F009F9834 /* patchedkexts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = patchedkexts; sourceTree = "<group>"; };
+		87759DCD22BDAD9F009F9834 /* videocardpatches */ = {isa = PBXFileReference; lastKnownFileType = folder; path = videocardpatches; sourceTree = "<group>"; };
+		877E90F922F6721B00AFAE35 /* PatchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatchManager.h; sourceTree = "<group>"; };
+		877E90FA22F6721B00AFAE35 /* PatchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatchManager.m; sourceTree = "<group>"; };
+		8787857F230C9D12005EC542 /* PatcherFlags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatcherFlags.h; sourceTree = "<group>"; };
+		87878580230C9D12005EC542 /* PatcherFlags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatcherFlags.m; sourceTree = "<group>"; };
+		878A0BA622E6802F00421F17 /* LoggingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggingManager.h; sourceTree = "<group>"; };
+		878A0BA722E6802F00421F17 /* LoggingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggingManager.m; sourceTree = "<group>"; };
+		878A0BA922E683C000421F17 /* CatalinaPatcherLoggingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalinaPatcherLoggingManager.h; sourceTree = "<group>"; };
+		878A0BAA22E683C000421F17 /* CatalinaPatcherLoggingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalinaPatcherLoggingManager.m; sourceTree = "<group>"; };
+		878A0BB122E690F100421F17 /* LoggingWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggingWindowController.h; sourceTree = "<group>"; };
+		878A0BB222E690F100421F17 /* LoggingWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggingWindowController.m; sourceTree = "<group>"; };
+		878A0BB322E690F100421F17 /* LoggingWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoggingWindowController.xib; sourceTree = "<group>"; };
+		878A0BB622E6B01400421F17 /* ISOManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISOManager.h; sourceTree = "<group>"; };
+		878A0BB722E6B01400421F17 /* ISOManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISOManager.m; sourceTree = "<group>"; };
+		878A0BB922E6BBC900421F17 /* CreateISOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateISOView.h; sourceTree = "<group>"; };
+		878A0BBA22E6BBC900421F17 /* CreateISOView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateISOView.m; sourceTree = "<group>"; };
+		878A0BC122E6DDA300421F17 /* ISOCreationSuccessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISOCreationSuccessView.h; sourceTree = "<group>"; };
+		878A0BC222E6DDA300421F17 /* ISOCreationSuccessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISOCreationSuccessView.m; sourceTree = "<group>"; };
+		878F1C9622D833CE005E2EAB /* BOOTX64.efi */ = {isa = PBXFileReference; lastKnownFileType = file; path = BOOTX64.efi; sourceTree = "<group>"; };
+		878F1C9722D833CE005E2EAB /* EFIScriptHeader.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EFIScriptHeader.txt; sourceTree = "<group>"; };
+		878F1C9822D833CE005E2EAB /* EFIScriptMain.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EFIScriptMain.txt; sourceTree = "<group>"; };
+		878F1C9E22D8464F005E2EAB /* APFSPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APFSPatch.h; sourceTree = "<group>"; };
+		878F1C9F22D8464F005E2EAB /* APFSPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APFSPatch.m; sourceTree = "<group>"; };
+		8791861E22B5FE66004A6E35 /* macOS Catalina PartialPatcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "macOS Catalina PartialPatcherTests-Info.plist"; sourceTree = "<group>"; };
+		8791862022B5FE66004A6E35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8791862222B5FE66004A6E35 /* macOS_Catalina_PartialPatcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = macOS_Catalina_PartialPatcherTests.m; sourceTree = "<group>"; };
+		8793A1BE22C1926D006CE486 /* brtool */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = brtool; sourceTree = "<group>"; };
+		8793A1C022C1926D006CE486 /* DisableLibraryValidation.kext */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.kernel-extension"; path = DisableLibraryValidation.kext; sourceTree = "<group>"; };
+		8793A1C122C1926D006CE486 /* LegacyUSBInjector.kext */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.kernel-extension"; path = LegacyUSBInjector.kext; sourceTree = "<group>"; };
+		8793A1C222C1926D006CE486 /* OSInstall.mpkg */ = {isa = PBXFileReference; lastKnownFileType = file; path = OSInstall.mpkg; sourceTree = "<group>"; };
+		8793A1C322C1926D006CE486 /* OSInstaller */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = OSInstaller; sourceTree = "<group>"; };
+		8793A1C422C1926D006CE486 /* OSInstallerSetupInternal */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = OSInstallerSetupInternal; sourceTree = "<group>"; };
+		8793A1C522C1926D006CE486 /* prelinkedkernel */ = {isa = PBXFileReference; lastKnownFileType = file; path = prelinkedkernel; sourceTree = "<group>"; };
+		8793A1C622C1926D006CE486 /* SIPManager.kext */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.kernel-extension"; path = SIPManager.kext; sourceTree = "<group>"; };
+		8793A1D422C1A6EF006CE486 /* Success.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Success.tiff; sourceTree = "<group>"; };
+		8793A1D622C1A792006CE486 /* InstallerVolumeSuccessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstallerVolumeSuccessView.h; sourceTree = "<group>"; };
+		8793A1D722C1A792006CE486 /* InstallerVolumeSuccessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstallerVolumeSuccessView.m; sourceTree = "<group>"; };
+		8793A1D922C1B185006CE486 /* DarkModeImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarkModeImageButton.h; sourceTree = "<group>"; };
+		8793A1DA22C1B185006CE486 /* DarkModeImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DarkModeImageButton.m; sourceTree = "<group>"; };
+		8797C44322C55B670069970F /* PostInstallHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostInstallHandler.h; sourceTree = "<group>"; };
+		8797C44422C55B670069970F /* PostInstallHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostInstallHandler.m; sourceTree = "<group>"; };
+		8797C44622C55BB00069970F /* Installer.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Installer.icns; sourceTree = "<group>"; };
+		8797C44A22C55C070069970F /* restart.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = restart.tiff; sourceTree = "<group>"; };
+		8797C44B22C55C070069970F /* restartPressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = restartPressed.tiff; sourceTree = "<group>"; };
+		8797C44E22C55C110069970F /* start.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = start.tiff; sourceTree = "<group>"; };
+		8797C44F22C55C110069970F /* startPressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = startPressed.tiff; sourceTree = "<group>"; };
+		8797C45A22C568F70069970F /* DarkModeImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarkModeImageButton.h; sourceTree = "<group>"; };
+		8797C45B22C568F70069970F /* DarkModeImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DarkModeImageButton.m; sourceTree = "<group>"; };
+		8797C45F22C59BD50069970F /* skipButton.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = skipButton.tiff; sourceTree = "<group>"; };
+		8797C46122C59BD80069970F /* skipButtonPressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = skipButtonPressed.tiff; sourceTree = "<group>"; };
+		8797C46322C5A0E80069970F /* macmodels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = macmodels.plist; sourceTree = "<group>"; };
+		8797C46622C5A1B50069970F /* Patch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patch.h; sourceTree = "<group>"; };
+		8797C46722C5A1B50069970F /* Patch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patch.m; sourceTree = "<group>"; };
+		8797C46922C5A2F70069970F /* LegacyGPU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegacyGPU.h; sourceTree = "<group>"; };
+		8797C46A22C5A2F70069970F /* LegacyGPU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegacyGPU.m; sourceTree = "<group>"; };
+		8797C46C22C5D2C80069970F /* LegacyUSB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegacyUSB.h; sourceTree = "<group>"; };
+		8797C46D22C5D2C80069970F /* LegacyUSB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegacyUSB.m; sourceTree = "<group>"; };
+		87A3F08422B438CF00121384 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87A41E6322BE8CD100431022 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		87A41E6422BE8CD100431022 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		87A41E6722BE8E6900431022 /* WizardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WizardView.h; sourceTree = "<group>"; };
+		87A41E6822BE8E6900431022 /* WizardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardView.m; sourceTree = "<group>"; };
+		87A41E7322BEA27D00431022 /* ContributorsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContributorsView.h; sourceTree = "<group>"; };
+		87A41E7422BEA27D00431022 /* ContributorsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContributorsView.m; sourceTree = "<group>"; };
+		87A41E7522BEA27D00431022 /* DownloadMacOSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadMacOSView.h; sourceTree = "<group>"; };
+		87A41E7622BEA27D00431022 /* DownloadMacOSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadMacOSView.m; sourceTree = "<group>"; };
+		87A41E7722BEA27D00431022 /* InstallerAppOptionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstallerAppOptionsView.h; sourceTree = "<group>"; };
+		87A41E7822BEA27D00431022 /* InstallerAppOptionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstallerAppOptionsView.m; sourceTree = "<group>"; };
+		87A41E8522BECAB000431022 /* MacOSDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacOSDownloader.h; sourceTree = "<group>"; };
+		87A41E8622BECAB000431022 /* MacOSDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacOSDownloader.m; sourceTree = "<group>"; };
+		87A41E8922BED7E600431022 /* DownloadSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DownloadSettings.plist; sourceTree = "<group>"; };
+		87A41E8B22BEDA3200431022 /* PrepareInstallerApp.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = PrepareInstallerApp.sh; sourceTree = "<group>"; };
+		87A41E8D22BEDF2500431022 /* pbzx */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = pbzx; sourceTree = "<group>"; };
+		87A75574235BE92700B667C2 /* AMDSSE4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDSSE4.h; sourceTree = "<group>"; };
+		87A75575235BE92700B667C2 /* AMDSSE4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDSSE4.m; sourceTree = "<group>"; };
+		87AADBA322CFEC14007AB927 /* LegacyIDE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegacyIDE.h; sourceTree = "<group>"; };
+		87AADBA422CFEC14007AB927 /* LegacyIDE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegacyIDE.m; sourceTree = "<group>"; };
+		87AADBAA22D045B2007AB927 /* Patch Updater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Patch Updater.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87AADBB022D045B2007AB927 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87AADBB222D045B2007AB927 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87AADBB422D045B2007AB927 /* Patch Updater-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Patch Updater-Prefix.pch"; sourceTree = "<group>"; };
+		87AADBB622D045B2007AB927 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		87AADBC422D045B3007AB927 /* Patch UpdaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Patch UpdaterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87AADBCB22D045B3007AB927 /* Patch UpdaterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Patch UpdaterTests-Info.plist"; sourceTree = "<group>"; };
+		87AADBCD22D045B3007AB927 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87AADBCF22D045B3007AB927 /* Patch_UpdaterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Patch_UpdaterTests.m; sourceTree = "<group>"; };
+		87AADBD722D04622007AB927 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87AADBD822D04622007AB927 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87AADBD922D04622007AB927 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		87AADBDA22D04622007AB927 /* UpdateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateController.h; sourceTree = "<group>"; };
+		87AADBDB22D04622007AB927 /* UpdateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateController.m; sourceTree = "<group>"; };
+		87AADBDC22D04622007AB927 /* UpdateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateManager.h; sourceTree = "<group>"; };
+		87AADBDD22D04622007AB927 /* UpdateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateManager.m; sourceTree = "<group>"; };
+		87AADBDE22D04622007AB927 /* UpdateManager.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UpdateManager.xib; sourceTree = "<group>"; };
+		87AADBDF22D04622007AB927 /* Update.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Update.h; sourceTree = "<group>"; };
+		87AADBE022D04622007AB927 /* Update.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Update.m; sourceTree = "<group>"; };
+		87AADBE122D04622007AB927 /* PreferencesHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesHandler.h; sourceTree = "<group>"; };
+		87AADBE222D04622007AB927 /* PreferencesHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesHandler.m; sourceTree = "<group>"; };
+		87AADBE522D04622007AB927 /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settings.plist; sourceTree = "<group>"; };
+		87AADBF722D0478B007AB927 /* Patch Updater Prefpane.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Patch Updater Prefpane.prefPane"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87AADBF922D0478B007AB927 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
+		87AADBFF22D0478B007AB927 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87AADC0122D0478B007AB927 /* Patch Updater Prefpane-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Patch Updater Prefpane-Prefix.pch"; sourceTree = "<group>"; };
+		87AADC0E22D0479F007AB927 /* Patch_Updater_Prefpane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patch_Updater_Prefpane.h; sourceTree = "<group>"; };
+		87AADC0F22D0479F007AB927 /* Patch_Updater_Prefpane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patch_Updater_Prefpane.m; sourceTree = "<group>"; };
+		87AADC1022D0479F007AB927 /* PreferencesHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesHandler.h; sourceTree = "<group>"; };
+		87AADC1122D0479F007AB927 /* PreferencesHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesHandler.m; sourceTree = "<group>"; };
+		87AADC1322D0479F007AB927 /* Patch_Updater_Prefpane.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Patch_Updater_Prefpane.xib; sourceTree = "<group>"; };
+		87AADC1D22D047D3007AB927 /* Patch Updater Prefpane-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Patch Updater Prefpane-Info.plist"; sourceTree = "<group>"; };
+		87AADC1F22D047EB007AB927 /* Patch Updater-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Patch Updater-Info.plist"; sourceTree = "<group>"; };
+		87AADC2522D04E8D007AB927 /* patchupdaterd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = patchupdaterd; sourceTree = BUILT_PRODUCTS_DIR; };
+		87AADC2822D04E8D007AB927 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87AADC2B22D04E8D007AB927 /* patchupdaterd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "patchupdaterd-Prefix.pch"; sourceTree = "<group>"; };
+		87AADC2C22D04E8D007AB927 /* patchupdaterd.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = patchupdaterd.1; sourceTree = "<group>"; };
+		87AADC3122D04F44007AB927 /* com.dosdude1.PatchUpdater.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = com.dosdude1.PatchUpdater.plist; sourceTree = "<group>"; };
+		87CA634622FE24AD00F36818 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/APFS_Boot_Selector.xib; sourceTree = "<group>"; };
+		87CA634722FE257F00F36818 /* APFSVolumeViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APFSVolumeViewItem.h; sourceTree = "<group>"; };
+		87CA634822FE257F00F36818 /* APFSVolumeViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APFSVolumeViewItem.m; sourceTree = "<group>"; };
+		87CA634922FE257F00F36818 /* APFSVolumeViewItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APFSVolumeViewItem.xib; sourceTree = "<group>"; };
+		87DAE1BE234D41C0004F11EE /* APFSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APFSManager.h; sourceTree = "<group>"; };
+		87DAE1BF234D41C0004F11EE /* APFSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APFSManager.m; sourceTree = "<group>"; };
+		87EB301122C0988900B600F5 /* STPrivilegedTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPrivilegedTask.h; sourceTree = "<group>"; };
+		87EB301222C0988900B600F5 /* STPrivilegedTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPrivilegedTask.m; sourceTree = "<group>"; };
+		87F680C122FCFE9700D96B21 /* APFS Boot Selector.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APFS Boot Selector.prefPane"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F680C622FCFE9700D96B21 /* APFS Boot Selector-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APFS Boot Selector-Info.plist"; sourceTree = "<group>"; };
+		87F680C822FCFE9700D96B21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87F680CA22FCFE9700D96B21 /* APFS Boot Selector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APFS Boot Selector-Prefix.pch"; sourceTree = "<group>"; };
+		87F680CB22FCFE9700D96B21 /* APFS_Boot_Selector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APFS_Boot_Selector.h; sourceTree = "<group>"; };
+		87F680CC22FCFE9700D96B21 /* APFS_Boot_Selector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APFS_Boot_Selector.m; sourceTree = "<group>"; };
+		87F680CE22FCFE9700D96B21 /* APFS_Boot_Selector.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = APFS_Boot_Selector.tiff; sourceTree = "<group>"; };
+		87F680D822FCFF3200D96B21 /* StartupDiskPref.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = StartupDiskPref.icns; sourceTree = "<group>"; };
+		87F680DA22FCFF3A00D96B21 /* SystemPrefs_StartupDisk.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = SystemPrefs_StartupDisk.tiff; sourceTree = "<group>"; };
+		87F680E022FCFFBF00D96B21 /* apfshelperd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = apfshelperd; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F680E322FCFFBF00D96B21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87F680E622FCFFBF00D96B21 /* apfshelperd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "apfshelperd-Prefix.pch"; sourceTree = "<group>"; };
+		87F680E722FCFFBF00D96B21 /* apfshelperd.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = apfshelperd.1; sourceTree = "<group>"; };
+		87F680EC22FCFFD900D96B21 /* APFSPrefpaneHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APFSPrefpaneHelper.h; sourceTree = "<group>"; };
+		87F680ED22FCFFD900D96B21 /* APFSPrefpaneHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APFSPrefpaneHelper.m; sourceTree = "<group>"; };
+		87F680EF22FD20EF00D96B21 /* com.dosdude1.apfshelperd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = com.dosdude1.apfshelperd.plist; sourceTree = "<group>"; };
+		87F88D682356B3BB006DF8B0 /* VolumeControlPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolumeControlPatch.h; sourceTree = "<group>"; };
+		87F88D692356B3BB006DF8B0 /* VolumeControlPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolumeControlPatch.m; sourceTree = "<group>"; };
+		87FD944022F0B9FB00EC3F3E /* AnalyticsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsManager.h; sourceTree = "<group>"; };
+		87FD944122F0B9FB00EC3F3E /* AnalyticsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		870D355022B1C12700432A8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870D355722B1C12700432A8F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870D357122B1C12800432A8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870D357722B1C12800432A8F /* Cocoa.framework in Frameworks */,
+				870D357622B1C12800432A8F /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873AF53522C052FE006A9A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873AF53922C052FE006A9A86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875A7B1622EA0BEE009973DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875A7B1A22EA0BEE009973DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875A7B2922EA0DE6009973DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875A7B2D22EA0DE6009973DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8766401422C87F3C0004E8F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8766401822C87F3C0004E8F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87759D7522BD3C31009F9834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87759D7922BD3C31009F9834 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87759D8F22BD3C31009F9834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87759D9422BD3C31009F9834 /* Cocoa.framework in Frameworks */,
+				87759D9322BD3C31009F9834 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AADBA722D045B2007AB927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AADBAB22D045B2007AB927 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AADBC122D045B2007AB927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AADBC622D045B3007AB927 /* Cocoa.framework in Frameworks */,
+				87AADBC522D045B3007AB927 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AADBF222D0478B007AB927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AADBF822D0478B007AB927 /* Cocoa.framework in Frameworks */,
+				87AADBFA22D0478B007AB927 /* PreferencePanes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AADC2222D04E8D007AB927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AADC2622D04E8D007AB927 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F680BC22FCFE9700D96B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F680C222FCFE9700D96B21 /* Cocoa.framework in Frameworks */,
+				87F680C322FCFE9700D96B21 /* PreferencePanes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F680DD22FCFFBF00D96B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F680E122FCFFBF00D96B21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		870D354A22B1C12700432A8F = {
+			isa = PBXGroup;
+			children = (
+				870D355C22B1C12700432A8F /* macOS Catalina Patcher */,
+				870D357A22B1C12800432A8F /* macOS Catalina PatcherTests */,
+				873AF53A22C052FE006A9A86 /* patcherd */,
+				875A7B2E22EA0DE6009973DC /* apfsinsta */,
+				875A7B1B22EA0BEE009973DC /* apfsbless */,
+				8766401922C87F3C0004E8F4 /* runposti */,
+				8791861C22B5FE66004A6E35 /* macOS Catalina PartialPatcherTests */,
+				87759D7A22BD3C31009F9834 /* macOS Post Install */,
+				87759D9722BD3C31009F9834 /* macOS Post InstallTests */,
+				87AADBAC22D045B2007AB927 /* Patch Updater */,
+				87AADBC922D045B3007AB927 /* Patch UpdaterTests */,
+				87AADBFB22D0478B007AB927 /* Patch Updater Prefpane */,
+				87AADC2722D04E8D007AB927 /* patchupdaterd */,
+				87F680C422FCFE9700D96B21 /* APFS Boot Selector */,
+				87F680E222FCFFBF00D96B21 /* apfshelperd */,
+				870D355522B1C12700432A8F /* Frameworks */,
+				870D355422B1C12700432A8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		870D355422B1C12700432A8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				870D355322B1C12700432A8F /* macOS Catalina Patcher.app */,
+				870D357422B1C12800432A8F /* macOS Catalina PatcherTests.xctest */,
+				87759D7822BD3C31009F9834 /* macOS Post Install.app */,
+				87759D9222BD3C31009F9834 /* macOS Post InstallTests.xctest */,
+				873AF53822C052FE006A9A86 /* patcherd */,
+				8766401722C87F3C0004E8F4 /* runposti */,
+				87AADBAA22D045B2007AB927 /* Patch Updater.app */,
+				87AADBC422D045B3007AB927 /* Patch UpdaterTests.xctest */,
+				87AADBF722D0478B007AB927 /* Patch Updater Prefpane.prefPane */,
+				87AADC2522D04E8D007AB927 /* patchupdaterd */,
+				875A7B1922EA0BEE009973DC /* apfsbless */,
+				875A7B2C22EA0DE6009973DC /* apfsinsta */,
+				87F680C122FCFE9700D96B21 /* APFS Boot Selector.prefPane */,
+				87F680E022FCFFBF00D96B21 /* apfshelperd */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		870D355522B1C12700432A8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87079C8822B9ECD1009EBF3D /* QuartzCore.framework */,
+				870D355622B1C12700432A8F /* Cocoa.framework */,
+				870D357522B1C12800432A8F /* XCTest.framework */,
+				87A3F08422B438CF00121384 /* Foundation.framework */,
+				87AADBF922D0478B007AB927 /* PreferencePanes.framework */,
+				870D355822B1C12700432A8F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		870D355822B1C12700432A8F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				870D355922B1C12700432A8F /* AppKit.framework */,
+				870D355A22B1C12700432A8F /* CoreData.framework */,
+				870D355B22B1C12700432A8F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		870D355C22B1C12700432A8F /* macOS Catalina Patcher */ = {
+			isa = PBXGroup;
+			children = (
+				870D356822B1C12700432A8F /* AppDelegate.h */,
+				870D356922B1C12700432A8F /* AppDelegate.m */,
+				870D356B22B1C12800432A8F /* MainMenu.xib */,
+				87EB301122C0988900B600F5 /* STPrivilegedTask.h */,
+				87EB301222C0988900B600F5 /* STPrivilegedTask.m */,
+				8766402622C894B60004E8F4 /* WizardWindowController.h */,
+				8766402722C894B60004E8F4 /* WizardWindowController.m */,
+				8766402822C894B60004E8F4 /* WizardWindowController.xib */,
+				878A0BB122E690F100421F17 /* LoggingWindowController.h */,
+				878A0BB222E690F100421F17 /* LoggingWindowController.m */,
+				878A0BB322E690F100421F17 /* LoggingWindowController.xib */,
+				87A41E8422BECA8F00431022 /* Classes */,
+				87A41E6622BE8CF700431022 /* Views */,
+				87A41E8822BED06500431022 /* Resources */,
+				870D355D22B1C12700432A8F /* Supporting Files */,
+			);
+			path = "macOS Catalina Patcher";
+			sourceTree = "<group>";
+		};
+		870D355D22B1C12700432A8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				870D355E22B1C12700432A8F /* macOS Catalina Patcher-Info.plist */,
+				870D355F22B1C12700432A8F /* InfoPlist.strings */,
+				870D356222B1C12700432A8F /* main.m */,
+				870D356422B1C12700432A8F /* macOS Catalina Patcher-Prefix.pch */,
+				870D356522B1C12700432A8F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		870D357A22B1C12800432A8F /* macOS Catalina PatcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				870D358022B1C12800432A8F /* macOS_Catalina_PatcherTests.m */,
+				870D357B22B1C12800432A8F /* Supporting Files */,
+			);
+			path = "macOS Catalina PatcherTests";
+			sourceTree = "<group>";
+		};
+		870D357B22B1C12800432A8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				870D357C22B1C12800432A8F /* macOS Catalina PatcherTests-Info.plist */,
+				870D357D22B1C12800432A8F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		873AF53A22C052FE006A9A86 /* patcherd */ = {
+			isa = PBXGroup;
+			children = (
+				873AF53B22C052FE006A9A86 /* main.m */,
+				873AF54422C05F5E006A9A86 /* PatchHandler.h */,
+				873AF54522C05F5E006A9A86 /* PatchHandler.m */,
+				877E90F922F6721B00AFAE35 /* PatchManager.h */,
+				877E90FA22F6721B00AFAE35 /* PatchManager.m */,
+				873AF54722C0627A006A9A86 /* InstallerPatcher.h */,
+				873AF54822C0627A006A9A86 /* InstallerPatcher.m */,
+				878A0BB622E6B01400421F17 /* ISOManager.h */,
+				878A0BB722E6B01400421F17 /* ISOManager.m */,
+				875AEC7D22E7A5E0001C1819 /* InPlaceInstallerManager.h */,
+				875AEC7E22E7A5E0001C1819 /* InPlaceInstallerManager.m */,
+				878A0BA622E6802F00421F17 /* LoggingManager.h */,
+				878A0BA722E6802F00421F17 /* LoggingManager.m */,
+				873AF53F22C052FE006A9A86 /* patcherd.1 */,
+				873AF53D22C052FE006A9A86 /* Supporting Files */,
+			);
+			path = patcherd;
+			sourceTree = "<group>";
+		};
+		873AF53D22C052FE006A9A86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				873AF53E22C052FE006A9A86 /* patcherd-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		875A7B1B22EA0BEE009973DC /* apfsbless */ = {
+			isa = PBXGroup;
+			children = (
+				875A7B1C22EA0BEE009973DC /* main.m */,
+				875A7B2022EA0BEE009973DC /* apfsbless.1 */,
+				875A7B1E22EA0BEE009973DC /* Supporting Files */,
+			);
+			path = apfsbless;
+			sourceTree = "<group>";
+		};
+		875A7B1E22EA0BEE009973DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				875A7B1F22EA0BEE009973DC /* apfsbless-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		875A7B2E22EA0DE6009973DC /* apfsinsta */ = {
+			isa = PBXGroup;
+			children = (
+				875A7B2F22EA0DE6009973DC /* main.m */,
+				875A7B4422EA0EEF009973DC /* SystemPrep.h */,
+				875A7B4522EA0EEF009973DC /* SystemPrep.m */,
+				87DAE1BE234D41C0004F11EE /* APFSManager.h */,
+				87DAE1BF234D41C0004F11EE /* APFSManager.m */,
+				875A7B3322EA0DE6009973DC /* apfsinsta.1 */,
+				875A7B3122EA0DE6009973DC /* Supporting Files */,
+			);
+			path = apfsinsta;
+			sourceTree = "<group>";
+		};
+		875A7B3122EA0DE6009973DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				875A7B3222EA0DE6009973DC /* apfsinsta-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8766400D22C85B540004E8F4 /* Patches */ = {
+			isa = PBXGroup;
+			children = (
+				8766400E22C863DA0004E8F4 /* PlatformCheck.h */,
+				8766400F22C863DA0004E8F4 /* PlatformCheck.m */,
+				8797C46922C5A2F70069970F /* LegacyGPU.h */,
+				8797C46A22C5A2F70069970F /* LegacyGPU.m */,
+				8797C46C22C5D2C80069970F /* LegacyUSB.h */,
+				8797C46D22C5D2C80069970F /* LegacyUSB.m */,
+				872AC50322C6B4D3002F847C /* LegacyPlatform.h */,
+				872AC50422C6B4D3002F847C /* LegacyPlatform.m */,
+				872AC50622C6B71C002F847C /* SIPDisabler.h */,
+				872AC50722C6B71C002F847C /* SIPDisabler.m */,
+				872AC50922C6EB55002F847C /* LegacyWiFi.h */,
+				872AC50A22C6EB55002F847C /* LegacyWiFi.m */,
+				872AC50C22C6EBCA002F847C /* BCM94321Patch.h */,
+				872AC50D22C6EBCA002F847C /* BCM94321Patch.m */,
+				872AC50F22C6EF76002F847C /* LegacyEnet.h */,
+				872AC51022C6EF76002F847C /* LegacyEnet.m */,
+				872AC51522C70773002F847C /* LegacyAudio.h */,
+				872AC51622C70773002F847C /* LegacyAudio.m */,
+				87AADBA322CFEC14007AB927 /* LegacyIDE.h */,
+				87AADBA422CFEC14007AB927 /* LegacyIDE.m */,
+				874ED6DB22D6D6ED00A82591 /* InstallPatchUpdater.h */,
+				874ED6DC22D6D6ED00A82591 /* InstallPatchUpdater.m */,
+				878F1C9E22D8464F005E2EAB /* APFSPatch.h */,
+				878F1C9F22D8464F005E2EAB /* APFSPatch.m */,
+				87F88D682356B3BB006DF8B0 /* VolumeControlPatch.h */,
+				87F88D692356B3BB006DF8B0 /* VolumeControlPatch.m */,
+				87A75574235BE92700B667C2 /* AMDSSE4.h */,
+				87A75575235BE92700B667C2 /* AMDSSE4.m */,
+			);
+			name = Patches;
+			sourceTree = "<group>";
+		};
+		8766401922C87F3C0004E8F4 /* runposti */ = {
+			isa = PBXGroup;
+			children = (
+				8766401A22C87F3C0004E8F4 /* main.m */,
+				8766401E22C87F3C0004E8F4 /* runposti.1 */,
+				8766401C22C87F3C0004E8F4 /* Supporting Files */,
+			);
+			path = runposti;
+			sourceTree = "<group>";
+		};
+		8766401C22C87F3C0004E8F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8766401D22C87F3C0004E8F4 /* runposti-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87759D7A22BD3C31009F9834 /* macOS Post Install */ = {
+			isa = PBXGroup;
+			children = (
+				87759D8622BD3C31009F9834 /* AppDelegate.h */,
+				87759D8722BD3C31009F9834 /* AppDelegate.m */,
+				87759D8922BD3C31009F9834 /* MainMenu.xib */,
+				87759DA622BD3C95009F9834 /* MainWindowController.h */,
+				87759DA722BD3C95009F9834 /* MainWindowController.m */,
+				87759DA822BD3C95009F9834 /* MainWindowController.xib */,
+				8797C46522C5A1350069970F /* Classes */,
+				8797C44822C55BE90069970F /* Resources */,
+				87759D7B22BD3C31009F9834 /* Supporting Files */,
+			);
+			path = "macOS Post Install";
+			sourceTree = "<group>";
+		};
+		87759D7B22BD3C31009F9834 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87759D7C22BD3C31009F9834 /* macOS Post Install-Info.plist */,
+				87759D7D22BD3C31009F9834 /* InfoPlist.strings */,
+				87759D8022BD3C31009F9834 /* main.m */,
+				87759D8222BD3C31009F9834 /* macOS Post Install-Prefix.pch */,
+				87759D8322BD3C31009F9834 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87759D9722BD3C31009F9834 /* macOS Post InstallTests */ = {
+			isa = PBXGroup;
+			children = (
+				87759D9D22BD3C31009F9834 /* macOS_Post_InstallTests.m */,
+				87759D9822BD3C31009F9834 /* Supporting Files */,
+			);
+			path = "macOS Post InstallTests";
+			sourceTree = "<group>";
+		};
+		87759D9822BD3C31009F9834 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87759D9922BD3C31009F9834 /* macOS Post InstallTests-Info.plist */,
+				87759D9A22BD3C31009F9834 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		878F1C9522D833B9005E2EAB /* APFS Booter Resources */ = {
+			isa = PBXGroup;
+			children = (
+				878F1C9622D833CE005E2EAB /* BOOTX64.efi */,
+				878F1C9722D833CE005E2EAB /* EFIScriptHeader.txt */,
+				878F1C9822D833CE005E2EAB /* EFIScriptMain.txt */,
+				87F680EF22FD20EF00D96B21 /* com.dosdude1.apfshelperd.plist */,
+			);
+			name = "APFS Booter Resources";
+			sourceTree = "<group>";
+		};
+		8791861C22B5FE66004A6E35 /* macOS Catalina PartialPatcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				8791862222B5FE66004A6E35 /* macOS_Catalina_PartialPatcherTests.m */,
+				8791861D22B5FE66004A6E35 /* Supporting Files */,
+			);
+			path = "macOS Catalina PartialPatcherTests";
+			sourceTree = "<group>";
+		};
+		8791861D22B5FE66004A6E35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8791861E22B5FE66004A6E35 /* macOS Catalina PartialPatcherTests-Info.plist */,
+				8791861F22B5FE66004A6E35 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8793A1BA22C19132006CE486 /* PatchResources */ = {
+			isa = PBXGroup;
+			children = (
+				8793A1BE22C1926D006CE486 /* brtool */,
+				875A7B4822EA10FF009973DC /* osishelperd */,
+				8793A1C022C1926D006CE486 /* DisableLibraryValidation.kext */,
+				8793A1C122C1926D006CE486 /* LegacyUSBInjector.kext */,
+				8793A1C222C1926D006CE486 /* OSInstall.mpkg */,
+				8793A1C322C1926D006CE486 /* OSInstaller */,
+				8793A1C422C1926D006CE486 /* OSInstallerSetupInternal */,
+				8793A1C522C1926D006CE486 /* prelinkedkernel */,
+				8793A1C622C1926D006CE486 /* SIPManager.kext */,
+			);
+			name = PatchResources;
+			sourceTree = "<group>";
+		};
+		8797C44822C55BE90069970F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8797C46322C5A0E80069970F /* macmodels.plist */,
+				8797C44622C55BB00069970F /* Installer.icns */,
+				8797C44A22C55C070069970F /* restart.tiff */,
+				8797C44B22C55C070069970F /* restartPressed.tiff */,
+				8797C44E22C55C110069970F /* start.tiff */,
+				8797C44F22C55C110069970F /* startPressed.tiff */,
+				8797C45F22C59BD50069970F /* skipButton.tiff */,
+				8797C46122C59BD80069970F /* skipButtonPressed.tiff */,
+				878F1C9522D833B9005E2EAB /* APFS Booter Resources */,
+				8797C44922C55BF00069970F /* PatchResources */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8797C44922C55BF00069970F /* PatchResources */ = {
+			isa = PBXGroup;
+			children = (
+				87AADC3122D04F44007AB927 /* com.dosdude1.PatchUpdater.plist */,
+				87759DCB22BDAD9F009F9834 /* addonkexts */,
+				87759DCC22BDAD9F009F9834 /* patchedkexts */,
+				87759DCD22BDAD9F009F9834 /* videocardpatches */,
+			);
+			name = PatchResources;
+			sourceTree = "<group>";
+		};
+		8797C46522C5A1350069970F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8797C45A22C568F70069970F /* DarkModeImageButton.h */,
+				8797C45B22C568F70069970F /* DarkModeImageButton.m */,
+				8797C44322C55B670069970F /* PostInstallHandler.h */,
+				8797C44422C55B670069970F /* PostInstallHandler.m */,
+				8797C46622C5A1B50069970F /* Patch.h */,
+				8797C46722C5A1B50069970F /* Patch.m */,
+				8766400D22C85B540004E8F4 /* Patches */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		87A41E6622BE8CF700431022 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				87A41E6722BE8E6900431022 /* WizardView.h */,
+				87A41E6822BE8E6900431022 /* WizardView.m */,
+				87A41E6322BE8CD100431022 /* MainView.h */,
+				87A41E6422BE8CD100431022 /* MainView.m */,
+				87A41E7322BEA27D00431022 /* ContributorsView.h */,
+				87A41E7422BEA27D00431022 /* ContributorsView.m */,
+				87A41E7522BEA27D00431022 /* DownloadMacOSView.h */,
+				87A41E7622BEA27D00431022 /* DownloadMacOSView.m */,
+				87A41E7722BEA27D00431022 /* InstallerAppOptionsView.h */,
+				87A41E7822BEA27D00431022 /* InstallerAppOptionsView.m */,
+				873AF4D722C01EF4006A9A86 /* PatchOptionsView.h */,
+				873AF4D822C01EF4006A9A86 /* PatchOptionsView.m */,
+				873AF54A22C06E21006A9A86 /* CreateBootableInstallerView.h */,
+				873AF54B22C06E21006A9A86 /* CreateBootableInstallerView.m */,
+				8793A1D622C1A792006CE486 /* InstallerVolumeSuccessView.h */,
+				8793A1D722C1A792006CE486 /* InstallerVolumeSuccessView.m */,
+				878A0BB922E6BBC900421F17 /* CreateISOView.h */,
+				878A0BBA22E6BBC900421F17 /* CreateISOView.m */,
+				878A0BC122E6DDA300421F17 /* ISOCreationSuccessView.h */,
+				878A0BC222E6DDA300421F17 /* ISOCreationSuccessView.m */,
+				875AEC7A22E7957C001C1819 /* InPlaceInstallationPreparationView.h */,
+				875AEC7B22E7957C001C1819 /* InPlaceInstallationPreparationView.m */,
+				875AEC8022E7AD4F001C1819 /* InPlaceInstallationPreparationSuccessView.h */,
+				875AEC8122E7AD4F001C1819 /* InPlaceInstallationPreparationSuccessView.m */,
+				873AF54D22C0725B006A9A86 /* VolumeViewItem.h */,
+				873AF54E22C0725B006A9A86 /* VolumeViewItem.m */,
+				873AF54F22C0725B006A9A86 /* VolumeViewItem.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		87A41E8422BECA8F00431022 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				87079C7322B9E3A9009EBF3D /* CatalinaPatcherController.h */,
+				87079C7422B9E3A9009EBF3D /* CatalinaPatcherController.m */,
+				878A0BA922E683C000421F17 /* CatalinaPatcherLoggingManager.h */,
+				878A0BAA22E683C000421F17 /* CatalinaPatcherLoggingManager.m */,
+				87A41E8522BECAB000431022 /* MacOSDownloader.h */,
+				87A41E8622BECAB000431022 /* MacOSDownloader.m */,
+				8793A1D922C1B185006CE486 /* DarkModeImageButton.h */,
+				8793A1DA22C1B185006CE486 /* DarkModeImageButton.m */,
+				87FD944022F0B9FB00EC3F3E /* AnalyticsManager.h */,
+				87FD944122F0B9FB00EC3F3E /* AnalyticsManager.m */,
+				8787857F230C9D12005EC542 /* PatcherFlags.h */,
+				87878580230C9D12005EC542 /* PatcherFlags.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		87A41E8822BED06500431022 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8793A1BA22C19132006CE486 /* PatchResources */,
+				87A41E8B22BEDA3200431022 /* PrepareInstallerApp.sh */,
+				87A41E8922BED7E600431022 /* DownloadSettings.plist */,
+				87A41E8D22BEDF2500431022 /* pbzx */,
+				87079C8A22B9F5F5009EBF3D /* Contributions.rtf */,
+				87079C8C22B9FAD1009EBF3D /* GenericFolderIcon.icns */,
+				87079C9222B9FB8D009EBF3D /* DownloadsFolder.icns */,
+				87079C5A22B9DDF2009EBF3D /* InstallAssistant.icns */,
+				87079C6122B9DEB3009EBF3D /* VolumeIcon.icns */,
+				87079C6322B9E0AA009EBF3D /* restart.tiff */,
+				87079C6422B9E0AA009EBF3D /* restartPressed.tiff */,
+				87079C6722B9E0B1009EBF3D /* moreInfo.tiff */,
+				87079C6822B9E0B1009EBF3D /* moreInfoPressed.tiff */,
+				87079C6B22B9E0B8009EBF3D /* cancel.tiff */,
+				87079C6C22B9E0B8009EBF3D /* cancelPressed.tiff */,
+				87079C9422BA0225009EBF3D /* start.tiff */,
+				87079C9522BA0225009EBF3D /* startPressed.tiff */,
+				87079C6F22B9E0BE009EBF3D /* arrowbutton.tiff */,
+				87079C7022B9E0BE009EBF3D /* arrowbuttonPressed.tiff */,
+				87079C7622B9E5E7009EBF3D /* arrowbuttonLeft.tiff */,
+				87079C7722B9E5E7009EBF3D /* arrowbuttonLeftPressed.tiff */,
+				873AF4D122C01D7A006A9A86 /* CDAudioVolumeIcon.icns */,
+				873AF4D322C01E26006A9A86 /* External.icns */,
+				873AF4D522C01E45006A9A86 /* Installer.icns */,
+				8793A1D422C1A6EF006CE486 /* Success.tiff */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		87AADBAC22D045B2007AB927 /* Patch Updater */ = {
+			isa = PBXGroup;
+			children = (
+				874ED6C122D6D4A300A82591 /* Media.xcassets */,
+				874ED6BF22D6D47A00A82591 /* Patch-Updater.png */,
+				87AADBD722D04622007AB927 /* AppDelegate.h */,
+				87AADBD822D04622007AB927 /* AppDelegate.m */,
+				87AADBD922D04622007AB927 /* MainMenu.xib */,
+				87AADBDA22D04622007AB927 /* UpdateController.h */,
+				87AADBDB22D04622007AB927 /* UpdateController.m */,
+				87AADBDC22D04622007AB927 /* UpdateManager.h */,
+				87AADBDD22D04622007AB927 /* UpdateManager.m */,
+				87AADBDE22D04622007AB927 /* UpdateManager.xib */,
+				87AADBDF22D04622007AB927 /* Update.h */,
+				87AADBE022D04622007AB927 /* Update.m */,
+				87AADBE122D04622007AB927 /* PreferencesHandler.h */,
+				87AADBE222D04622007AB927 /* PreferencesHandler.m */,
+				87AADBE522D04622007AB927 /* settings.plist */,
+				87AADBAD22D045B2007AB927 /* Supporting Files */,
+			);
+			path = "Patch Updater";
+			sourceTree = "<group>";
+		};
+		87AADBAD22D045B2007AB927 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87AADC1F22D047EB007AB927 /* Patch Updater-Info.plist */,
+				87AADBAF22D045B2007AB927 /* InfoPlist.strings */,
+				87AADBB222D045B2007AB927 /* main.m */,
+				87AADBB422D045B2007AB927 /* Patch Updater-Prefix.pch */,
+				87AADBB522D045B2007AB927 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87AADBC922D045B3007AB927 /* Patch UpdaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				87AADBCF22D045B3007AB927 /* Patch_UpdaterTests.m */,
+				87AADBCA22D045B3007AB927 /* Supporting Files */,
+			);
+			path = "Patch UpdaterTests";
+			sourceTree = "<group>";
+		};
+		87AADBCA22D045B3007AB927 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87AADBCB22D045B3007AB927 /* Patch UpdaterTests-Info.plist */,
+				87AADBCC22D045B3007AB927 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87AADBFB22D0478B007AB927 /* Patch Updater Prefpane */ = {
+			isa = PBXGroup;
+			children = (
+				874ED6D522D6D5FA00A82591 /* AppIcon.icns */,
+				87AADC0E22D0479F007AB927 /* Patch_Updater_Prefpane.h */,
+				87AADC0F22D0479F007AB927 /* Patch_Updater_Prefpane.m */,
+				87AADC1022D0479F007AB927 /* PreferencesHandler.h */,
+				87AADC1122D0479F007AB927 /* PreferencesHandler.m */,
+				874ED6D922D6D65C00A82591 /* Patch_Updater_Prefpane.tiff */,
+				87AADC1322D0479F007AB927 /* Patch_Updater_Prefpane.xib */,
+				874ED6D722D6D60F00A82591 /* Patch-Updater.png */,
+				87AADBFC22D0478B007AB927 /* Supporting Files */,
+			);
+			path = "Patch Updater Prefpane";
+			sourceTree = "<group>";
+		};
+		87AADBFC22D0478B007AB927 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87AADC1D22D047D3007AB927 /* Patch Updater Prefpane-Info.plist */,
+				87AADBFE22D0478B007AB927 /* InfoPlist.strings */,
+				87AADC0122D0478B007AB927 /* Patch Updater Prefpane-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87AADC2722D04E8D007AB927 /* patchupdaterd */ = {
+			isa = PBXGroup;
+			children = (
+				87AADC2822D04E8D007AB927 /* main.m */,
+				87AADC2C22D04E8D007AB927 /* patchupdaterd.1 */,
+				87AADC2A22D04E8D007AB927 /* Supporting Files */,
+			);
+			path = patchupdaterd;
+			sourceTree = "<group>";
+		};
+		87AADC2A22D04E8D007AB927 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87AADC2B22D04E8D007AB927 /* patchupdaterd-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87F680C422FCFE9700D96B21 /* APFS Boot Selector */ = {
+			isa = PBXGroup;
+			children = (
+				87F680CB22FCFE9700D96B21 /* APFS_Boot_Selector.h */,
+				87F680CC22FCFE9700D96B21 /* APFS_Boot_Selector.m */,
+				87F680CE22FCFE9700D96B21 /* APFS_Boot_Selector.tiff */,
+				87F680D022FCFE9700D96B21 /* APFS_Boot_Selector.xib */,
+				87CA634722FE257F00F36818 /* APFSVolumeViewItem.h */,
+				87CA634822FE257F00F36818 /* APFSVolumeViewItem.m */,
+				87CA634922FE257F00F36818 /* APFSVolumeViewItem.xib */,
+				87F680D822FCFF3200D96B21 /* StartupDiskPref.icns */,
+				87F680DA22FCFF3A00D96B21 /* SystemPrefs_StartupDisk.tiff */,
+				87F680C522FCFE9700D96B21 /* Supporting Files */,
+			);
+			path = "APFS Boot Selector";
+			sourceTree = "<group>";
+		};
+		87F680C522FCFE9700D96B21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87F680C622FCFE9700D96B21 /* APFS Boot Selector-Info.plist */,
+				87F680C722FCFE9700D96B21 /* InfoPlist.strings */,
+				87F680CA22FCFE9700D96B21 /* APFS Boot Selector-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87F680E222FCFFBF00D96B21 /* apfshelperd */ = {
+			isa = PBXGroup;
+			children = (
+				87F680E322FCFFBF00D96B21 /* main.m */,
+				87F680EC22FCFFD900D96B21 /* APFSPrefpaneHelper.h */,
+				87F680ED22FCFFD900D96B21 /* APFSPrefpaneHelper.m */,
+				87F680E722FCFFBF00D96B21 /* apfshelperd.1 */,
+				87F680E522FCFFBF00D96B21 /* Supporting Files */,
+			);
+			path = apfshelperd;
+			sourceTree = "<group>";
+		};
+		87F680E522FCFFBF00D96B21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87F680E622FCFFBF00D96B21 /* apfshelperd-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		87AADBF322D0478B007AB927 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AADC1822D0479F007AB927 /* PreferencesHandler.h in Headers */,
+				87AADC1622D0479F007AB927 /* Patch_Updater_Prefpane.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F680BD22FCFE9700D96B21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CA634A22FE257F00F36818 /* APFSVolumeViewItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		870D355222B1C12700432A8F /* macOS Catalina Patcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 870D358422B1C12800432A8F /* Build configuration list for PBXNativeTarget "macOS Catalina Patcher" */;
+			buildPhases = (
+				870D354F22B1C12700432A8F /* Sources */,
+				870D355022B1C12700432A8F /* Frameworks */,
+				870D355122B1C12700432A8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				875A7B3E22EA0E61009973DC /* PBXTargetDependency */,
+				875A7B3C22EA0E5D009973DC /* PBXTargetDependency */,
+				8766402422C87F4A0004E8F4 /* PBXTargetDependency */,
+				8793A1BC22C19168006CE486 /* PBXTargetDependency */,
+				87EB301522C09A5F00B600F5 /* PBXTargetDependency */,
+			);
+			name = "macOS Catalina Patcher";
+			productName = "macOS Catalina Patcher";
+			productReference = 870D355322B1C12700432A8F /* macOS Catalina Patcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		870D357322B1C12800432A8F /* macOS Catalina PatcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 870D358722B1C12800432A8F /* Build configuration list for PBXNativeTarget "macOS Catalina PatcherTests" */;
+			buildPhases = (
+				870D357022B1C12800432A8F /* Sources */,
+				870D357122B1C12800432A8F /* Frameworks */,
+				870D357222B1C12800432A8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				870D357922B1C12800432A8F /* PBXTargetDependency */,
+			);
+			name = "macOS Catalina PatcherTests";
+			productName = "macOS Catalina PatcherTests";
+			productReference = 870D357422B1C12800432A8F /* macOS Catalina PatcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		873AF53722C052FE006A9A86 /* patcherd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 873AF54122C052FE006A9A86 /* Build configuration list for PBXNativeTarget "patcherd" */;
+			buildPhases = (
+				873AF53422C052FE006A9A86 /* Sources */,
+				873AF53522C052FE006A9A86 /* Frameworks */,
+				873AF53622C052FE006A9A86 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = patcherd;
+			productName = patcherd;
+			productReference = 873AF53822C052FE006A9A86 /* patcherd */;
+			productType = "com.apple.product-type.tool";
+		};
+		875A7B1822EA0BEE009973DC /* apfsbless */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 875A7B2422EA0BEF009973DC /* Build configuration list for PBXNativeTarget "apfsbless" */;
+			buildPhases = (
+				875A7B1522EA0BEE009973DC /* Sources */,
+				875A7B1622EA0BEE009973DC /* Frameworks */,
+				875A7B1722EA0BEE009973DC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = apfsbless;
+			productName = apfsbless;
+			productReference = 875A7B1922EA0BEE009973DC /* apfsbless */;
+			productType = "com.apple.product-type.tool";
+		};
+		875A7B2B22EA0DE6009973DC /* apfsinsta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 875A7B3522EA0DE6009973DC /* Build configuration list for PBXNativeTarget "apfsinsta" */;
+			buildPhases = (
+				875A7B2822EA0DE6009973DC /* Sources */,
+				875A7B2922EA0DE6009973DC /* Frameworks */,
+				875A7B2A22EA0DE6009973DC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = apfsinsta;
+			productName = apfsinsta;
+			productReference = 875A7B2C22EA0DE6009973DC /* apfsinsta */;
+			productType = "com.apple.product-type.tool";
+		};
+		8766401622C87F3C0004E8F4 /* runposti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8766402022C87F3C0004E8F4 /* Build configuration list for PBXNativeTarget "runposti" */;
+			buildPhases = (
+				8766401322C87F3C0004E8F4 /* Sources */,
+				8766401422C87F3C0004E8F4 /* Frameworks */,
+				8766401522C87F3C0004E8F4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = runposti;
+			productName = runposti;
+			productReference = 8766401722C87F3C0004E8F4 /* runposti */;
+			productType = "com.apple.product-type.tool";
+		};
+		87759D7722BD3C31009F9834 /* macOS Post Install */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87759DA322BD3C31009F9834 /* Build configuration list for PBXNativeTarget "macOS Post Install" */;
+			buildPhases = (
+				87759D7422BD3C31009F9834 /* Sources */,
+				87759D7522BD3C31009F9834 /* Frameworks */,
+				87759D7622BD3C31009F9834 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87F680F422FD210700D96B21 /* PBXTargetDependency */,
+				87F680F222FD210300D96B21 /* PBXTargetDependency */,
+				874ED6D122D6D5AD00A82591 /* PBXTargetDependency */,
+				874ED6CF22D6D5AA00A82591 /* PBXTargetDependency */,
+				874ED6CD22D6D5A700A82591 /* PBXTargetDependency */,
+			);
+			name = "macOS Post Install";
+			productName = "macOS Post Install";
+			productReference = 87759D7822BD3C31009F9834 /* macOS Post Install.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87759D9122BD3C31009F9834 /* macOS Post InstallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87759DA422BD3C31009F9834 /* Build configuration list for PBXNativeTarget "macOS Post InstallTests" */;
+			buildPhases = (
+				87759D8E22BD3C31009F9834 /* Sources */,
+				87759D8F22BD3C31009F9834 /* Frameworks */,
+				87759D9022BD3C31009F9834 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87759D9622BD3C31009F9834 /* PBXTargetDependency */,
+			);
+			name = "macOS Post InstallTests";
+			productName = "macOS Post InstallTests";
+			productReference = 87759D9222BD3C31009F9834 /* macOS Post InstallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87AADBA922D045B2007AB927 /* Patch Updater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87AADBD122D045B3007AB927 /* Build configuration list for PBXNativeTarget "Patch Updater" */;
+			buildPhases = (
+				87AADBA622D045B2007AB927 /* Sources */,
+				87AADBA722D045B2007AB927 /* Frameworks */,
+				87AADBA822D045B2007AB927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Patch Updater";
+			productName = "Patch Updater";
+			productReference = 87AADBAA22D045B2007AB927 /* Patch Updater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87AADBC322D045B2007AB927 /* Patch UpdaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87AADBD422D045B3007AB927 /* Build configuration list for PBXNativeTarget "Patch UpdaterTests" */;
+			buildPhases = (
+				87AADBC022D045B2007AB927 /* Sources */,
+				87AADBC122D045B2007AB927 /* Frameworks */,
+				87AADBC222D045B2007AB927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87AADBC822D045B3007AB927 /* PBXTargetDependency */,
+			);
+			name = "Patch UpdaterTests";
+			productName = "Patch UpdaterTests";
+			productReference = 87AADBC422D045B3007AB927 /* Patch UpdaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87AADBF622D0478B007AB927 /* Patch Updater Prefpane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87AADC0A22D0478B007AB927 /* Build configuration list for PBXNativeTarget "Patch Updater Prefpane" */;
+			buildPhases = (
+				87AADBF122D0478B007AB927 /* Sources */,
+				87AADBF222D0478B007AB927 /* Frameworks */,
+				87AADBF322D0478B007AB927 /* Headers */,
+				87AADBF422D0478B007AB927 /* Resources */,
+				87AADBF522D0478B007AB927 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Patch Updater Prefpane";
+			productName = "Patch Updater Prefpane";
+			productReference = 87AADBF722D0478B007AB927 /* Patch Updater Prefpane.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+		87AADC2422D04E8D007AB927 /* patchupdaterd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87AADC2E22D04E8E007AB927 /* Build configuration list for PBXNativeTarget "patchupdaterd" */;
+			buildPhases = (
+				87AADC2122D04E8D007AB927 /* Sources */,
+				87AADC2222D04E8D007AB927 /* Frameworks */,
+				87AADC2322D04E8D007AB927 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = patchupdaterd;
+			productName = patchupdaterd;
+			productReference = 87AADC2522D04E8D007AB927 /* patchupdaterd */;
+			productType = "com.apple.product-type.tool";
+		};
+		87F680C022FCFE9700D96B21 /* APFS Boot Selector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F680D322FCFE9700D96B21 /* Build configuration list for PBXNativeTarget "APFS Boot Selector" */;
+			buildPhases = (
+				87F680BB22FCFE9700D96B21 /* Sources */,
+				87F680BC22FCFE9700D96B21 /* Frameworks */,
+				87F680BD22FCFE9700D96B21 /* Headers */,
+				87F680BE22FCFE9700D96B21 /* Resources */,
+				87F680BF22FCFE9700D96B21 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "APFS Boot Selector";
+			productName = "APFS Boot Selector";
+			productReference = 87F680C122FCFE9700D96B21 /* APFS Boot Selector.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+		87F680DF22FCFFBF00D96B21 /* apfshelperd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F680E922FCFFC000D96B21 /* Build configuration list for PBXNativeTarget "apfshelperd" */;
+			buildPhases = (
+				87F680DC22FCFFBF00D96B21 /* Sources */,
+				87F680DD22FCFFBF00D96B21 /* Frameworks */,
+				87F680DE22FCFFBF00D96B21 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = apfshelperd;
+			productName = apfshelperd;
+			productReference = 87F680E022FCFFBF00D96B21 /* apfshelperd */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		870D354B22B1C12700432A8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "dosdude1 Apps";
+				TargetAttributes = {
+					870D355222B1C12700432A8F = {
+						DevelopmentTeam = C9R8PL7T6L;
+						ProvisioningStyle = Automatic;
+					};
+					870D357322B1C12800432A8F = {
+						TestTargetID = 870D355222B1C12700432A8F;
+					};
+					87759D9122BD3C31009F9834 = {
+						TestTargetID = 870D355222B1C12700432A8F;
+					};
+					87AADBC322D045B2007AB927 = {
+						TestTargetID = 870D355222B1C12700432A8F;
+					};
+				};
+			};
+			buildConfigurationList = 870D354E22B1C12700432A8F /* Build configuration list for PBXProject "macOS Catalina Patcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 870D354A22B1C12700432A8F;
+			productRefGroup = 870D355422B1C12700432A8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				870D355222B1C12700432A8F /* macOS Catalina Patcher */,
+				870D357322B1C12800432A8F /* macOS Catalina PatcherTests */,
+				873AF53722C052FE006A9A86 /* patcherd */,
+				87759D7722BD3C31009F9834 /* macOS Post Install */,
+				87759D9122BD3C31009F9834 /* macOS Post InstallTests */,
+				8766401622C87F3C0004E8F4 /* runposti */,
+				87AADBA922D045B2007AB927 /* Patch Updater */,
+				87AADBC322D045B2007AB927 /* Patch UpdaterTests */,
+				87AADBF622D0478B007AB927 /* Patch Updater Prefpane */,
+				87AADC2422D04E8D007AB927 /* patchupdaterd */,
+				875A7B1822EA0BEE009973DC /* apfsbless */,
+				875A7B2B22EA0DE6009973DC /* apfsinsta */,
+				87F680C022FCFE9700D96B21 /* APFS Boot Selector */,
+				87F680DF22FCFFBF00D96B21 /* apfshelperd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		870D355122B1C12700432A8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875A7B4022EA0E6F009973DC /* apfsinsta in Resources */,
+				875A7B3F22EA0E6A009973DC /* apfsbless in Resources */,
+				8747907822E93F2E006785C2 /* macmodels.plist in Resources */,
+				8747905D22E93B20006785C2 /* BOOTX64.efi in Resources */,
+				8747905E22E93B20006785C2 /* EFIScriptHeader.txt in Resources */,
+				8747905F22E93B20006785C2 /* EFIScriptMain.txt in Resources */,
+				8766402522C87F550004E8F4 /* runposti in Resources */,
+				8793A1D222C1929A006CE486 /* OSInstaller in Resources */,
+				8793A1D322C1929A006CE486 /* OSInstallerSetupInternal in Resources */,
+				8793A1CC22C1926D006CE486 /* OSInstall.mpkg in Resources */,
+				8793A1BD22C19173006CE486 /* macOS Post Install.app in Resources */,
+				8793A1CF22C1926D006CE486 /* prelinkedkernel in Resources */,
+				87EB301622C09A6F00B600F5 /* patcherd in Resources */,
+				87079C7822B9E5E7009EBF3D /* arrowbuttonLeft.tiff in Resources */,
+				87A41E8C22BEDA3200431022 /* PrepareInstallerApp.sh in Resources */,
+				87079C9622BA0225009EBF3D /* start.tiff in Resources */,
+				87079C5B22B9DDF2009EBF3D /* InstallAssistant.icns in Resources */,
+				8766402A22C894B60004E8F4 /* WizardWindowController.xib in Resources */,
+				878A0BB522E690F100421F17 /* LoggingWindowController.xib in Resources */,
+				87079C9322B9FB8D009EBF3D /* DownloadsFolder.icns in Resources */,
+				87079C9722BA0225009EBF3D /* startPressed.tiff in Resources */,
+				87079C8B22B9F5F5009EBF3D /* Contributions.rtf in Resources */,
+				8793A1D522C1A6EF006CE486 /* Success.tiff in Resources */,
+				87079C6E22B9E0B8009EBF3D /* cancelPressed.tiff in Resources */,
+				870D356122B1C12700432A8F /* InfoPlist.strings in Resources */,
+				87079C7222B9E0BE009EBF3D /* arrowbuttonPressed.tiff in Resources */,
+				873AF4D422C01E26006A9A86 /* External.icns in Resources */,
+				8793A1C822C1926D006CE486 /* brtool in Resources */,
+				87079C6A22B9E0B1009EBF3D /* moreInfoPressed.tiff in Resources */,
+				87079C6522B9E0AA009EBF3D /* restart.tiff in Resources */,
+				873AF55122C0725B006A9A86 /* VolumeViewItem.xib in Resources */,
+				87A41E8A22BED7E600431022 /* DownloadSettings.plist in Resources */,
+				87079C7122B9E0BE009EBF3D /* arrowbutton.tiff in Resources */,
+				87079C6922B9E0B1009EBF3D /* moreInfo.tiff in Resources */,
+				87A41E8E22BEDF2500431022 /* pbzx in Resources */,
+				87079C7922B9E5E7009EBF3D /* arrowbuttonLeftPressed.tiff in Resources */,
+				8793A1CB22C1926D006CE486 /* LegacyUSBInjector.kext in Resources */,
+				8793A1CA22C1926D006CE486 /* DisableLibraryValidation.kext in Resources */,
+				870D356722B1C12700432A8F /* Credits.rtf in Resources */,
+				8793A1D022C1926D006CE486 /* SIPManager.kext in Resources */,
+				87079C6622B9E0AA009EBF3D /* restartPressed.tiff in Resources */,
+				873AF4D222C01D7A006A9A86 /* CDAudioVolumeIcon.icns in Resources */,
+				87079C6D22B9E0B8009EBF3D /* cancel.tiff in Resources */,
+				87079C6222B9DEB3009EBF3D /* VolumeIcon.icns in Resources */,
+				87079C8D22B9FAD1009EBF3D /* GenericFolderIcon.icns in Resources */,
+				875A7B4922EA10FF009973DC /* osishelperd in Resources */,
+				870D356D22B1C12800432A8F /* MainMenu.xib in Resources */,
+				873AF4D622C01E45006A9A86 /* Installer.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870D357222B1C12800432A8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870D357F22B1C12800432A8F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87759D7622BD3C31009F9834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F680F522FD215A00D96B21 /* APFS Boot Selector.prefPane in Resources */,
+				87F680F622FD215A00D96B21 /* apfshelperd in Resources */,
+				878F1C9A22D833CE005E2EAB /* EFIScriptHeader.txt in Resources */,
+				874ED6D422D6D5BD00A82591 /* Patch Updater Prefpane.prefPane in Resources */,
+				874ED6D322D6D5B900A82591 /* patchupdaterd in Resources */,
+				874ED6D222D6D5B300A82591 /* Patch Updater.app in Resources */,
+				8797C44C22C55C070069970F /* restart.tiff in Resources */,
+				87759D7F22BD3C31009F9834 /* InfoPlist.strings in Resources */,
+				8797C45122C55C110069970F /* startPressed.tiff in Resources */,
+				87F680F022FD20EF00D96B21 /* com.dosdude1.apfshelperd.plist in Resources */,
+				87759D8522BD3C31009F9834 /* Credits.rtf in Resources */,
+				878F1C9922D833CE005E2EAB /* BOOTX64.efi in Resources */,
+				87759D8B22BD3C31009F9834 /* MainMenu.xib in Resources */,
+				87AADC3222D04F44007AB927 /* com.dosdude1.PatchUpdater.plist in Resources */,
+				87759DD022BDAD9F009F9834 /* videocardpatches in Resources */,
+				8797C44722C55BB00069970F /* Installer.icns in Resources */,
+				87759DCF22BDAD9F009F9834 /* patchedkexts in Resources */,
+				8797C46022C59BD50069970F /* skipButton.tiff in Resources */,
+				87759DAA22BD3C95009F9834 /* MainWindowController.xib in Resources */,
+				87759DCE22BDAD9F009F9834 /* addonkexts in Resources */,
+				8797C44D22C55C070069970F /* restartPressed.tiff in Resources */,
+				8797C46222C59BD80069970F /* skipButtonPressed.tiff in Resources */,
+				8797C46422C5A0E80069970F /* macmodels.plist in Resources */,
+				8797C45022C55C110069970F /* start.tiff in Resources */,
+				878F1C9B22D833CE005E2EAB /* EFIScriptMain.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87759D9022BD3C31009F9834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87759D9C22BD3C31009F9834 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AADBA822D045B2007AB927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AADBB122D045B2007AB927 /* InfoPlist.strings in Resources */,
+				87AADBEE22D04622007AB927 /* settings.plist in Resources */,
+				87AADBEA22D04622007AB927 /* UpdateManager.xib in Resources */,
+				87AADBB722D045B2007AB927 /* Credits.rtf in Resources */,
+				874ED6C022D6D47A00A82591 /* Patch-Updater.png in Resources */,
+				874ED6C222D6D4A300A82591 /* Media.xcassets in Resources */,
+				87AADBE722D04622007AB927 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AADBC222D045B2007AB927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AADBCE22D045B3007AB927 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AADBF422D0478B007AB927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AADC0022D0478B007AB927 /* InfoPlist.strings in Resources */,
+				874ED6D822D6D60F00A82591 /* Patch-Updater.png in Resources */,
+				874ED6DA22D6D65C00A82591 /* Patch_Updater_Prefpane.tiff in Resources */,
+				87AADC1B22D0479F007AB927 /* Patch_Updater_Prefpane.xib in Resources */,
+				874ED6D622D6D5FA00A82591 /* AppIcon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F680BE22FCFE9700D96B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F680D622FCFF1B00D96B21 /* EFIScriptHeader.txt in Resources */,
+				87F680D722FCFF1B00D96B21 /* EFIScriptMain.txt in Resources */,
+				87F680DB22FCFF3A00D96B21 /* SystemPrefs_StartupDisk.tiff in Resources */,
+				87CA634C22FE257F00F36818 /* APFSVolumeViewItem.xib in Resources */,
+				87F680D922FCFF3200D96B21 /* StartupDiskPref.icns in Resources */,
+				87F680C922FCFE9700D96B21 /* InfoPlist.strings in Resources */,
+				87F680CF22FCFE9700D96B21 /* APFS_Boot_Selector.tiff in Resources */,
+				87F680D222FCFE9700D96B21 /* APFS_Boot_Selector.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		87AADBF522D0478B007AB927 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F680BF22FCFE9700D96B21 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		870D354F22B1C12700432A8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8766402922C894B60004E8F4 /* WizardWindowController.m in Sources */,
+				875AEC8222E7AD4F001C1819 /* InPlaceInstallationPreparationSuccessView.m in Sources */,
+				87A41E6522BE8CD100431022 /* MainView.m in Sources */,
+				87A41E6922BE8E6900431022 /* WizardView.m in Sources */,
+				873AF4D922C01EF4006A9A86 /* PatchOptionsView.m in Sources */,
+				87A41E7922BEA27D00431022 /* ContributorsView.m in Sources */,
+				878A0BB422E690F100421F17 /* LoggingWindowController.m in Sources */,
+				87A41E7A22BEA27D00431022 /* DownloadMacOSView.m in Sources */,
+				8793A1DB22C1B185006CE486 /* DarkModeImageButton.m in Sources */,
+				878A0BBB22E6BBC900421F17 /* CreateISOView.m in Sources */,
+				87A41E7B22BEA27D00431022 /* InstallerAppOptionsView.m in Sources */,
+				873AF55022C0725B006A9A86 /* VolumeViewItem.m in Sources */,
+				870D356A22B1C12700432A8F /* AppDelegate.m in Sources */,
+				87878581230C9D12005EC542 /* PatcherFlags.m in Sources */,
+				87079C7522B9E3A9009EBF3D /* CatalinaPatcherController.m in Sources */,
+				873AF54C22C06E21006A9A86 /* CreateBootableInstallerView.m in Sources */,
+				87A41E8722BECAB000431022 /* MacOSDownloader.m in Sources */,
+				878A0BC322E6DDA300421F17 /* ISOCreationSuccessView.m in Sources */,
+				8793A1D822C1A792006CE486 /* InstallerVolumeSuccessView.m in Sources */,
+				875AEC7C22E7957C001C1819 /* InPlaceInstallationPreparationView.m in Sources */,
+				87EB301322C0988900B600F5 /* STPrivilegedTask.m in Sources */,
+				870D356322B1C12700432A8F /* main.m in Sources */,
+				87FD944222F0B9FB00EC3F3E /* AnalyticsManager.m in Sources */,
+				878A0BAB22E683C000421F17 /* CatalinaPatcherLoggingManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870D357022B1C12800432A8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870D358122B1C12800432A8F /* macOS_Catalina_PatcherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873AF53422C052FE006A9A86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873AF54922C0627A006A9A86 /* InstallerPatcher.m in Sources */,
+				878A0BB822E6B01400421F17 /* ISOManager.m in Sources */,
+				878A0BA822E6802F00421F17 /* LoggingManager.m in Sources */,
+				873AF53C22C052FE006A9A86 /* main.m in Sources */,
+				873AF54622C05F5E006A9A86 /* PatchHandler.m in Sources */,
+				87878582230CA159005EC542 /* PatcherFlags.m in Sources */,
+				875AEC7F22E7A5E0001C1819 /* InPlaceInstallerManager.m in Sources */,
+				877E90FB22F6721B00AFAE35 /* PatchManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875A7B1522EA0BEE009973DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875A7B1D22EA0BEE009973DC /* main.m in Sources */,
+				87DAE1C4234D423B004F11EE /* APFSManager.m in Sources */,
+				87878585230CA2E8005EC542 /* PatcherFlags.m in Sources */,
+				875A7B4622EA0EEF009973DC /* SystemPrep.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875A7B2822EA0DE6009973DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875A7B3022EA0DE6009973DC /* main.m in Sources */,
+				87DAE1C5234D4247004F11EE /* APFSManager.m in Sources */,
+				87878584230CA2E8005EC542 /* PatcherFlags.m in Sources */,
+				875A7B4722EA0EEF009973DC /* SystemPrep.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8766401322C87F3C0004E8F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8766401B22C87F3C0004E8F4 /* main.m in Sources */,
+				87DAE1C6234D4252004F11EE /* APFSManager.m in Sources */,
+				87878587230CA3FE005EC542 /* PatcherFlags.m in Sources */,
+				87878586230CA399005EC542 /* SystemPrep.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87759D7422BD3C31009F9834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8797C46B22C5A2F70069970F /* LegacyGPU.m in Sources */,
+				87878583230CA259005EC542 /* PatcherFlags.m in Sources */,
+				8797C46822C5A1B50069970F /* Patch.m in Sources */,
+				874ED6DD22D6D6ED00A82591 /* InstallPatchUpdater.m in Sources */,
+				872AC51722C70773002F847C /* LegacyAudio.m in Sources */,
+				872AC50B22C6EB55002F847C /* LegacyWiFi.m in Sources */,
+				872AC50822C6B71C002F847C /* SIPDisabler.m in Sources */,
+				872AC51122C6EF76002F847C /* LegacyEnet.m in Sources */,
+				87759DA922BD3C95009F9834 /* MainWindowController.m in Sources */,
+				87A75576235BE92700B667C2 /* AMDSSE4.m in Sources */,
+				87759D8822BD3C31009F9834 /* AppDelegate.m in Sources */,
+				872AC50522C6B4D3002F847C /* LegacyPlatform.m in Sources */,
+				87AADBA522CFEC14007AB927 /* LegacyIDE.m in Sources */,
+				872AC50E22C6EBCA002F847C /* BCM94321Patch.m in Sources */,
+				87F88D6A2356B3BB006DF8B0 /* VolumeControlPatch.m in Sources */,
+				8797C45C22C568F70069970F /* DarkModeImageButton.m in Sources */,
+				8797C46E22C5D2C80069970F /* LegacyUSB.m in Sources */,
+				878F1CA022D8464F005E2EAB /* APFSPatch.m in Sources */,
+				8766401022C863DA0004E8F4 /* PlatformCheck.m in Sources */,
+				87DAE1C0234D41C0004F11EE /* APFSManager.m in Sources */,
+				8797C44522C55B670069970F /* PostInstallHandler.m in Sources */,
+				87759D8122BD3C31009F9834 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87759D8E22BD3C31009F9834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87759D9E22BD3C31009F9834 /* macOS_Post_InstallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AADBA622D045B2007AB927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AADBEB22D04622007AB927 /* Update.m in Sources */,
+				87AADBE922D04622007AB927 /* UpdateManager.m in Sources */,
+				87AADBE622D04622007AB927 /* AppDelegate.m in Sources */,
+				87AADBEC22D04622007AB927 /* PreferencesHandler.m in Sources */,
+				87AADBE822D04622007AB927 /* UpdateController.m in Sources */,
+				87412032235925EC00084DA0 /* STPrivilegedTask.m in Sources */,
+				87AADBB322D045B2007AB927 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AADBC022D045B2007AB927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AADBD022D045B3007AB927 /* Patch_UpdaterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AADBF122D0478B007AB927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AADC1722D0479F007AB927 /* Patch_Updater_Prefpane.m in Sources */,
+				87AADC1922D0479F007AB927 /* PreferencesHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AADC2122D04E8D007AB927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AADC2922D04E8D007AB927 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F680BB22FCFE9700D96B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F680CD22FCFE9700D96B21 /* APFS_Boot_Selector.m in Sources */,
+				87CA634B22FE257F00F36818 /* APFSVolumeViewItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F680DC22FCFFBF00D96B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F680EE22FCFFD900D96B21 /* APFSPrefpaneHelper.m in Sources */,
+				87DAE1C3234D41C0004F11EE /* APFSManager.m in Sources */,
+				87F680E422FCFFBF00D96B21 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		870D357922B1C12800432A8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 870D355222B1C12700432A8F /* macOS Catalina Patcher */;
+			targetProxy = 870D357822B1C12800432A8F /* PBXContainerItemProxy */;
+		};
+		874ED6CD22D6D5A700A82591 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87AADBA922D045B2007AB927 /* Patch Updater */;
+			targetProxy = 874ED6CC22D6D5A700A82591 /* PBXContainerItemProxy */;
+		};
+		874ED6CF22D6D5AA00A82591 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87AADC2422D04E8D007AB927 /* patchupdaterd */;
+			targetProxy = 874ED6CE22D6D5AA00A82591 /* PBXContainerItemProxy */;
+		};
+		874ED6D122D6D5AD00A82591 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87AADBF622D0478B007AB927 /* Patch Updater Prefpane */;
+			targetProxy = 874ED6D022D6D5AD00A82591 /* PBXContainerItemProxy */;
+		};
+		875A7B3C22EA0E5D009973DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 875A7B1822EA0BEE009973DC /* apfsbless */;
+			targetProxy = 875A7B3B22EA0E5D009973DC /* PBXContainerItemProxy */;
+		};
+		875A7B3E22EA0E61009973DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 875A7B2B22EA0DE6009973DC /* apfsinsta */;
+			targetProxy = 875A7B3D22EA0E61009973DC /* PBXContainerItemProxy */;
+		};
+		8766402422C87F4A0004E8F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8766401622C87F3C0004E8F4 /* runposti */;
+			targetProxy = 8766402322C87F4A0004E8F4 /* PBXContainerItemProxy */;
+		};
+		87759D9622BD3C31009F9834 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87759D7722BD3C31009F9834 /* macOS Post Install */;
+			targetProxy = 87759D9522BD3C31009F9834 /* PBXContainerItemProxy */;
+		};
+		8793A1BC22C19168006CE486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87759D7722BD3C31009F9834 /* macOS Post Install */;
+			targetProxy = 8793A1BB22C19168006CE486 /* PBXContainerItemProxy */;
+		};
+		87AADBC822D045B3007AB927 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87AADBA922D045B2007AB927 /* Patch Updater */;
+			targetProxy = 87AADBC722D045B3007AB927 /* PBXContainerItemProxy */;
+		};
+		87EB301522C09A5F00B600F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 873AF53722C052FE006A9A86 /* patcherd */;
+			targetProxy = 87EB301422C09A5F00B600F5 /* PBXContainerItemProxy */;
+		};
+		87F680F222FD210300D96B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87F680C022FCFE9700D96B21 /* APFS Boot Selector */;
+			targetProxy = 87F680F122FD210300D96B21 /* PBXContainerItemProxy */;
+		};
+		87F680F422FD210700D96B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87F680DF22FCFFBF00D96B21 /* apfshelperd */;
+			targetProxy = 87F680F322FD210700D96B21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		870D355F22B1C12700432A8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				870D356022B1C12700432A8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		870D356522B1C12700432A8F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				870D356622B1C12700432A8F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		870D356B22B1C12800432A8F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				870D358A22B1C12E00432A8F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		870D357D22B1C12800432A8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				870D357E22B1C12800432A8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87759D7D22BD3C31009F9834 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87759D7E22BD3C31009F9834 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87759D8322BD3C31009F9834 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87759D8422BD3C31009F9834 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		87759D8922BD3C31009F9834 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87759DA522BD3C48009F9834 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		87759D9A22BD3C31009F9834 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87759D9B22BD3C31009F9834 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8791861F22B5FE66004A6E35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8791862022B5FE66004A6E35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87AADBAF22D045B2007AB927 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87AADBB022D045B2007AB927 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87AADBB522D045B2007AB927 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87AADBB622D045B2007AB927 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		87AADBCC22D045B3007AB927 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87AADBCD22D045B3007AB927 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87AADBFE22D0478B007AB927 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87AADBFF22D0478B007AB927 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87F680C722FCFE9700D96B21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87F680C822FCFE9700D96B21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87F680D022FCFE9700D96B21 /* APFS_Boot_Selector.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87CA634622FE24AD00F36818 /* en */,
+			);
+			name = APFS_Boot_Selector.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		870D358222B1C12800432A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		870D358322B1C12800432A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		870D358522B1C12800432A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "macOS Catalina Patcher/macOS Catalina Patcher-Prefix.pch";
+				INFOPLIST_FILE = "macOS Catalina Patcher/macOS Catalina Patcher-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/macOS",
+					Catalina,
+					Patcher,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		870D358622B1C12800432A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "macOS Catalina Patcher/macOS Catalina Patcher-Prefix.pch";
+				INFOPLIST_FILE = "macOS Catalina Patcher/macOS Catalina Patcher-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/macOS",
+					Catalina,
+					Patcher,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		870D358822B1C12800432A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/macOS Catalina Patcher.app/Contents/MacOS/macOS Catalina Patcher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "macOS Catalina Patcher/macOS Catalina Patcher-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "macOS Catalina PatcherTests/macOS Catalina PatcherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		870D358922B1C12800432A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/macOS Catalina Patcher.app/Contents/MacOS/macOS Catalina Patcher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "macOS Catalina Patcher/macOS Catalina Patcher-Prefix.pch";
+				INFOPLIST_FILE = "macOS Catalina PatcherTests/macOS Catalina PatcherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		873AF54222C052FE006A9A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "patcherd/patcherd-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		873AF54322C052FE006A9A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "patcherd/patcherd-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		875A7B2222EA0BEF009973DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "apfsbless/apfsbless-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		875A7B2322EA0BEF009973DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "apfsbless/apfsbless-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		875A7B3622EA0DE6009973DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "apfsinsta/apfsinsta-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		875A7B3722EA0DE6009973DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "apfsinsta/apfsinsta-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8766402122C87F3C0004E8F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "runposti/runposti-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8766402222C87F3C0004E8F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "runposti/runposti-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		87759D9F22BD3C31009F9834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "macOS Post Install/macOS Post Install-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "macOS Post Install/macOS Post Install-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87759DA022BD3C31009F9834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "macOS Post Install/macOS Post Install-Prefix.pch";
+				INFOPLIST_FILE = "macOS Post Install/macOS Post Install-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		87759DA122BD3C31009F9834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/macOS Catalina Patcher.app/Contents/MacOS/macOS Catalina Patcher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "macOS Post Install/macOS Post Install-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "macOS Post InstallTests/macOS Post InstallTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		87759DA222BD3C31009F9834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/macOS Catalina Patcher.app/Contents/MacOS/macOS Catalina Patcher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "macOS Post Install/macOS Post Install-Prefix.pch";
+				INFOPLIST_FILE = "macOS Post InstallTests/macOS Post InstallTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		87AADBD222D045B3007AB927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Patch Updater/Patch Updater-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Patch Updater/Patch Updater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87AADBD322D045B3007AB927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Patch Updater/Patch Updater-Prefix.pch";
+				INFOPLIST_FILE = "Patch Updater/Patch Updater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		87AADBD522D045B3007AB927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/macOS Catalina Patcher.app/Contents/MacOS/macOS Catalina Patcher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Patch Updater/Patch Updater-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Patch UpdaterTests/Patch UpdaterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		87AADBD622D045B3007AB927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/macOS Catalina Patcher.app/Contents/MacOS/macOS Catalina Patcher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Patch Updater/Patch Updater-Prefix.pch";
+				INFOPLIST_FILE = "Patch UpdaterTests/Patch UpdaterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		87AADC0B22D0478B007AB927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Patch Updater Prefpane/Patch Updater Prefpane-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Patch Updater Prefpane/Patch Updater Prefpane-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		87AADC0C22D0478B007AB927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Patch Updater Prefpane/Patch Updater Prefpane-Prefix.pch";
+				INFOPLIST_FILE = "Patch Updater Prefpane/Patch Updater Prefpane-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+		87AADC2F22D04E8E007AB927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "patchupdaterd/patchupdaterd-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87AADC3022D04E8E007AB927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "patchupdaterd/patchupdaterd-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		87F680D422FCFE9700D96B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APFS Boot Selector/APFS Boot Selector-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "APFS Boot Selector/APFS Boot Selector-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		87F680D522FCFE9700D96B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APFS Boot Selector/APFS Boot Selector-Prefix.pch";
+				INFOPLIST_FILE = "APFS Boot Selector/APFS Boot Selector-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+		87F680EA22FCFFC000D96B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "apfshelperd/apfshelperd-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87F680EB22FCFFC000D96B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "apfshelperd/apfshelperd-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		870D354E22B1C12700432A8F /* Build configuration list for PBXProject "macOS Catalina Patcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870D358222B1C12800432A8F /* Debug */,
+				870D358322B1C12800432A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		870D358422B1C12800432A8F /* Build configuration list for PBXNativeTarget "macOS Catalina Patcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870D358522B1C12800432A8F /* Debug */,
+				870D358622B1C12800432A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		870D358722B1C12800432A8F /* Build configuration list for PBXNativeTarget "macOS Catalina PatcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870D358822B1C12800432A8F /* Debug */,
+				870D358922B1C12800432A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		873AF54122C052FE006A9A86 /* Build configuration list for PBXNativeTarget "patcherd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873AF54222C052FE006A9A86 /* Debug */,
+				873AF54322C052FE006A9A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		875A7B2422EA0BEF009973DC /* Build configuration list for PBXNativeTarget "apfsbless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875A7B2222EA0BEF009973DC /* Debug */,
+				875A7B2322EA0BEF009973DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		875A7B3522EA0DE6009973DC /* Build configuration list for PBXNativeTarget "apfsinsta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875A7B3622EA0DE6009973DC /* Debug */,
+				875A7B3722EA0DE6009973DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8766402022C87F3C0004E8F4 /* Build configuration list for PBXNativeTarget "runposti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8766402122C87F3C0004E8F4 /* Debug */,
+				8766402222C87F3C0004E8F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87759DA322BD3C31009F9834 /* Build configuration list for PBXNativeTarget "macOS Post Install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87759D9F22BD3C31009F9834 /* Debug */,
+				87759DA022BD3C31009F9834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87759DA422BD3C31009F9834 /* Build configuration list for PBXNativeTarget "macOS Post InstallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87759DA122BD3C31009F9834 /* Debug */,
+				87759DA222BD3C31009F9834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87AADBD122D045B3007AB927 /* Build configuration list for PBXNativeTarget "Patch Updater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87AADBD222D045B3007AB927 /* Debug */,
+				87AADBD322D045B3007AB927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87AADBD422D045B3007AB927 /* Build configuration list for PBXNativeTarget "Patch UpdaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87AADBD522D045B3007AB927 /* Debug */,
+				87AADBD622D045B3007AB927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87AADC0A22D0478B007AB927 /* Build configuration list for PBXNativeTarget "Patch Updater Prefpane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87AADC0B22D0478B007AB927 /* Debug */,
+				87AADC0C22D0478B007AB927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87AADC2E22D04E8E007AB927 /* Build configuration list for PBXNativeTarget "patchupdaterd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87AADC2F22D04E8E007AB927 /* Debug */,
+				87AADC3022D04E8E007AB927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87F680D322FCFE9700D96B21 /* Build configuration list for PBXNativeTarget "APFS Boot Selector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F680D422FCFE9700D96B21 /* Debug */,
+				87F680D522FCFE9700D96B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87F680E922FCFFC000D96B21 /* Build configuration list for PBXNativeTarget "apfshelperd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F680EA22FCFFC000D96B21 /* Debug */,
+				87F680EB22FCFFC000D96B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 870D354B22B1C12700432A8F /* Project object */;
+}

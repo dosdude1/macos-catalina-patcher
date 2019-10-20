@@ -1,0 +1,3 @@
+echo -off
+set StartupDelay 1
+set -v efishellmode 1.1.2

@@ -1,0 +1,25 @@
+for %i in 0 1 2 3 4 5 6 7 8 9 A B C D E F 10 11 12 13 14 15 16 17 18 19 1A 1B 1C 1D 1E 1F 20 21 22 23 24 25 26 27 28 29 2A 2B 2C 2D 2E 2F 30 31 32 33 34 35 36 37 38 39 3A 3B 3C 3D 3E 3F
+  if exist fs%i:\EFI\apfs.efi then
+    load fs%i:\EFI\apfs.efi
+    connect -r
+    map -u
+  endif
+endfor
+echo "Searching for macOS Boot File..."
+for %m in 0 1 2 3 4 5 6 7 8 9 A B C D E F 10 11 12 13 14 15 16 17 18 19 1A 1B 1C 1D 1E 1F 20 21 22 23 24 25 26 27 28 29 2A 2B 2C 2D 2E 2F 30 31 32 33 34 35 36 37 38 39 3A 3B 3C 3D 3E 3F
+  if exist "fs%m:\%targetUUID%\%macOSBootFile%" then
+    echo "Starting macOS..."
+    fs%m:\%targetUUID%\%macOSBootFile%
+    exit
+  endif
+endfor
+
+for %m in 0 1 2 3 4 5 6 7 8 9 A B C D E F 10 11 12 13 14 15 16 17 18 19 1A 1B 1C 1D 1E 1F 20 21 22 23 24 25 26 27 28 29 2A 2B 2C 2D 2E 2F 30 31 32 33 34 35 36 37 38 39 3A 3B 3C 3D 3E 3F
+  if exist "fs%m:\%macOSBootFile%" then
+    echo "Starting macOS..."
+    fs%m:\%macOSBootFile%
+    exit
+  endif
+endfor
+echo "Boot file not found, exiting..."
+exit

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildAliasOf</key>
+	<string>AppleGraphicsPowerManagement</string>
+	<key>BuildVersion</key>
+	<string>201</string>
+	<key>CFBundleShortVersionString</key>
+	<string>110.23.46</string>
+	<key>CFBundleVersion</key>
+	<string>110.23.46</string>
+	<key>ProjectName</key>
+	<string>AppleGraphicsPowerManagement_kexts</string>
+	<key>SourceVersion</key>
+	<string>110023046000000</string>
+</dict>
+</plist>

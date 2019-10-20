@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>OpenGL</key>
+	<dict>
+		<key>bytecode</key>
+		<string>// TODO remove dead-code</string>
+		<key>plugin</key>
+		<string>/System/Library/Frameworks/OpenGL.framework/Libraries/libGLVMPlugin.dylib</string>
+		<key>options</key>
+		<integer>20</integer>
+		<key>cache_size</key>
+		<integer>0</integer>
+	</dict>
+	<key>OpenCLCPU</key>
+	<dict>
+		<key>bytecode</key>
+		<string>// TODO remove dead-code</string>
+		<key>plugin</key>
+		<string>/System/Library/Frameworks/OpenCL.framework/Libraries/libCLVMCPUPlugin.dylib</string>
+		<key>options</key>
+		<integer>272</integer>
+		<key>cache_size</key>
+		<integer>1048576</integer>
+	</dict>
+	<key>OpenCLPTX</key>
+	<dict>
+		<key>bytecode</key>
+		<string>// TODO remove dead-code</string>
+		<key>plugin</key>
+		<string>/System/Library/Frameworks/OpenCL.framework/Libraries/libCLVMPTXPlugin.dylib</string>
+		<key>options</key>
+		<integer>272</integer>
+		<key>cache_size</key>
+		<integer>0</integer>
+	</dict>
+	<key>OpenCLPTXSM1X</key>
+	<dict>
+		<key>bytecode</key>
+		<string>// TODO remove dead-codeSM1X</string>
+		<key>plugin</key>
+		<string>/System/Library/Frameworks/OpenCL.framework/Libraries/libCLVMPTXSM1XPlugin.dylib</string>
+		<key>options</key>
+		<integer>272</integer>
+		<key>cache_size</key>
+		<integer>0</integer>
+	</dict>
+	<key>OpenCLAMDil</key>
+	<dict>
+		<key>bytecode</key>
+		<string>// TODO remove dead-code</string>
+		<key>plugin</key>
+		<string>/System/Library/Frameworks/OpenCL.framework/Libraries/libCLVMAMDilPlugin.dylib</string>
+		<key>options</key>
+		<integer>272</integer>
+		<key>cache_size</key>
+		<integer>0</integer>
+	</dict>
+	<key>OpenCLAMDil_r800</key>
+	<dict>
+		<key>bytecode</key>
+		<string>// TODO remove dead-code</string>
+		<key>plugin</key>
+		<string>/System/Library/Extensions/AMDRadeonX3000GLDriver.bundle/Contents/Libraries/libCLVMAMDilPlugin.dylib</string>
+		<key>options</key>
+		<integer>272</integer>
+		<key>cache_size</key>
+		<integer>0</integer>
+	</dict>
+	<key>OpenCLAMDil_r700</key>
+	<dict>
+		<key>bytecode</key>
+		<string>// TODO remove dead-code</string>
+		<key>plugin</key>
+		<string>/System/Library/Frameworks/OpenCL.framework/Libraries/libCLVMAMDil_r700Plugin.dylib</string>
+		<key>options</key>
+		<integer>272</integer>
+		<key>cache_size</key>
+		<integer>0</integer>
+	</dict>
+	<key>OpenCLIGIL</key>
+	<dict>
+		<key>bytecode</key>
+		<string>// TODO remove dead-code</string>
+		<key>plugin</key>
+		<string>/System/Library/Frameworks/OpenCL.framework/Libraries/libCLVMIGILPlugin.dylib</string>
+		<key>options</key>
+		<integer>272</integer>
+		<key>cache_size</key>
+		<integer>0</integer>
+	</dict>
+	<key>OpenCLIntelIGC</key>
+	<dict>
+		<key>bytecode</key>
+		<string>// TODO remove dead-code</string>
+		<key>plugin</key>
+		<string>/System/Library/Frameworks/OpenCL.framework/Libraries/libCLVMIGCPlugin.dylib</string>
+		<key>options</key>
+		<integer>272</integer>
+		<key>cache_size</key>
+		<integer>0</integer>
+	</dict>
+</dict>
+</plist>

@@ -12,7 +12,7 @@
 -(id)init {
     self = [super init];
     [self setID:@"legacyGPU"];
-    [self setVersion:8];
+    [self setVersion:9];
     [self setName:@"Legacy Video Card Patch"];
     return self;
 }
@@ -29,6 +29,17 @@
 
     [self copyFilesFromDirectory:[resourcePath stringByAppendingPathComponent:@"videocardpatches/gfxshared/privateframeworks"] toPath:[volumePath stringByAppendingPathComponent:@"System/Library/PrivateFrameworks"]];
     
+    //Copy wrappers
+    ret = [self copyFilesFromDirectory:[resourcePath stringByAppendingPathComponent:@"videocardpatches/gfxshared/wrappers/CoreDisplay"] toPath:[volumePath stringByAppendingPathComponent:@"System/Library/Frameworks/CoreDisplay.framework/Versions/A"]];
+    if (ret) {
+        return ret;
+    }
+    ret = [self copyFilesFromDirectory:[resourcePath stringByAppendingPathComponent:@"videocardpatches/gfxshared/wrappers/SkyLight"] toPath:[volumePath stringByAppendingPathComponent:@"System/Library/PrivateFrameworks/SkyLight.framework/Versions/A"]];
+    if (ret) {
+        return ret;
+    }
+    
+    //Copy kexts
     ret = [self copyFile:[resourcePath stringByAppendingPathComponent:@"videocardpatches/gfxshared/IOSurface"] toDirectory:[volumePath stringByAppendingPathComponent:@"System/Library/Extensions/IOSurface.kext/Contents/MacOS"]];
     if (ret) {
         return ret;

@@ -12,7 +12,7 @@
 -(id)init {
     self = [super init];
     [self setID:@"legacyGPU"];
-    [self setVersion:9];
+    [self setVersion:10];
     [self setName:@"Legacy Video Card Patch"];
     return self;
 }

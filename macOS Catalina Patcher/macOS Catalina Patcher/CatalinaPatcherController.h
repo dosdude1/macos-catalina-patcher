@@ -12,12 +12,21 @@
 #import "CatalinaPatcherLoggingManager.h"
 #import "AnalyticsManager.h"
 
+#define systemCompatibilityFile "macModels.plist"
+#define kSystemNeedsAPFSROMUpdate "needsAPFSBootROMUpdate"
+
 typedef enum {
     modeCreateInstallerVolume = 0,
     modeInstallToSameMachine = 1,
     modeCreateISO = 2
 }mode;
 
+typedef enum {
+    compatibilityStateIsSupportedMachine = 0,
+    compatibilityStateNeedsAPFSROMUpdate = 1,
+    compatibilityStateIsUnsupportedMachine = 2,
+    compatibilityStateIsNativelySupportedMachine = 3
+}compatibilityState;
 
 @protocol CatalinaPatcherControllerDelegate <NSObject>
 
@@ -51,5 +60,6 @@ typedef enum {
 -(int)startProcessInMode:(mode)desiredMode;
 -(void)setISOPath:(NSString *)path;
 -(void)setTargetPatchedAppPath:(NSString *)appPath;
+-(compatibilityState)checkSystemCompatibility;
 
 @end

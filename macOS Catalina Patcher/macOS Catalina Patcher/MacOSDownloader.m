@@ -189,7 +189,9 @@
                 minor = [[ver objectAtIndex:1] intValue];
             }
             if (minor == targetMinorVersion) {
-                foundKey = key;
+                if ([foundKey isEqualToString:@""]) {
+                    foundKey = key;
+                }
                 if (ver.count >= 3) {
                     bugFix = [[ver objectAtIndex:2] intValue];
                     if (bugFix >= maxBugFix) {

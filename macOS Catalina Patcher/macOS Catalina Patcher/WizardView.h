@@ -21,7 +21,8 @@ typedef enum {
     viewIDCreateISO = 7,
     viewIDISOCreationSuccess = 8,
     viewIDInPlaceInstallationPreparation = 9,
-    viewIDInPlaceInstallationPreparationSuccess = 10
+    viewIDInPlaceInstallationPreparationSuccess = 10,
+    viewIDFirmwareUpdateNeeded = 11
 }viewID;
 
 

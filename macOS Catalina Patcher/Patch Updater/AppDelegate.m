@@ -164,7 +164,7 @@
     {
         NSAlert *alert = [[NSAlert alloc] init];
         [alert setMessageText:@"Error"];
-        [alert setInformativeText:[NSString stringWithFormat:@"An error occured while installing updates. (%d)", err]];
+        [alert setInformativeText:[NSString stringWithFormat:@"An error occurred while installing updates. (%d)", err]];
         [alert addButtonWithTitle:@"Quit"];
         [alert runModal];
         [self.updateInstallationWindow close];

@@ -106,7 +106,14 @@
     NSString *volumeBSD = [self getBSDNameForVolumePath:volumePath];
     NSTask *restore = [[NSTask alloc] init];
     [restore setLaunchPath:@"/usr/sbin/asr"];
+    
     NSArray *args = [[NSArray alloc] initWithObjects:@"restore", @"--source", dmgPath, @"--target", volumePath, @"--noprompt", @"--noverify", @"--erase", nil];
+    SInt32 versMin;
+    Gestalt(gestaltSystemVersionMinor, &versMin);
+    if (versMin >= 14) {
+        args = [[NSArray alloc] initWithObjects:@"restore", @"--source", dmgPath, @"--target", volumePath, @"--noprompt", @"--noverify", @"--erase", @"--no-personalization", nil];
+    }
+    
     [restore setArguments:args];
     NSPipe *out = [NSPipe pipe];
     [restore setStandardOutput:out];

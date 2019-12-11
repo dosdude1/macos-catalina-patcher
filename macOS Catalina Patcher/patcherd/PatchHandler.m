@@ -314,6 +314,13 @@
     }
     
     InstallerPatcher *ip = [[InstallerPatcher alloc] init];
+    InPlaceInstallerManager *im = [[InPlaceInstallerManager alloc] init];
+    
+    if ([im isSIPEnabled]) {
+        [self handleError:errSIPEnabled];
+        return errSIPEnabled;
+    }
+    
     errID = [ip shadowMountDMGAtPath:[baseAppPath stringByAppendingPathComponent:@"Contents/SharedSupport/BaseSystem.dmg"] toMountpoint:bsMount];
     if (errID) {
         [self handleError:errMountingBSImage];
@@ -399,15 +406,8 @@
     }
     [[NSFileManager defaultManager] removeItemAtPath:installESDMount error:nil];
     
-    InPlaceInstallerManager *im = [[InPlaceInstallerManager alloc] init];
-    
     [self.delegate updateProgressStatus:@"Preparing to Launch Installer..."];
     [self updateProgressWithValue:progressValue+2.0];
-    
-    if ([im isSIPEnabled]) {
-        [self handleError:errSIPEnabled];
-        return errSIPEnabled;
-    }
     
     errID = [im prepareRootFSForInstallationUsingResources:resourcePath];
     if (errID) {

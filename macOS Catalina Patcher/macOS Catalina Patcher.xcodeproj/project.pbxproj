@@ -134,6 +134,11 @@
 		8793A1D522C1A6EF006CE486 /* Success.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8793A1D422C1A6EF006CE486 /* Success.tiff */; };
 		8793A1D822C1A792006CE486 /* InstallerVolumeSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793A1D722C1A792006CE486 /* InstallerVolumeSuccessView.m */; };
 		8793A1DB22C1B185006CE486 /* DarkModeImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793A1DA22C1B185006CE486 /* DarkModeImageButton.m */; };
+		8793C7252394CFD7005BF2E9 /* macModels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8793C7242394CFD7005BF2E9 /* macModels.plist */; };
+		8793C7282394D661005BF2E9 /* FirmwareUpdateNeededView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793C7272394D661005BF2E9 /* FirmwareUpdateNeededView.m */; };
+		8793C72A2394DD24005BF2E9 /* FirmwareUpdateInstructions.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8793C7292394DD24005BF2E9 /* FirmwareUpdateInstructions.rtf */; };
+		8793C72D2394DE75005BF2E9 /* skipButton.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8793C72B2394DE75005BF2E9 /* skipButton.tiff */; };
+		8793C72E2394DE75005BF2E9 /* skipButtonPressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8793C72C2394DE75005BF2E9 /* skipButtonPressed.tiff */; };
 		8797C44522C55B670069970F /* PostInstallHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8797C44422C55B670069970F /* PostInstallHandler.m */; };
 		8797C44722C55BB00069970F /* Installer.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8797C44622C55BB00069970F /* Installer.icns */; };
 		8797C44C22C55C070069970F /* restart.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8797C44A22C55C070069970F /* restart.tiff */; };
@@ -533,6 +538,12 @@
 		8793A1D722C1A792006CE486 /* InstallerVolumeSuccessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstallerVolumeSuccessView.m; sourceTree = "<group>"; };
 		8793A1D922C1B185006CE486 /* DarkModeImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarkModeImageButton.h; sourceTree = "<group>"; };
 		8793A1DA22C1B185006CE486 /* DarkModeImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DarkModeImageButton.m; sourceTree = "<group>"; };
+		8793C7242394CFD7005BF2E9 /* macModels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = macModels.plist; sourceTree = "<group>"; };
+		8793C7262394D661005BF2E9 /* FirmwareUpdateNeededView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirmwareUpdateNeededView.h; sourceTree = "<group>"; };
+		8793C7272394D661005BF2E9 /* FirmwareUpdateNeededView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirmwareUpdateNeededView.m; sourceTree = "<group>"; };
+		8793C7292394DD24005BF2E9 /* FirmwareUpdateInstructions.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = FirmwareUpdateInstructions.rtf; sourceTree = "<group>"; };
+		8793C72B2394DE75005BF2E9 /* skipButton.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = skipButton.tiff; sourceTree = "<group>"; };
+		8793C72C2394DE75005BF2E9 /* skipButtonPressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = skipButtonPressed.tiff; sourceTree = "<group>"; };
 		8797C44322C55B670069970F /* PostInstallHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostInstallHandler.h; sourceTree = "<group>"; };
 		8797C44422C55B670069970F /* PostInstallHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostInstallHandler.m; sourceTree = "<group>"; };
 		8797C44622C55BB00069970F /* Installer.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Installer.icns; sourceTree = "<group>"; };
@@ -1162,6 +1173,8 @@
 				875AEC7B22E7957C001C1819 /* InPlaceInstallationPreparationView.m */,
 				875AEC8022E7AD4F001C1819 /* InPlaceInstallationPreparationSuccessView.h */,
 				875AEC8122E7AD4F001C1819 /* InPlaceInstallationPreparationSuccessView.m */,
+				8793C7262394D661005BF2E9 /* FirmwareUpdateNeededView.h */,
+				8793C7272394D661005BF2E9 /* FirmwareUpdateNeededView.m */,
 				873AF54D22C0725B006A9A86 /* VolumeViewItem.h */,
 				873AF54E22C0725B006A9A86 /* VolumeViewItem.m */,
 				873AF54F22C0725B006A9A86 /* VolumeViewItem.xib */,
@@ -1194,8 +1207,10 @@
 				8793A1BA22C19132006CE486 /* PatchResources */,
 				87A41E8B22BEDA3200431022 /* PrepareInstallerApp.sh */,
 				87A41E8922BED7E600431022 /* DownloadSettings.plist */,
+				8793C7242394CFD7005BF2E9 /* macModels.plist */,
 				87A41E8D22BEDF2500431022 /* pbzx */,
 				87079C8A22B9F5F5009EBF3D /* Contributions.rtf */,
+				8793C7292394DD24005BF2E9 /* FirmwareUpdateInstructions.rtf */,
 				87079C8C22B9FAD1009EBF3D /* GenericFolderIcon.icns */,
 				87079C9222B9FB8D009EBF3D /* DownloadsFolder.icns */,
 				87079C5A22B9DDF2009EBF3D /* InstallAssistant.icns */,
@@ -1216,6 +1231,8 @@
 				873AF4D322C01E26006A9A86 /* External.icns */,
 				873AF4D522C01E45006A9A86 /* Installer.icns */,
 				8793A1D422C1A6EF006CE486 /* Success.tiff */,
+				8793C72B2394DE75005BF2E9 /* skipButton.tiff */,
+				8793C72C2394DE75005BF2E9 /* skipButtonPressed.tiff */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1705,16 +1722,19 @@
 			files = (
 				875A7B4022EA0E6F009973DC /* apfsinsta in Resources */,
 				875A7B3F22EA0E6A009973DC /* apfsbless in Resources */,
+				8793C72E2394DE75005BF2E9 /* skipButtonPressed.tiff in Resources */,
 				8747907822E93F2E006785C2 /* macmodels.plist in Resources */,
 				8747905D22E93B20006785C2 /* BOOTX64.efi in Resources */,
 				8747905E22E93B20006785C2 /* EFIScriptHeader.txt in Resources */,
 				8747905F22E93B20006785C2 /* EFIScriptMain.txt in Resources */,
+				8793C7252394CFD7005BF2E9 /* macModels.plist in Resources */,
 				8766402522C87F550004E8F4 /* runposti in Resources */,
 				8793A1D222C1929A006CE486 /* OSInstaller in Resources */,
 				8793A1D322C1929A006CE486 /* OSInstallerSetupInternal in Resources */,
 				8793A1CC22C1926D006CE486 /* OSInstall.mpkg in Resources */,
 				8793A1BD22C19173006CE486 /* macOS Post Install.app in Resources */,
 				8793A1CF22C1926D006CE486 /* prelinkedkernel in Resources */,
+				8793C72A2394DD24005BF2E9 /* FirmwareUpdateInstructions.rtf in Resources */,
 				87EB301622C09A6F00B600F5 /* patcherd in Resources */,
 				87079C7822B9E5E7009EBF3D /* arrowbuttonLeft.tiff in Resources */,
 				87A41E8C22BEDA3200431022 /* PrepareInstallerApp.sh in Resources */,
@@ -1750,6 +1770,7 @@
 				87079C8D22B9FAD1009EBF3D /* GenericFolderIcon.icns in Resources */,
 				875A7B4922EA10FF009973DC /* osishelperd in Resources */,
 				870D356D22B1C12800432A8F /* MainMenu.xib in Resources */,
+				8793C72D2394DE75005BF2E9 /* skipButton.tiff in Resources */,
 				873AF4D622C01E45006A9A86 /* Installer.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1887,6 +1908,7 @@
 				878A0BBB22E6BBC900421F17 /* CreateISOView.m in Sources */,
 				87A41E7B22BEA27D00431022 /* InstallerAppOptionsView.m in Sources */,
 				873AF55022C0725B006A9A86 /* VolumeViewItem.m in Sources */,
+				8793C7282394D661005BF2E9 /* FirmwareUpdateNeededView.m in Sources */,
 				870D356A22B1C12700432A8F /* AppDelegate.m in Sources */,
 				87878581230C9D12005EC542 /* PatcherFlags.m in Sources */,
 				87079C7522B9E3A9009EBF3D /* CatalinaPatcherController.m in Sources */,

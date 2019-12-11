@@ -33,6 +33,7 @@
 @property (strong) IBOutlet WizardView *isoCreationSuccessView;
 @property (strong) IBOutlet WizardView *inPlacePreparationView;
 @property (strong) IBOutlet WizardView *inPlacePreparationSuccessView;
+@property (strong) IBOutlet WizardView *firmwareUpdateNeededView;
 
 @property (strong) IBOutlet NSMenuItem *disableAPFSBooterMenu;
 @property (strong) IBOutlet NSMenuItem *autoApplyPostInstallMenu;

@@ -40,6 +40,7 @@
     self.isoCreationSuccessView.delegate = self;
     self.inPlacePreparationView.delegate = self;
     self.inPlacePreparationSuccessView.delegate = self;
+    self.firmwareUpdateNeededView.delegate = self;
     currentView = viewIDMain;
     [self.window.contentView addSubview:self.mainView];
     [self.window.contentView setWantsLayer:YES];
@@ -96,6 +97,9 @@
             break;
         case viewIDInPlaceInstallationPreparationSuccess:
             desiredView = self.inPlacePreparationSuccessView;
+            break;
+        case viewIDFirmwareUpdateNeeded:
+            desiredView = self.firmwareUpdateNeededView;
             break;
         case viewIDNA:
             break;

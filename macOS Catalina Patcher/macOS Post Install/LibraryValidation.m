@@ -18,7 +18,7 @@
     return self;
 }
 -(int)applyToVolume:(NSString *)volumePath {
-    NSString *plistPath = [volumePath stringByAppendingPathComponent:@"Library/Preferences/com.apple.security.libraryvalidation.plist"];
+    /*NSString *plistPath = [volumePath stringByAppendingPathComponent:@"Library/Preferences/com.apple.security.libraryvalidation.plist"];
     NSMutableDictionary *libValPrefs;
     if ([[NSFileManager defaultManager] fileExistsAtPath:plistPath]) {
         libValPrefs = [[NSMutableDictionary alloc] initWithContentsOfFile:plistPath];
@@ -26,8 +26,11 @@
         libValPrefs = [[NSMutableDictionary alloc] init];
     }
     [libValPrefs setObject:[NSNumber numberWithBool:YES] forKey:@"DisableLibraryValidation"];
-    [libValPrefs writeToFile:plistPath atomically:YES];
-    return 0;
+    [libValPrefs writeToFile:plistPath atomically:YES];*/
+    
+    int ret = 0;
+    ret = [self copyFile:[resourcePath stringByAppendingPathComponent:@"addonkexts/DisableLibraryValidation.kext"] toDirectory:[volumePath stringByAppendingPathComponent:@"/Library/Extensions"]];
+    return ret;
 }
 -(BOOL)shouldInstallOnMachineModel:(NSString *)model {
     NSDictionary *machinePatches = [macModels objectForKey:model];

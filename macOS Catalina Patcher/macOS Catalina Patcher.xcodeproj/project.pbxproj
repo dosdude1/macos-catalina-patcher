@@ -35,6 +35,7 @@
 		870D357722B1C12800432A8F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D355622B1C12700432A8F /* Cocoa.framework */; };
 		870D357F22B1C12800432A8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 870D357D22B1C12800432A8F /* InfoPlist.strings */; };
 		870D358122B1C12800432A8F /* macOS_Catalina_PatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 870D358022B1C12800432A8F /* macOS_Catalina_PatcherTests.m */; };
+		870E815B242AD48800382A14 /* LibraryValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 870E815A242AD48800382A14 /* LibraryValidation.m */; };
 		872AC50522C6B4D3002F847C /* LegacyPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 872AC50422C6B4D3002F847C /* LegacyPlatform.m */; };
 		872AC50822C6B71C002F847C /* SIPDisabler.m in Sources */ = {isa = PBXBuildFile; fileRef = 872AC50722C6B71C002F847C /* SIPDisabler.m */; };
 		872AC50B22C6EB55002F847C /* LegacyWiFi.m in Sources */ = {isa = PBXBuildFile; fileRef = 872AC50A22C6EB55002F847C /* LegacyWiFi.m */; };
@@ -418,6 +419,8 @@
 		870D357E22B1C12800432A8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		870D358022B1C12800432A8F /* macOS_Catalina_PatcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = macOS_Catalina_PatcherTests.m; sourceTree = "<group>"; };
 		870D358A22B1C12E00432A8F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		870E8159242AD48800382A14 /* LibraryValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryValidation.h; sourceTree = "<group>"; };
+		870E815A242AD48800382A14 /* LibraryValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryValidation.m; sourceTree = "<group>"; };
 		872AC50322C6B4D3002F847C /* LegacyPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegacyPlatform.h; sourceTree = "<group>"; };
 		872AC50422C6B4D3002F847C /* LegacyPlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegacyPlatform.m; sourceTree = "<group>"; };
 		872AC50622C6B71C002F847C /* SIPDisabler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIPDisabler.h; sourceTree = "<group>"; };
@@ -991,6 +994,8 @@
 				87F88D692356B3BB006DF8B0 /* VolumeControlPatch.m */,
 				87A75574235BE92700B667C2 /* AMDSSE4.h */,
 				87A75575235BE92700B667C2 /* AMDSSE4.m */,
+				870E8159242AD48800382A14 /* LibraryValidation.h */,
+				870E815A242AD48800382A14 /* LibraryValidation.m */,
 			);
 			name = Patches;
 			sourceTree = "<group>";
@@ -1999,6 +2004,7 @@
 				87AADBA522CFEC14007AB927 /* LegacyIDE.m in Sources */,
 				872AC50E22C6EBCA002F847C /* BCM94321Patch.m in Sources */,
 				87F88D6A2356B3BB006DF8B0 /* VolumeControlPatch.m in Sources */,
+				870E815B242AD48800382A14 /* LibraryValidation.m in Sources */,
 				8797C45C22C568F70069970F /* DarkModeImageButton.m in Sources */,
 				8797C46E22C5D2C80069970F /* LegacyUSB.m in Sources */,
 				878F1CA022D8464F005E2EAB /* APFSPatch.m in Sources */,

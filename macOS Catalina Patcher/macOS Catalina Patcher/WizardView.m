@@ -14,7 +14,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        lastView = -1;
+        lastView = viewIDNA;
     }
     return self;
 }

@@ -22,6 +22,7 @@
 #import "APFSPatch.h"
 #import "VolumeControlPatch.h"
 #import "AMDSSE4.h"
+#import "LibraryValidation.h"
 
 @interface PostInstallHandler : NSObject
 {

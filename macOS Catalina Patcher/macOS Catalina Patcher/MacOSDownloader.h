@@ -10,6 +10,7 @@
 
 //macOS 10.15
 #define targetMinorVersion 15
+#define targetBugfixVersion 3
 
 typedef enum
 {

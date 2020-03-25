@@ -194,9 +194,14 @@
                 }
                 if (ver.count >= 3) {
                     bugFix = [[ver objectAtIndex:2] intValue];
-                    if (bugFix >= maxBugFix) {
+                    if (targetBugfixVersion == 0) {
+                        if (bugFix >= maxBugFix) {
+                            foundKey = key;
+                            maxBugFix = bugFix;
+                        }
+                    }
+                    else if (bugFix == targetBugfixVersion) {
                         foundKey = key;
-                        maxBugFix = bugFix;
                     }
                 }
             }

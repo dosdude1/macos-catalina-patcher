@@ -60,10 +60,10 @@
     return 0;
 }
 -(BOOL)shouldInstallOnMachineModel:(NSString *)model {
-    NSDictionary *machinePatches = [macModels objectForKey:model];
+    /*NSDictionary *machinePatches = [macModels objectForKey:model];
     if (machinePatches) {
         return YES;
-    }
+    }*/
     return NO;
 }
 @end

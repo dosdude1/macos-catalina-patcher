@@ -41,7 +41,7 @@
                     <box autoresizesSubviews="NO" fixedFrame="YES" borderType="line" title="Box" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="XPd-zV-kBB">
                         <rect key="frame" x="17" y="16" width="634" height="164"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <view key="contentView" id="Yht-cF-nXW">
+                        <view key="contentView" id="Rkd-Ls-SUO">
                             <rect key="frame" x="3" y="3" width="628" height="158"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>

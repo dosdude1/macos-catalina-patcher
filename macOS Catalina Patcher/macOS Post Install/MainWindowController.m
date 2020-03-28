@@ -294,6 +294,14 @@
     [[PostInstallHandler sharedInstance] setPermissionsOnDirectory:[NSString stringWithFormat:@"/Volumes/%@/System/Library/Frameworks", desiredVolume]];
     [[PostInstallHandler sharedInstance] setPermissionsOnDirectory:[NSString stringWithFormat:@"/Volumes/%@/System/Library/PrivateFrameworks", desiredVolume]];
     
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self.statusLabel setStringValue:@"Updating dyld shared cache..."];
+        [self.progressIndicator setIndeterminate:YES];
+        [self.progressIndicator startAnimation:self];
+    });
+    
+    [[PostInstallHandler sharedInstance] updateDyldSharedCacheOnVolume:volumePath];
+    
     //Install complete
     dispatch_async(dispatch_get_main_queue(), ^{
         [self.progressIndicator setIndeterminate:NO];

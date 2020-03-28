@@ -44,5 +44,6 @@
 -(NSString *)getCatalinaVolume;
 -(void)rebootSystemWithCacheRebuild:(BOOL)rebuildCaches onVolume:(NSString *)volumePath;
 -(void)beginForceCacheRebuildOnVolume:(NSString *)volumePath;
+-(void)updateDyldSharedCacheOnVolume:(NSString *)volumePath;
 
 @end

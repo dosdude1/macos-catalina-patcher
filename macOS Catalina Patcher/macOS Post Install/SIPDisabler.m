@@ -13,13 +13,33 @@
 -(id)init {
     self = [super init];
     [self setID:@"sipPatch"];
-    [self setVersion:0];
+    [self setVersion:1];
     [self setName:@"SIP Disabler Patch"];
     return self;
 }
 -(int)applyToVolume:(NSString *)volumePath {
     int ret = 0;
     ret = [self copyFile:[resourcePath stringByAppendingPathComponent:@"addonkexts/SIPManager.kext"] toDirectory:[volumePath stringByAppendingPathComponent:@"Library/Extensions"]];
+    
+    [self copyFile:[resourcePath stringByAppendingPathComponent:@"patchedfiles/boot.efi"] toDirectory:[volumePath stringByAppendingPathComponent:@"System/Library/CoreServices"]];
+    [self copyFile:[resourcePath stringByAppendingPathComponent:@"patchedfiles/boot.efi"] toDirectory:[volumePath stringByAppendingPathComponent:@"usr/standalone/i386"]];
+    
+    NSString *prebootDisk = [[APFSManager sharedInstance] getPrebootVolumeforAPFSVolumeAtPath:volumePath];
+    NSString *volumeUUID = [[APFSManager sharedInstance] getUUIDOfVolumeAtPath:volumePath];
+    NSTask *mount = [[NSTask alloc] init];
+    [mount setLaunchPath:@"/usr/sbin/diskutil"];
+    [mount setArguments:@[@"mount", prebootDisk]];
+    [mount launch];
+    [mount waitUntilExit];
+    
+    [self copyFile:[resourcePath stringByAppendingPathComponent:@"patchedfiles/boot.efi"] toDirectory:[NSString stringWithFormat:@"/Volumes/Preboot/%@/System/Library/CoreServices", volumeUUID]];
+    
+    NSTask *unmount = [[NSTask alloc] init];
+    [unmount setLaunchPath:@"/usr/sbin/diskutil"];
+    [unmount setArguments:@[@"unmount", prebootDisk]];
+    [unmount launch];
+    [unmount waitUntilExit];
+    
     
     return ret;
 }

@@ -7,6 +7,7 @@
 //
 
 #import "Patch.h"
+#import "APFSManager.h"
 
 @interface SIPDisabler : Patch
 

@@ -152,4 +152,12 @@
     [invalidate launch];
     [invalidate waitUntilExit];
 }
+-(void)updateDyldSharedCacheOnVolume:(NSString *)volumePath {
+    
+    NSTask *updateDyld = [[NSTask alloc] init];
+    [updateDyld setLaunchPath:@"/usr/bin/update_dyld_shared_cache"];
+    [updateDyld setArguments:@[@"-root", volumePath]];
+    [updateDyld launch];
+    [updateDyld waitUntilExit];
+}
 @end

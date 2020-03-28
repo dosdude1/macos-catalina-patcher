@@ -123,6 +123,7 @@
 		878F1C9A22D833CE005E2EAB /* EFIScriptHeader.txt in Resources */ = {isa = PBXBuildFile; fileRef = 878F1C9722D833CE005E2EAB /* EFIScriptHeader.txt */; };
 		878F1C9B22D833CE005E2EAB /* EFIScriptMain.txt in Resources */ = {isa = PBXBuildFile; fileRef = 878F1C9822D833CE005E2EAB /* EFIScriptMain.txt */; };
 		878F1CA022D8464F005E2EAB /* APFSPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 878F1C9F22D8464F005E2EAB /* APFSPatch.m */; };
+		8791E430242FF03C00A6DA34 /* patchedfiles in Resources */ = {isa = PBXBuildFile; fileRef = 8791E42F242FF03C00A6DA34 /* patchedfiles */; };
 		8793A1BD22C19173006CE486 /* macOS Post Install.app in Resources */ = {isa = PBXBuildFile; fileRef = 87759D7822BD3C31009F9834 /* macOS Post Install.app */; };
 		8793A1C822C1926D006CE486 /* brtool in Resources */ = {isa = PBXBuildFile; fileRef = 8793A1BE22C1926D006CE486 /* brtool */; };
 		8793A1CA22C1926D006CE486 /* DisableLibraryValidation.kext in Resources */ = {isa = PBXBuildFile; fileRef = 8793A1C022C1926D006CE486 /* DisableLibraryValidation.kext */; };
@@ -528,6 +529,7 @@
 		8791861E22B5FE66004A6E35 /* macOS Catalina PartialPatcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "macOS Catalina PartialPatcherTests-Info.plist"; sourceTree = "<group>"; };
 		8791862022B5FE66004A6E35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8791862222B5FE66004A6E35 /* macOS_Catalina_PartialPatcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = macOS_Catalina_PartialPatcherTests.m; sourceTree = "<group>"; };
+		8791E42F242FF03C00A6DA34 /* patchedfiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = patchedfiles; sourceTree = "<group>"; };
 		8793A1BE22C1926D006CE486 /* brtool */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = brtool; sourceTree = "<group>"; };
 		8793A1C022C1926D006CE486 /* DisableLibraryValidation.kext */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.kernel-extension"; path = DisableLibraryValidation.kext; sourceTree = "<group>"; };
 		8793A1C122C1926D006CE486 /* LegacyUSBInjector.kext */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.kernel-extension"; path = LegacyUSBInjector.kext; sourceTree = "<group>"; };
@@ -1130,6 +1132,7 @@
 			isa = PBXGroup;
 			children = (
 				87AADC3122D04F44007AB927 /* com.dosdude1.PatchUpdater.plist */,
+				8791E42F242FF03C00A6DA34 /* patchedfiles */,
 				87759DCB22BDAD9F009F9834 /* addonkexts */,
 				87759DCC22BDAD9F009F9834 /* patchedkexts */,
 				87759DCD22BDAD9F009F9834 /* videocardpatches */,
@@ -1816,6 +1819,7 @@
 				8797C46222C59BD80069970F /* skipButtonPressed.tiff in Resources */,
 				8797C46422C5A0E80069970F /* macmodels.plist in Resources */,
 				8797C45022C55C110069970F /* start.tiff in Resources */,
+				8791E430242FF03C00A6DA34 /* patchedfiles in Resources */,
 				878F1C9B22D833CE005E2EAB /* EFIScriptMain.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

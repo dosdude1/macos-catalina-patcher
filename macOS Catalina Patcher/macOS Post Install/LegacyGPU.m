@@ -12,7 +12,7 @@
 -(id)init {
     self = [super init];
     [self setID:@"legacyGPU"];
-    [self setVersion:11];
+    [self setVersion:12];
     [self setName:@"Legacy Video Card Patch"];
     return self;
 }
@@ -58,6 +58,12 @@
         return ret;
     }
     ret = [self copyFilesFromDirectory:[resourcePath stringByAppendingPathComponent:@"videocardpatches/legacynvidia"] toPath:[volumePath stringByAppendingPathComponent:@"System/Library/Extensions"]];
+    if (ret) {
+        return ret;
+    }
+    
+    //Copy misc
+    ret = [self copyFile:[resourcePath stringByAppendingPathComponent:@"videocardpatches/gfxshared/misc/MonitorPanels"] toDirectory:[volumePath stringByAppendingPathComponent:@"System/Library"]];
     
     return ret;
 }

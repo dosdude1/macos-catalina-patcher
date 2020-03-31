@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>18A391012</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>PowerMode</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.MonitorPanel.PowerMode</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>MonitorPanel.PowerMode</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.3</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>362</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>11M392u</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
+	<key>DTPlatformVersion</key>
+	<string>10.15</string>
+	<key>DTSDKBuild</key>
+	<string>19D2039</string>
+	<key>DTSDKName</key>
+	<string>macosx10.15internal</string>
+	<key>DTXcode</key>
+	<string>1100</string>
+	<key>DTXcodeBuild</key>
+	<string>11M392u</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.15</string>
+	<key>MPFamily</key>
+	<string>pref</string>
+	<key>MPMajorOrder</key>
+	<string>100</string>
+	<key>MPMinorOrder</key>
+	<string>100</string>
+	<key>MPNib</key>
+	<string>PowerModePanel</string>
+	<key>MPType</key>
+	<string>pmdp</string>
+	<key>NSPrincipalClass</key>
+	<string>PowerModePanel</string>
+</dict>
+</plist>

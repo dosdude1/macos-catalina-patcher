@@ -19,25 +19,16 @@
 }
 -(int)applyToVolume:(NSString *)volumePath {
     int ret = 0;
-    ret = [self copyFile:[resourcePath stringByAppendingPathComponent:@"addonkexts/SIPManager.kext"] toDirectory:[volumePath stringByAppendingPathComponent:@"Library/Extensions"]];
     
-    [self copyFile:[resourcePath stringByAppendingPathComponent:@"patchedfiles/boot.efi"] toDirectory:[volumePath stringByAppendingPathComponent:@"System/Library/CoreServices"]];
-    [self copyFile:[resourcePath stringByAppendingPathComponent:@"patchedfiles/boot.efi"] toDirectory:[volumePath stringByAppendingPathComponent:@"usr/standalone/i386"]];
-    
-    
-    NSMutableDictionary *bootPlist = [[NSMutableDictionary alloc]initWithContentsOfFile:[volumePath stringByAppendingString:@"/Library/Preferences/SystemConfiguration/com.apple.Boot.plist"]];
-    NSString *kernelFlags = [bootPlist objectForKey:@"Kernel Flags"];
-    if ([kernelFlags isEqualToString:@""])
-    {
-        kernelFlags = @"amfi_get_out_of_my_way=0x1";
+    ret = [self copyFile:[resourcePath stringByAppendingPathComponent:@"patchedfiles/boot.efi"] toDirectory:[volumePath stringByAppendingPathComponent:@"System/Library/CoreServices"]];
+    if (ret) {
+        return ret;
     }
-    else if ([kernelFlags rangeOfString:@"amfi_get_out_of_my_way"].location == NSNotFound)
-    {
-        kernelFlags = [kernelFlags stringByAppendingString:@" amfi_get_out_of_my_way=0x1"];
-    }
-    [bootPlist setObject:kernelFlags forKey:@"Kernel Flags"];
-    [bootPlist writeToFile:[volumePath stringByAppendingString:@"/Library/Preferences/SystemConfiguration/com.apple.Boot.plist"] atomically:YES];
     
+    ret = [self copyFile:[resourcePath stringByAppendingPathComponent:@"patchedfiles/boot.efi"] toDirectory:[volumePath stringByAppendingPathComponent:@"usr/standalone/i386"]];
+    if (ret) {
+        return ret;
+    }
     
     NSString *prebootDisk = [[APFSManager sharedInstance] getPrebootVolumeforAPFSVolumeAtPath:volumePath];
     NSString *volumeUUID = [[APFSManager sharedInstance] getUUIDOfVolumeAtPath:volumePath];
@@ -47,8 +38,7 @@
     [mount launch];
     [mount waitUntilExit];
     
-    [self copyFile:[resourcePath stringByAppendingPathComponent:@"patchedfiles/boot.efi"] toDirectory:[NSString stringWithFormat:@"/Volumes/Preboot/%@/System/Library/CoreServices", volumeUUID]];
-    [bootPlist writeToFile:[NSString stringWithFormat:@"/Volumes/Preboot/%@/Library/Preferences/SystemConfiguration/com.apple.Boot.plist", volumeUUID] atomically:YES];
+    ret = [self copyFile:[resourcePath stringByAppendingPathComponent:@"patchedfiles/boot.efi"] toDirectory:[NSString stringWithFormat:@"/Volumes/Preboot/%@/System/Library/CoreServices", volumeUUID]];
     
     NSTask *unmount = [[NSTask alloc] init];
     [unmount setLaunchPath:@"/usr/sbin/diskutil"];

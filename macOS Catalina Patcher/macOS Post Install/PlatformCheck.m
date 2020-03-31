@@ -19,8 +19,7 @@
 }
 -(int)applyToVolume:(NSString *)volumePath {
     int ret = 0;
-    NSString *dataVolPath = volumePath;//[@"/Volumes" stringByAppendingPathComponent:[self getDataVolumeForMainVolume:[volumePath lastPathComponent]]];
-    NSMutableDictionary *bootPlist = [[NSMutableDictionary alloc]initWithContentsOfFile:[dataVolPath stringByAppendingString:@"/Library/Preferences/SystemConfiguration/com.apple.Boot.plist"]];
+    NSMutableDictionary *bootPlist = [[NSMutableDictionary alloc]initWithContentsOfFile:[volumePath stringByAppendingString:@"/Library/Preferences/SystemConfiguration/com.apple.Boot.plist"]];
     NSString *kernelFlags = [bootPlist objectForKey:@"Kernel Flags"];
     if ([kernelFlags isEqualToString:@""])
     {
@@ -31,7 +30,7 @@
         kernelFlags = [kernelFlags stringByAppendingString:@" -no_compat_check"];
     }
     [bootPlist setObject:kernelFlags forKey:@"Kernel Flags"];
-    [bootPlist writeToFile:[dataVolPath stringByAppendingString:@"/Library/Preferences/SystemConfiguration/com.apple.Boot.plist"] atomically:YES];
+    [bootPlist writeToFile:[volumePath stringByAppendingString:@"/Library/Preferences/SystemConfiguration/com.apple.Boot.plist"] atomically:YES];
     
     NSString *prebootDisk = [[APFSManager sharedInstance] getPrebootVolumeforAPFSVolumeAtPath:volumePath];
     NSString *volumeUUID = [[APFSManager sharedInstance] getUUIDOfVolumeAtPath:volumePath];

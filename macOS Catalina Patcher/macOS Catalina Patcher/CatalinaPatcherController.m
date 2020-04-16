@@ -171,7 +171,7 @@
             if (modelFlags) {
                 if ([modelFlags objectForKey:@kSystemNeedsAPFSROMUpdate]) {
                     if ([[modelFlags objectForKey:@kSystemNeedsAPFSROMUpdate] boolValue]) {
-                        if (![self romSupportsAPFS]) {
+                        if (![[APFSManager sharedInstance] romSupportsAPFS]) {
                             return compatibilityStateNeedsAPFSROMUpdate;
                         }
                         return compatibilityStateIsSupportedMachine;
@@ -184,28 +184,7 @@
     }
     return compatibilityStateIsSupportedMachine;
 }
--(BOOL)romSupportsAPFS {
-    io_registry_entry_t romEntry = IORegistryEntryFromPath(kIOMasterPortDefault, "IODeviceTree:/rom@0");
-    if (romEntry || (romEntry = IORegistryEntryFromPath(kIOMasterPortDefault, "IODeviceTree:/rom@e0000")) != 0) {
-        CFNumberRef apfsProp = IORegistryEntryCreateCFProperty(romEntry, CFSTR("firmware-features"), kCFAllocatorDefault, 0);
-        if (!apfsProp) {
-            NSLog(@"Could not check for APFS BootROM Support: Failed to create IORegistryEntry.");
-            return NO;
-        }
-        unsigned long long value;
-        CFNumberGetValue(apfsProp, kCFNumberSInt64Type, &value);
-        NSLog(@"firmware-features: %llx", value);
-        CFRelease(apfsProp);
-        if ((value & 0x180000) != 0) {
-            return YES;
-        }
-        
-    } else {
-        NSLog(@"Could not check for APFS BootROM Support: Failed to open IORegistryEntry.");
-        return NO;
-    }
-    return NO;
-}
+
 -(void)updateProgressWithValue:(double)percent {
     dispatch_async (dispatch_get_main_queue(), ^{
         [self.delegate updateProgressWithValue:percent];

@@ -147,7 +147,6 @@
 		8797C44D22C55C070069970F /* restartPressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8797C44B22C55C070069970F /* restartPressed.tiff */; };
 		8797C45022C55C110069970F /* start.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8797C44E22C55C110069970F /* start.tiff */; };
 		8797C45122C55C110069970F /* startPressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8797C44F22C55C110069970F /* startPressed.tiff */; };
-		8797C45C22C568F70069970F /* DarkModeImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8797C45B22C568F70069970F /* DarkModeImageButton.m */; };
 		8797C46022C59BD50069970F /* skipButton.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8797C45F22C59BD50069970F /* skipButton.tiff */; };
 		8797C46222C59BD80069970F /* skipButtonPressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8797C46122C59BD80069970F /* skipButtonPressed.tiff */; };
 		8797C46422C5A0E80069970F /* macmodels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8797C46322C5A0E80069970F /* macmodels.plist */; };
@@ -193,6 +192,31 @@
 		87AADC2922D04E8D007AB927 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AADC2822D04E8D007AB927 /* main.m */; };
 		87AADC2D22D04E8D007AB927 /* patchupdaterd.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87AADC2C22D04E8D007AB927 /* patchupdaterd.1 */; };
 		87AADC3222D04F44007AB927 /* com.dosdude1.PatchUpdater.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87AADC3122D04F44007AB927 /* com.dosdude1.PatchUpdater.plist */; };
+		87B545932448DB18008C608D /* prelinkedkernel in Resources */ = {isa = PBXBuildFile; fileRef = 8793A1C522C1926D006CE486 /* prelinkedkernel */; };
+		87B545942448DD74008C608D /* APFSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DAE1BF234D41C0004F11EE /* APFSManager.m */; };
+		87B5459A2448DE74008C608D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D355622B1C12700432A8F /* Cocoa.framework */; };
+		87B545A02448DE74008C608D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87B5459E2448DE74008C608D /* InfoPlist.strings */; };
+		87B545A22448DE74008C608D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B545A12448DE74008C608D /* main.m */; };
+		87B545A92448DE74008C608D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B545A82448DE74008C608D /* AppDelegate.m */; };
+		87B545AC2448DE74008C608D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87B545AA2448DE74008C608D /* MainMenu.xib */; };
+		87B545AE2448DE74008C608D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87B545AD2448DE74008C608D /* Images.xcassets */; };
+		87B545B42448DE74008C608D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D357522B1C12800432A8F /* XCTest.framework */; };
+		87B545B52448DE74008C608D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D355622B1C12700432A8F /* Cocoa.framework */; };
+		87B545BD2448DE74008C608D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87B545BB2448DE74008C608D /* InfoPlist.strings */; };
+		87B545BF2448DE74008C608D /* APFSFirmwareVerificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B545BE2448DE74008C608D /* APFSFirmwareVerificationTests.m */; };
+		87B545C92448E0D3008C608D /* FirmwareVerificationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B545C72448E0D3008C608D /* FirmwareVerificationWindowController.m */; };
+		87B545CA2448E0D3008C608D /* FirmwareVerificationWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87B545C82448E0D3008C608D /* FirmwareVerificationWindowController.xib */; };
+		87B545CF2448E21C008C608D /* restart.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 87B545CD2448E21C008C608D /* restart.tiff */; };
+		87B545D02448E21C008C608D /* restartPressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 87B545CE2448E21C008C608D /* restartPressed.tiff */; };
+		87B545D32448E225008C608D /* skipButton.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 87B545D12448E225008C608D /* skipButton.tiff */; };
+		87B545D42448E225008C608D /* skipButtonPressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 87B545D22448E225008C608D /* skipButtonPressed.tiff */; };
+		87B545D72448E411008C608D /* FirmwareUpdateInstructions.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 87B545D62448E411008C608D /* FirmwareUpdateInstructions.rtf */; };
+		87B545D82448E441008C608D /* DarkModeImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793A1DA22C1B185006CE486 /* DarkModeImageButton.m */; };
+		87B545D92448E443008C608D /* DarkModeImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793A1DA22C1B185006CE486 /* DarkModeImageButton.m */; };
+		87B545DA2448E482008C608D /* macModels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8793C7242394CFD7005BF2E9 /* macModels.plist */; };
+		87B545DE2448E58A008C608D /* APFSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DAE1BF234D41C0004F11EE /* APFSManager.m */; };
+		87B545E12448E61C008C608D /* FirmwareVerificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B545E02448E61C008C608D /* FirmwareVerificationController.m */; };
+		87B545E32448EB39008C608D /* APFSFirmwareVerification.app in Resources */ = {isa = PBXBuildFile; fileRef = 87B545992448DE74008C608D /* APFSFirmwareVerification.app */; };
 		87CA634A22FE257F00F36818 /* APFSVolumeViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 87CA634722FE257F00F36818 /* APFSVolumeViewItem.h */; };
 		87CA634B22FE257F00F36818 /* APFSVolumeViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CA634822FE257F00F36818 /* APFSVolumeViewItem.m */; };
 		87CA634C22FE257F00F36818 /* APFSVolumeViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87CA634922FE257F00F36818 /* APFSVolumeViewItem.xib */; };
@@ -201,6 +225,9 @@
 		87DAE1C4234D423B004F11EE /* APFSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DAE1BF234D41C0004F11EE /* APFSManager.m */; };
 		87DAE1C5234D4247004F11EE /* APFSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DAE1BF234D41C0004F11EE /* APFSManager.m */; };
 		87DAE1C6234D4252004F11EE /* APFSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DAE1BF234D41C0004F11EE /* APFSManager.m */; };
+		87E5C6DD2448EC61008E9A5A /* com.dosdude1.APFSFirmwareVerification.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87E5C6DC2448EC61008E9A5A /* com.dosdude1.APFSFirmwareVerification.plist */; };
+		87E5C6DF2448ED48008E9A5A /* PlatformSupportLegacy.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87E5C6DE2448ED48008E9A5A /* PlatformSupportLegacy.plist */; };
+		87E5C6E02448ED48008E9A5A /* PlatformSupportLegacy.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87E5C6DE2448ED48008E9A5A /* PlatformSupportLegacy.plist */; };
 		87EB301322C0988900B600F5 /* STPrivilegedTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EB301222C0988900B600F5 /* STPrivilegedTask.m */; };
 		87EB301622C09A6F00B600F5 /* patcherd in Resources */ = {isa = PBXBuildFile; fileRef = 873AF53822C052FE006A9A86 /* patcherd */; };
 		87F680C222FCFE9700D96B21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D355622B1C12700432A8F /* Cocoa.framework */; };
@@ -294,6 +321,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 87AADBA922D045B2007AB927;
 			remoteInfo = "Patch Updater";
+		};
+		87B545B62448DE74008C608D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870D354B22B1C12700432A8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87B545982448DE74008C608D;
+			remoteInfo = APFSFirmwareVerification;
+		};
+		87E5C6E124490079008E9A5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870D354B22B1C12700432A8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87B545982448DE74008C608D;
+			remoteInfo = APFSFirmwareVerification;
 		};
 		87EB301422C09A5F00B600F5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -556,8 +597,6 @@
 		8797C44B22C55C070069970F /* restartPressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = restartPressed.tiff; sourceTree = "<group>"; };
 		8797C44E22C55C110069970F /* start.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = start.tiff; sourceTree = "<group>"; };
 		8797C44F22C55C110069970F /* startPressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = startPressed.tiff; sourceTree = "<group>"; };
-		8797C45A22C568F70069970F /* DarkModeImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarkModeImageButton.h; sourceTree = "<group>"; };
-		8797C45B22C568F70069970F /* DarkModeImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DarkModeImageButton.m; sourceTree = "<group>"; };
 		8797C45F22C59BD50069970F /* skipButton.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = skipButton.tiff; sourceTree = "<group>"; };
 		8797C46122C59BD80069970F /* skipButtonPressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = skipButtonPressed.tiff; sourceTree = "<group>"; };
 		8797C46322C5A0E80069970F /* macmodels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = macmodels.plist; sourceTree = "<group>"; };
@@ -625,12 +664,37 @@
 		87AADC2B22D04E8D007AB927 /* patchupdaterd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "patchupdaterd-Prefix.pch"; sourceTree = "<group>"; };
 		87AADC2C22D04E8D007AB927 /* patchupdaterd.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = patchupdaterd.1; sourceTree = "<group>"; };
 		87AADC3122D04F44007AB927 /* com.dosdude1.PatchUpdater.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = com.dosdude1.PatchUpdater.plist; sourceTree = "<group>"; };
+		87B545992448DE74008C608D /* APFSFirmwareVerification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APFSFirmwareVerification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B5459D2448DE74008C608D /* APFSFirmwareVerification-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APFSFirmwareVerification-Info.plist"; sourceTree = "<group>"; };
+		87B5459F2448DE74008C608D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87B545A12448DE74008C608D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87B545A32448DE74008C608D /* APFSFirmwareVerification-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APFSFirmwareVerification-Prefix.pch"; sourceTree = "<group>"; };
+		87B545A72448DE74008C608D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87B545A82448DE74008C608D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87B545AD2448DE74008C608D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		87B545B32448DE74008C608D /* APFSFirmwareVerificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APFSFirmwareVerificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B545BA2448DE74008C608D /* APFSFirmwareVerificationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APFSFirmwareVerificationTests-Info.plist"; sourceTree = "<group>"; };
+		87B545BC2448DE74008C608D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87B545BE2448DE74008C608D /* APFSFirmwareVerificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APFSFirmwareVerificationTests.m; sourceTree = "<group>"; };
+		87B545C62448E0D3008C608D /* FirmwareVerificationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirmwareVerificationWindowController.h; sourceTree = "<group>"; };
+		87B545C72448E0D3008C608D /* FirmwareVerificationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirmwareVerificationWindowController.m; sourceTree = "<group>"; };
+		87B545C82448E0D3008C608D /* FirmwareVerificationWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirmwareVerificationWindowController.xib; sourceTree = "<group>"; };
+		87B545CB2448E110008C608D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		87B545CD2448E21C008C608D /* restart.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = restart.tiff; sourceTree = "<group>"; };
+		87B545CE2448E21C008C608D /* restartPressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = restartPressed.tiff; sourceTree = "<group>"; };
+		87B545D12448E225008C608D /* skipButton.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = skipButton.tiff; sourceTree = "<group>"; };
+		87B545D22448E225008C608D /* skipButtonPressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = skipButtonPressed.tiff; sourceTree = "<group>"; };
+		87B545D62448E411008C608D /* FirmwareUpdateInstructions.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = FirmwareUpdateInstructions.rtf; sourceTree = "<group>"; };
+		87B545DF2448E61C008C608D /* FirmwareVerificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirmwareVerificationController.h; sourceTree = "<group>"; };
+		87B545E02448E61C008C608D /* FirmwareVerificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirmwareVerificationController.m; sourceTree = "<group>"; };
 		87CA634622FE24AD00F36818 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/APFS_Boot_Selector.xib; sourceTree = "<group>"; };
 		87CA634722FE257F00F36818 /* APFSVolumeViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APFSVolumeViewItem.h; sourceTree = "<group>"; };
 		87CA634822FE257F00F36818 /* APFSVolumeViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APFSVolumeViewItem.m; sourceTree = "<group>"; };
 		87CA634922FE257F00F36818 /* APFSVolumeViewItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APFSVolumeViewItem.xib; sourceTree = "<group>"; };
 		87DAE1BE234D41C0004F11EE /* APFSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APFSManager.h; sourceTree = "<group>"; };
 		87DAE1BF234D41C0004F11EE /* APFSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APFSManager.m; sourceTree = "<group>"; };
+		87E5C6DC2448EC61008E9A5A /* com.dosdude1.APFSFirmwareVerification.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = com.dosdude1.APFSFirmwareVerification.plist; sourceTree = "<group>"; };
+		87E5C6DE2448ED48008E9A5A /* PlatformSupportLegacy.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PlatformSupportLegacy.plist; sourceTree = "<group>"; };
 		87EB301122C0988900B600F5 /* STPrivilegedTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPrivilegedTask.h; sourceTree = "<group>"; };
 		87EB301222C0988900B600F5 /* STPrivilegedTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPrivilegedTask.m; sourceTree = "<group>"; };
 		87F680C122FCFE9700D96B21 /* APFS Boot Selector.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APFS Boot Selector.prefPane"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -756,6 +820,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		87B545962448DE74008C608D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B5459A2448DE74008C608D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B545B02448DE74008C608D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B545B52448DE74008C608D /* Cocoa.framework in Frameworks */,
+				87B545B42448DE74008C608D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		87F680BC22FCFE9700D96B21 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -794,6 +875,8 @@
 				87AADC2722D04E8D007AB927 /* patchupdaterd */,
 				87F680C422FCFE9700D96B21 /* APFS Boot Selector */,
 				87F680E222FCFFBF00D96B21 /* apfshelperd */,
+				87B5459B2448DE74008C608D /* APFSFirmwareVerification */,
+				87B545B82448DE74008C608D /* APFSFirmwareVerificationTests */,
 				870D355522B1C12700432A8F /* Frameworks */,
 				870D355422B1C12700432A8F /* Products */,
 			);
@@ -816,6 +899,8 @@
 				875A7B2C22EA0DE6009973DC /* apfsinsta */,
 				87F680C122FCFE9700D96B21 /* APFS Boot Selector.prefPane */,
 				87F680E022FCFFBF00D96B21 /* apfshelperd */,
+				87B545992448DE74008C608D /* APFSFirmwareVerification.app */,
+				87B545B32448DE74008C608D /* APFSFirmwareVerificationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1107,6 +1192,8 @@
 				8793A1C422C1926D006CE486 /* OSInstallerSetupInternal */,
 				8793A1C522C1926D006CE486 /* prelinkedkernel */,
 				8793A1C622C1926D006CE486 /* SIPManager.kext */,
+				87E5C6DC2448EC61008E9A5A /* com.dosdude1.APFSFirmwareVerification.plist */,
+				87E5C6DE2448ED48008E9A5A /* PlatformSupportLegacy.plist */,
 			);
 			name = PatchResources;
 			sourceTree = "<group>";
@@ -1143,8 +1230,6 @@
 		8797C46522C5A1350069970F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8797C45A22C568F70069970F /* DarkModeImageButton.h */,
-				8797C45B22C568F70069970F /* DarkModeImageButton.m */,
 				8797C44322C55B670069970F /* PostInstallHandler.h */,
 				8797C44422C55B670069970F /* PostInstallHandler.m */,
 				8797C46622C5A1B50069970F /* Patch.h */,
@@ -1342,6 +1427,65 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		87B5459B2448DE74008C608D /* APFSFirmwareVerification */ = {
+			isa = PBXGroup;
+			children = (
+				87B545A72448DE74008C608D /* AppDelegate.h */,
+				87B545A82448DE74008C608D /* AppDelegate.m */,
+				87B545AA2448DE74008C608D /* MainMenu.xib */,
+				87B545C62448E0D3008C608D /* FirmwareVerificationWindowController.h */,
+				87B545C72448E0D3008C608D /* FirmwareVerificationWindowController.m */,
+				87B545C82448E0D3008C608D /* FirmwareVerificationWindowController.xib */,
+				87B545DF2448E61C008C608D /* FirmwareVerificationController.h */,
+				87B545E02448E61C008C608D /* FirmwareVerificationController.m */,
+				87B545AD2448DE74008C608D /* Images.xcassets */,
+				87B545CC2448E1F5008C608D /* Resources */,
+				87B5459C2448DE74008C608D /* Supporting Files */,
+			);
+			path = APFSFirmwareVerification;
+			sourceTree = "<group>";
+		};
+		87B5459C2448DE74008C608D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87B5459D2448DE74008C608D /* APFSFirmwareVerification-Info.plist */,
+				87B5459E2448DE74008C608D /* InfoPlist.strings */,
+				87B545A12448DE74008C608D /* main.m */,
+				87B545A32448DE74008C608D /* APFSFirmwareVerification-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87B545B82448DE74008C608D /* APFSFirmwareVerificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				87B545BE2448DE74008C608D /* APFSFirmwareVerificationTests.m */,
+				87B545B92448DE74008C608D /* Supporting Files */,
+			);
+			path = APFSFirmwareVerificationTests;
+			sourceTree = "<group>";
+		};
+		87B545B92448DE74008C608D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87B545BA2448DE74008C608D /* APFSFirmwareVerificationTests-Info.plist */,
+				87B545BB2448DE74008C608D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87B545CC2448E1F5008C608D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				87B545CD2448E21C008C608D /* restart.tiff */,
+				87B545CE2448E21C008C608D /* restartPressed.tiff */,
+				87B545D12448E225008C608D /* skipButton.tiff */,
+				87B545D22448E225008C608D /* skipButtonPressed.tiff */,
+				87B545D62448E411008C608D /* FirmwareUpdateInstructions.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		87F680C422FCFE9700D96B21 /* APFS Boot Selector */ = {
 			isa = PBXGroup;
 			children = (
@@ -1423,6 +1567,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				87E5C6E224490079008E9A5A /* PBXTargetDependency */,
 				875A7B3E22EA0E61009973DC /* PBXTargetDependency */,
 				875A7B3C22EA0E5D009973DC /* PBXTargetDependency */,
 				8766402422C87F4A0004E8F4 /* PBXTargetDependency */,
@@ -1631,6 +1776,41 @@
 			productReference = 87AADC2522D04E8D007AB927 /* patchupdaterd */;
 			productType = "com.apple.product-type.tool";
 		};
+		87B545982448DE74008C608D /* APFSFirmwareVerification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87B545C02448DE75008C608D /* Build configuration list for PBXNativeTarget "APFSFirmwareVerification" */;
+			buildPhases = (
+				87B545952448DE74008C608D /* Sources */,
+				87B545962448DE74008C608D /* Frameworks */,
+				87B545972448DE74008C608D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APFSFirmwareVerification;
+			productName = APFSFirmwareVerification;
+			productReference = 87B545992448DE74008C608D /* APFSFirmwareVerification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87B545B22448DE74008C608D /* APFSFirmwareVerificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87B545C32448DE75008C608D /* Build configuration list for PBXNativeTarget "APFSFirmwareVerificationTests" */;
+			buildPhases = (
+				87B545AF2448DE74008C608D /* Sources */,
+				87B545B02448DE74008C608D /* Frameworks */,
+				87B545B12448DE74008C608D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87B545B72448DE74008C608D /* PBXTargetDependency */,
+			);
+			name = APFSFirmwareVerificationTests;
+			productName = APFSFirmwareVerificationTests;
+			productReference = 87B545B32448DE74008C608D /* APFSFirmwareVerificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		87F680C022FCFE9700D96B21 /* APFS Boot Selector */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87F680D322FCFE9700D96B21 /* Build configuration list for PBXNativeTarget "APFS Boot Selector" */;
@@ -1683,11 +1863,58 @@
 					870D357322B1C12800432A8F = {
 						TestTargetID = 870D355222B1C12700432A8F;
 					};
+					873AF53722C052FE006A9A86 = {
+						DevelopmentTeam = C9R8PL7T6L;
+						ProvisioningStyle = Automatic;
+					};
+					875A7B1822EA0BEE009973DC = {
+						DevelopmentTeam = C9R8PL7T6L;
+						ProvisioningStyle = Automatic;
+					};
+					875A7B2B22EA0DE6009973DC = {
+						DevelopmentTeam = C9R8PL7T6L;
+						ProvisioningStyle = Automatic;
+					};
+					8766401622C87F3C0004E8F4 = {
+						DevelopmentTeam = C9R8PL7T6L;
+						ProvisioningStyle = Automatic;
+					};
+					87759D7722BD3C31009F9834 = {
+						DevelopmentTeam = C9R8PL7T6L;
+						ProvisioningStyle = Automatic;
+					};
 					87759D9122BD3C31009F9834 = {
 						TestTargetID = 870D355222B1C12700432A8F;
 					};
+					87AADBA922D045B2007AB927 = {
+						DevelopmentTeam = C9R8PL7T6L;
+						ProvisioningStyle = Automatic;
+					};
 					87AADBC322D045B2007AB927 = {
 						TestTargetID = 870D355222B1C12700432A8F;
+					};
+					87AADBF622D0478B007AB927 = {
+						DevelopmentTeam = C9R8PL7T6L;
+						ProvisioningStyle = Automatic;
+					};
+					87AADC2422D04E8D007AB927 = {
+						DevelopmentTeam = C9R8PL7T6L;
+						ProvisioningStyle = Automatic;
+					};
+					87B545982448DE74008C608D = {
+						DevelopmentTeam = C9R8PL7T6L;
+						ProvisioningStyle = Automatic;
+					};
+					87B545B22448DE74008C608D = {
+						TestTargetID = 870D355222B1C12700432A8F;
+					};
+					87F680C022FCFE9700D96B21 = {
+						DevelopmentTeam = C9R8PL7T6L;
+						ProvisioningStyle = Automatic;
+					};
+					87F680DF22FCFFBF00D96B21 = {
+						DevelopmentTeam = C9R8PL7T6L;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -1719,6 +1946,8 @@
 				875A7B2B22EA0DE6009973DC /* apfsinsta */,
 				87F680C022FCFE9700D96B21 /* APFS Boot Selector */,
 				87F680DF22FCFFBF00D96B21 /* apfshelperd */,
+				87B545982448DE74008C608D /* APFSFirmwareVerification */,
+				87B545B22448DE74008C608D /* APFSFirmwareVerificationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1728,6 +1957,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87B545E32448EB39008C608D /* APFSFirmwareVerification.app in Resources */,
 				875A7B4022EA0E6F009973DC /* apfsinsta in Resources */,
 				875A7B3F22EA0E6A009973DC /* apfsbless in Resources */,
 				8793C72E2394DE75005BF2E9 /* skipButtonPressed.tiff in Resources */,
@@ -1774,6 +2004,8 @@
 				87079C6622B9E0AA009EBF3D /* restartPressed.tiff in Resources */,
 				873AF4D222C01D7A006A9A86 /* CDAudioVolumeIcon.icns in Resources */,
 				87079C6D22B9E0B8009EBF3D /* cancel.tiff in Resources */,
+				87E5C6DF2448ED48008E9A5A /* PlatformSupportLegacy.plist in Resources */,
+				87E5C6DD2448EC61008E9A5A /* com.dosdude1.APFSFirmwareVerification.plist in Resources */,
 				87079C6222B9DEB3009EBF3D /* VolumeIcon.icns in Resources */,
 				87079C8D22B9FAD1009EBF3D /* GenericFolderIcon.icns in Resources */,
 				875A7B4922EA10FF009973DC /* osishelperd in Resources */,
@@ -1812,12 +2044,14 @@
 				87759DD022BDAD9F009F9834 /* videocardpatches in Resources */,
 				8797C44722C55BB00069970F /* Installer.icns in Resources */,
 				87759DCF22BDAD9F009F9834 /* patchedkexts in Resources */,
+				87B545932448DB18008C608D /* prelinkedkernel in Resources */,
 				8797C46022C59BD50069970F /* skipButton.tiff in Resources */,
 				87759DAA22BD3C95009F9834 /* MainWindowController.xib in Resources */,
 				87759DCE22BDAD9F009F9834 /* addonkexts in Resources */,
 				8797C44D22C55C070069970F /* restartPressed.tiff in Resources */,
 				8797C46222C59BD80069970F /* skipButtonPressed.tiff in Resources */,
 				8797C46422C5A0E80069970F /* macmodels.plist in Resources */,
+				87E5C6E02448ED48008E9A5A /* PlatformSupportLegacy.plist in Resources */,
 				8797C45022C55C110069970F /* start.tiff in Resources */,
 				8791E430242FF03C00A6DA34 /* patchedfiles in Resources */,
 				878F1C9B22D833CE005E2EAB /* EFIScriptMain.txt in Resources */,
@@ -1863,6 +2097,31 @@
 				874ED6DA22D6D65C00A82591 /* Patch_Updater_Prefpane.tiff in Resources */,
 				87AADC1B22D0479F007AB927 /* Patch_Updater_Prefpane.xib in Resources */,
 				874ED6D622D6D5FA00A82591 /* AppIcon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B545972448DE74008C608D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B545DA2448E482008C608D /* macModels.plist in Resources */,
+				87B545D02448E21C008C608D /* restartPressed.tiff in Resources */,
+				87B545D32448E225008C608D /* skipButton.tiff in Resources */,
+				87B545CA2448E0D3008C608D /* FirmwareVerificationWindowController.xib in Resources */,
+				87B545D72448E411008C608D /* FirmwareUpdateInstructions.rtf in Resources */,
+				87B545A02448DE74008C608D /* InfoPlist.strings in Resources */,
+				87B545D42448E225008C608D /* skipButtonPressed.tiff in Resources */,
+				87B545AE2448DE74008C608D /* Images.xcassets in Resources */,
+				87B545CF2448E21C008C608D /* restart.tiff in Resources */,
+				87B545AC2448DE74008C608D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B545B12448DE74008C608D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B545BD2448DE74008C608D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1920,6 +2179,7 @@
 				8793C7282394D661005BF2E9 /* FirmwareUpdateNeededView.m in Sources */,
 				870D356A22B1C12700432A8F /* AppDelegate.m in Sources */,
 				87878581230C9D12005EC542 /* PatcherFlags.m in Sources */,
+				87B545942448DD74008C608D /* APFSManager.m in Sources */,
 				87079C7522B9E3A9009EBF3D /* CatalinaPatcherController.m in Sources */,
 				873AF54C22C06E21006A9A86 /* CreateBootableInstallerView.m in Sources */,
 				87A41E8722BECAB000431022 /* MacOSDownloader.m in Sources */,
@@ -2000,6 +2260,7 @@
 				872AC51722C70773002F847C /* LegacyAudio.m in Sources */,
 				872AC50B22C6EB55002F847C /* LegacyWiFi.m in Sources */,
 				872AC50822C6B71C002F847C /* SIPDisabler.m in Sources */,
+				87B545D82448E441008C608D /* DarkModeImageButton.m in Sources */,
 				872AC51122C6EF76002F847C /* LegacyEnet.m in Sources */,
 				87759DA922BD3C95009F9834 /* MainWindowController.m in Sources */,
 				87A75576235BE92700B667C2 /* AMDSSE4.m in Sources */,
@@ -2009,7 +2270,6 @@
 				872AC50E22C6EBCA002F847C /* BCM94321Patch.m in Sources */,
 				87F88D6A2356B3BB006DF8B0 /* VolumeControlPatch.m in Sources */,
 				870E815B242AD48800382A14 /* LibraryValidation.m in Sources */,
-				8797C45C22C568F70069970F /* DarkModeImageButton.m in Sources */,
 				8797C46E22C5D2C80069970F /* LegacyUSB.m in Sources */,
 				878F1CA022D8464F005E2EAB /* APFSPatch.m in Sources */,
 				8766401022C863DA0004E8F4 /* PlatformCheck.m in Sources */,
@@ -2063,6 +2323,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				87AADC2922D04E8D007AB927 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B545952448DE74008C608D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B545DE2448E58A008C608D /* APFSManager.m in Sources */,
+				87B545A92448DE74008C608D /* AppDelegate.m in Sources */,
+				87B545E12448E61C008C608D /* FirmwareVerificationController.m in Sources */,
+				87B545A22448DE74008C608D /* main.m in Sources */,
+				87B545D92448E443008C608D /* DarkModeImageButton.m in Sources */,
+				87B545C92448E0D3008C608D /* FirmwareVerificationWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B545AF2448DE74008C608D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B545BF2448DE74008C608D /* APFSFirmwareVerificationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2137,6 +2418,16 @@
 			isa = PBXTargetDependency;
 			target = 87AADBA922D045B2007AB927 /* Patch Updater */;
 			targetProxy = 87AADBC722D045B3007AB927 /* PBXContainerItemProxy */;
+		};
+		87B545B72448DE74008C608D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87B545982448DE74008C608D /* APFSFirmwareVerification */;
+			targetProxy = 87B545B62448DE74008C608D /* PBXContainerItemProxy */;
+		};
+		87E5C6E224490079008E9A5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87B545982448DE74008C608D /* APFSFirmwareVerification */;
+			targetProxy = 87E5C6E124490079008E9A5A /* PBXContainerItemProxy */;
 		};
 		87EB301522C09A5F00B600F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2256,6 +2547,30 @@
 			isa = PBXVariantGroup;
 			children = (
 				87AADBFF22D0478B007AB927 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87B5459E2448DE74008C608D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87B5459F2448DE74008C608D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87B545AA2448DE74008C608D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87B545CB2448E110008C608D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		87B545BB2448DE74008C608D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87B545BC2448DE74008C608D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -2441,6 +2756,9 @@
 		873AF54222C052FE006A9A86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "patcherd/patcherd-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2449,22 +2767,30 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		873AF54322C052FE006A9A86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "patcherd/patcherd-Prefix.pch";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
 		875A7B2222EA0BEF009973DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "apfsbless/apfsbless-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2472,21 +2798,29 @@
 					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		875A7B2322EA0BEF009973DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "apfsbless/apfsbless-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
 		875A7B3622EA0DE6009973DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "apfsinsta/apfsinsta-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2494,21 +2828,29 @@
 					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		875A7B3722EA0DE6009973DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "apfsinsta/apfsinsta-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
 		8766402122C87F3C0004E8F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "runposti/runposti-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2516,15 +2858,20 @@
 					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		8766402222C87F3C0004E8F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "runposti/runposti-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -2532,7 +2879,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "macOS Post Install/macOS Post Install-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2541,6 +2891,7 @@
 				);
 				INFOPLIST_FILE = "macOS Post Install/macOS Post Install-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2549,12 +2900,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "macOS Post Install/macOS Post Install-Prefix.pch";
 				INFOPLIST_FILE = "macOS Post Install/macOS Post Install-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -2603,7 +2958,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Patch Updater/Patch Updater-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2612,6 +2970,7 @@
 				);
 				INFOPLIST_FILE = "Patch Updater/Patch Updater-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2620,11 +2979,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Patch Updater/Patch Updater-Prefix.pch";
 				INFOPLIST_FILE = "Patch Updater/Patch Updater-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -2672,7 +3035,10 @@
 		87AADC0B22D0478B007AB927 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Patch Updater Prefpane/Patch Updater Prefpane-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2682,6 +3048,7 @@
 				INFOPLIST_FILE = "Patch Updater Prefpane/Patch Updater Prefpane-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = prefPane;
 			};
 			name = Debug;
@@ -2689,12 +3056,16 @@
 		87AADC0C22D0478B007AB927 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Patch Updater Prefpane/Patch Updater Prefpane-Prefix.pch";
 				INFOPLIST_FILE = "Patch Updater Prefpane/Patch Updater Prefpane-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = prefPane;
 			};
 			name = Release;
@@ -2702,6 +3073,9 @@
 		87AADC2F22D04E8E007AB927 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "patchupdaterd/patchupdaterd-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2709,22 +3083,108 @@
 					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		87AADC3022D04E8E007AB927 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "patchupdaterd/patchupdaterd-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		87B545C12448DE75008C608D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APFSFirmwareVerification/APFSFirmwareVerification-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "APFSFirmwareVerification/APFSFirmwareVerification-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87B545C22448DE75008C608D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APFSFirmwareVerification/APFSFirmwareVerification-Prefix.pch";
+				INFOPLIST_FILE = "APFSFirmwareVerification/APFSFirmwareVerification-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		87B545C42448DE75008C608D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/macOS Catalina Patcher.app/Contents/MacOS/macOS Catalina Patcher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APFSFirmwareVerification/APFSFirmwareVerification-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "APFSFirmwareVerificationTests/APFSFirmwareVerificationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		87B545C52448DE75008C608D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/macOS Catalina Patcher.app/Contents/MacOS/macOS Catalina Patcher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APFSFirmwareVerification/APFSFirmwareVerification-Prefix.pch";
+				INFOPLIST_FILE = "APFSFirmwareVerificationTests/APFSFirmwareVerificationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 		87F680D422FCFE9700D96B21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "APFS Boot Selector/APFS Boot Selector-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2734,6 +3194,7 @@
 				INFOPLIST_FILE = "APFS Boot Selector/APFS Boot Selector-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = prefPane;
 			};
 			name = Debug;
@@ -2741,12 +3202,16 @@
 		87F680D522FCFE9700D96B21 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "APFS Boot Selector/APFS Boot Selector-Prefix.pch";
 				INFOPLIST_FILE = "APFS Boot Selector/APFS Boot Selector-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = prefPane;
 			};
 			name = Release;
@@ -2754,6 +3219,9 @@
 		87F680EA22FCFFC000D96B21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "apfshelperd/apfshelperd-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2761,15 +3229,20 @@
 					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		87F680EB22FCFFC000D96B21 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "apfshelperd/apfshelperd-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -2889,6 +3362,24 @@
 			buildConfigurations = (
 				87AADC2F22D04E8E007AB927 /* Debug */,
 				87AADC3022D04E8E007AB927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87B545C02448DE75008C608D /* Build configuration list for PBXNativeTarget "APFSFirmwareVerification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B545C12448DE75008C608D /* Debug */,
+				87B545C22448DE75008C608D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87B545C32448DE75008C608D /* Build configuration list for PBXNativeTarget "APFSFirmwareVerificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B545C42448DE75008C608D /* Debug */,
+				87B545C52448DE75008C608D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

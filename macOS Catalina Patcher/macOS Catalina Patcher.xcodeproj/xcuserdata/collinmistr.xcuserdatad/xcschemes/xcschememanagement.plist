@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>APFSFirmwareVerification.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>Patch Updater Prefpane.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -163,6 +168,16 @@
 			<true/>
 		</dict>
 		<key>87AADC2422D04E8D007AB927</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>87B545982448DE74008C608D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>87B545B22448DE74008C608D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

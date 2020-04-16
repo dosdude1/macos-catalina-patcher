@@ -15,5 +15,7 @@
 -(NSString *)getAPFSPhysicalStoreForVolumeAtPath:(NSString *)volumePath;
 -(NSString *)getUUIDOfVolumeAtPath:(NSString *)volumePath;
 -(NSString *)getPrebootVolumeforAPFSVolumeAtPath:(NSString *)volumePath;
+-(NSString *)getRecoveryVolumeforAPFSVolumeAtPath:(NSString *)volumePath;
+-(BOOL)romSupportsAPFS;
 
 @end

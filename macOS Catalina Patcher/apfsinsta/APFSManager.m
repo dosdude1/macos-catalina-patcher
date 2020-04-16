@@ -90,4 +90,48 @@
     }
     return @"";
 }
+-(NSString *)getRecoveryVolumeforAPFSVolumeAtPath:(NSString *)volumePath
+{
+    NSTask *getDiskInfo = [[NSTask alloc]init];
+    [getDiskInfo setLaunchPath:@"/usr/sbin/diskutil"];
+    [getDiskInfo setArguments:[NSArray arrayWithObjects:@"list", volumePath, nil]];
+    NSPipe * out = [NSPipe pipe];
+    [getDiskInfo setStandardOutput:out];
+    [getDiskInfo launch];
+    [getDiskInfo waitUntilExit];
+    NSFileHandle * read = [out fileHandleForReading];
+    NSData * dataRead = [read readDataToEndOfFile];
+    NSString * stringRead = [[NSString alloc] initWithData:dataRead encoding:NSUTF8StringEncoding];
+    NSInteger i = [stringRead rangeOfString:@"Recovery"].location;
+    if (i != NSNotFound)
+    {
+        NSString *temp = [stringRead substringFromIndex:i];
+        temp = [temp substringToIndex:[temp rangeOfString:@"\n"].location];
+        NSString *diskName = [[temp substringFromIndex:35] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+        return diskName;
+    }
+    return @"";
+}
+-(BOOL)romSupportsAPFS {
+    io_registry_entry_t romEntry = IORegistryEntryFromPath(kIOMasterPortDefault, "IODeviceTree:/rom@0");
+    if (romEntry || (romEntry = IORegistryEntryFromPath(kIOMasterPortDefault, "IODeviceTree:/rom@e0000")) != 0) {
+        CFNumberRef apfsProp = IORegistryEntryCreateCFProperty(romEntry, CFSTR("firmware-features"), kCFAllocatorDefault, 0);
+        if (!apfsProp) {
+            NSLog(@"Could not check for APFS BootROM Support: Failed to create IORegistryEntry.");
+            return NO;
+        }
+        unsigned long long value;
+        CFNumberGetValue(apfsProp, kCFNumberSInt64Type, &value);
+        NSLog(@"firmware-features: %llx", value);
+        CFRelease(apfsProp);
+        if ((value & 0x180000) != 0) {
+            return YES;
+        }
+        
+    } else {
+        NSLog(@"Could not check for APFS BootROM Support: Failed to open IORegistryEntry.");
+        return NO;
+    }
+    return NO;
+}
 @end

@@ -50,6 +50,8 @@
     }
     
     [self copyFile:[dir stringByAppendingPathComponent:@"macOS Post Install.app"] toDirectory:[mnt stringByAppendingPathComponent:@"Applications/Utilities"]];
+    [self copyFile:[dir stringByAppendingPathComponent:@"APFSFirmwareVerification.app"] toDirectory:[mnt stringByAppendingPathComponent:@"System/Library/CoreServices"]];
+    [self copyFile:[dir stringByAppendingPathComponent:@"com.dosdude1.APFSFirmwareVerification.plist"] toDirectory:[mnt stringByAppendingPathComponent:@"/System/Library/LaunchDaemons"]];
     
     [[NSFileManager defaultManager] copyItemAtPath:[dir stringByAppendingPathComponent:@"VolumeIcon.icns"] toPath:[mnt stringByAppendingPathComponent:@".VolumeIcon.icns"] error:nil];
     
@@ -215,6 +217,36 @@
     NSMutableDictionary *bootPlist = [[NSMutableDictionary alloc] initWithContentsOfFile:bootPlistFile];
     [bootPlist setObject:@"-no_compat_check" forKey:@"Kernel Flags"];
     [bootPlist writeToFile:bootPlistFile atomically:YES];
+    return 0;
+}
+-(int)setPlatformSupportPlistOnVolume:(NSString *)volumePath usingSourcePlist:(NSString *)plistPath {
+    const NSString *kSupportedBoardIDs = @"SupportedBoardIds";
+    const NSString *kSupportedModels = @"SupportedModelProperties";
+    
+    NSDictionary *legacyPlatformSupport = [[NSDictionary alloc] initWithContentsOfFile:plistPath];
+    NSArray *legacyBoardSupport = [legacyPlatformSupport objectForKey:kSupportedBoardIDs];
+    NSArray *legacyModelSupport = [legacyPlatformSupport objectForKey:kSupportedModels];
+    
+    NSMutableDictionary *platformSupport = [[NSMutableDictionary alloc] initWithContentsOfFile:[volumePath stringByAppendingPathComponent:@"System/Library/CoreServices/PlatformSupport.plist"]];
+    NSMutableArray *boardSupport = [platformSupport objectForKey:kSupportedBoardIDs];
+    NSMutableArray *modelSupport = [platformSupport objectForKey:kSupportedModels];
+    
+    for (NSString *boardID in legacyBoardSupport) {
+        if (![boardSupport containsObject:boardID]) {
+            [boardSupport addObject:boardID];
+        }
+    }
+    
+    for (NSString *modelID in legacyModelSupport) {
+        if (![modelSupport containsObject:modelID]) {
+            [modelSupport addObject:modelID];
+        }
+    }
+    
+    [platformSupport setObject:boardSupport forKey:kSupportedBoardIDs];
+    [platformSupport setObject:modelSupport forKey:kSupportedModels];
+    
+    [platformSupport writeToFile:[volumePath stringByAppendingPathComponent:@"System/Library/CoreServices/PlatformSupport.plist"] atomically:YES];
     return 0;
 }
 @end

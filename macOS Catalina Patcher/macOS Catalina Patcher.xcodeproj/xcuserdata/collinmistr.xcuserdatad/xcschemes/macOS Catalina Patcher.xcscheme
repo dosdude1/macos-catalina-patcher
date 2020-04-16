@@ -68,6 +68,16 @@
                ReferencedContainer = "container:macOS Catalina Patcher.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "87B545B22448DE74008C608D"
+               BuildableName = "APFSFirmwareVerificationTests.xctest"
+               BlueprintName = "APFSFirmwareVerificationTests"
+               ReferencedContainer = "container:macOS Catalina Patcher.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

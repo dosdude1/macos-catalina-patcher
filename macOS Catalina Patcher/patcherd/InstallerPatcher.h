@@ -24,6 +24,7 @@
 -(int)preventVolumeFromDisplayingWindowOnMount:(NSString *)volumePath;
 -(int)addPostInstallEntryToUtilitiesOnVolume:(NSString *)volumePath;
 -(int)setBootPlistOnVolume:(NSString *)volumePath;
+-(int)setPlatformSupportPlistOnVolume:(NSString *)volumePath usingSourcePlist:(NSString *)plistPath;
 
 
 @end

@@ -79,6 +79,7 @@
     [ip preventVolumeFromDisplayingWindowOnMount:bsMount];
     [ip addPostInstallEntryToUtilitiesOnVolume:bsMount];
     [ip setBootPlistOnVolume:bsMount];
+    [ip setPlatformSupportPlistOnVolume:bsMount usingSourcePlist:[resourcePath stringByAppendingPathComponent:@"PlatformSupportLegacy.plist"]];
     
     [patcherFlags saveToDirectory:bsMount];
     
@@ -200,6 +201,7 @@
     [ip preventVolumeFromDisplayingWindowOnMount:bsMount];
     [ip addPostInstallEntryToUtilitiesOnVolume:bsMount];
     [ip setBootPlistOnVolume:bsMount];
+    [ip setPlatformSupportPlistOnVolume:bsMount usingSourcePlist:[resourcePath stringByAppendingPathComponent:@"PlatformSupportLegacy.plist"]];
     
     [patcherFlags saveToDirectory:bsMount];
     
@@ -342,6 +344,7 @@
     [ip preventVolumeFromDisplayingWindowOnMount:bsMount];
     [ip addPostInstallEntryToUtilitiesOnVolume:bsMount];
     [ip setBootPlistOnVolume:bsMount];
+    [ip setPlatformSupportPlistOnVolume:bsMount usingSourcePlist:[resourcePath stringByAppendingPathComponent:@"PlatformSupportLegacy.plist"]];
     
     [patcherFlags saveToDirectory:bsMount];
     [patcherFlags saveToDirectory:@"/private/tmp"];

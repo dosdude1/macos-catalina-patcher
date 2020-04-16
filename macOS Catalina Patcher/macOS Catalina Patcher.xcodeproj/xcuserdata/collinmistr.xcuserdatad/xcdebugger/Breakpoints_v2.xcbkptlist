@@ -54,11 +54,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "patcherd/PatchHandler.m"
-            timestampString = "588034418.951696"
+            timestampString = "608759510.01597"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "531"
-            endingLineNumber = "531"
+            startingLineNumber = "534"
+            endingLineNumber = "534"
             landmarkName = "-setPatcherFlagsObject:"
             landmarkType = "5">
          </BreakpointContent>

@@ -11,6 +11,7 @@
 #import "STPrivilegedTask.h"
 #import "CatalinaPatcherLoggingManager.h"
 #import "AnalyticsManager.h"
+#import "APFSManager.h"
 
 #define systemCompatibilityFile "macModels.plist"
 #define kSystemNeedsAPFSROMUpdate "needsAPFSBootROMUpdate"

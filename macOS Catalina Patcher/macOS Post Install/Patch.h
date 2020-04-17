@@ -29,12 +29,14 @@
 -(int)applyToVolume:(NSString *)volumePath;
 -(BOOL)shouldBeInstalled;
 -(void)setShouldBeInstalled:(BOOL)install;
+-(NSString *)getUIActionString;
+-(BOOL)shouldInstallOnMachineModel:(NSString *)model;
 
 -(int)copyFile:(NSString *)filePath toDirectory:(NSString *)dirPath;
 -(int)copyFilesFromDirectory:(NSString *)dirPath toPath:(NSString *)targetPath;
 -(NSString *)getDataVolumeForMainVolume:(NSString *)mainVolume;
 -(void)setPermissionsOnDirectory:(NSString *)path;
--(NSString *)getUIActionString;
--(BOOL)shouldInstallOnMachineModel:(NSString *)model;
+-(void)setBootPlistAtPath:(NSString *)plistPath;
+-(void)setPlatformSupportPlistAtPath:(NSString *)plistPath;
 
 @end

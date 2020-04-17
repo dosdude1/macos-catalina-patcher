@@ -123,6 +123,7 @@
 		878F1C9A22D833CE005E2EAB /* EFIScriptHeader.txt in Resources */ = {isa = PBXBuildFile; fileRef = 878F1C9722D833CE005E2EAB /* EFIScriptHeader.txt */; };
 		878F1C9B22D833CE005E2EAB /* EFIScriptMain.txt in Resources */ = {isa = PBXBuildFile; fileRef = 878F1C9822D833CE005E2EAB /* EFIScriptMain.txt */; };
 		878F1CA022D8464F005E2EAB /* APFSPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 878F1C9F22D8464F005E2EAB /* APFSPatch.m */; };
+		8791CCF224497BEC00F8D804 /* RecoveryPartitionPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8791CCF124497BEC00F8D804 /* RecoveryPartitionPatch.m */; };
 		8791E430242FF03C00A6DA34 /* patchedfiles in Resources */ = {isa = PBXBuildFile; fileRef = 8791E42F242FF03C00A6DA34 /* patchedfiles */; };
 		8793A1BD22C19173006CE486 /* macOS Post Install.app in Resources */ = {isa = PBXBuildFile; fileRef = 87759D7822BD3C31009F9834 /* macOS Post Install.app */; };
 		8793A1C822C1926D006CE486 /* brtool in Resources */ = {isa = PBXBuildFile; fileRef = 8793A1BE22C1926D006CE486 /* brtool */; };
@@ -570,6 +571,8 @@
 		8791861E22B5FE66004A6E35 /* macOS Catalina PartialPatcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "macOS Catalina PartialPatcherTests-Info.plist"; sourceTree = "<group>"; };
 		8791862022B5FE66004A6E35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8791862222B5FE66004A6E35 /* macOS_Catalina_PartialPatcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = macOS_Catalina_PartialPatcherTests.m; sourceTree = "<group>"; };
+		8791CCF024497BEC00F8D804 /* RecoveryPartitionPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecoveryPartitionPatch.h; sourceTree = "<group>"; };
+		8791CCF124497BEC00F8D804 /* RecoveryPartitionPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecoveryPartitionPatch.m; sourceTree = "<group>"; };
 		8791E42F242FF03C00A6DA34 /* patchedfiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = patchedfiles; sourceTree = "<group>"; };
 		8793A1BE22C1926D006CE486 /* brtool */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = brtool; sourceTree = "<group>"; };
 		8793A1C022C1926D006CE486 /* DisableLibraryValidation.kext */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.kernel-extension"; path = DisableLibraryValidation.kext; sourceTree = "<group>"; };
@@ -1083,6 +1086,8 @@
 				87A75575235BE92700B667C2 /* AMDSSE4.m */,
 				870E8159242AD48800382A14 /* LibraryValidation.h */,
 				870E815A242AD48800382A14 /* LibraryValidation.m */,
+				8791CCF024497BEC00F8D804 /* RecoveryPartitionPatch.h */,
+				8791CCF124497BEC00F8D804 /* RecoveryPartitionPatch.m */,
 			);
 			name = Patches;
 			sourceTree = "<group>";
@@ -2257,6 +2262,7 @@
 				87878583230CA259005EC542 /* PatcherFlags.m in Sources */,
 				8797C46822C5A1B50069970F /* Patch.m in Sources */,
 				874ED6DD22D6D6ED00A82591 /* InstallPatchUpdater.m in Sources */,
+				8791CCF224497BEC00F8D804 /* RecoveryPartitionPatch.m in Sources */,
 				872AC51722C70773002F847C /* LegacyAudio.m in Sources */,
 				872AC50B22C6EB55002F847C /* LegacyWiFi.m in Sources */,
 				872AC50822C6B71C002F847C /* SIPDisabler.m in Sources */,

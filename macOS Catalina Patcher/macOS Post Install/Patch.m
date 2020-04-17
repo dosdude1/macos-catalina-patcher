@@ -103,4 +103,46 @@
     }
     return NO;
 }
+-(void)setBootPlistAtPath:(NSString *)plistPath {
+    NSMutableDictionary *bootPlist = [[NSMutableDictionary alloc]initWithContentsOfFile:plistPath];
+    NSString *kernelFlags = [bootPlist objectForKey:@"Kernel Flags"];
+    if ([kernelFlags isEqualToString:@""]) {
+        kernelFlags = @"-no_compat_check";
+    }
+    else if ([kernelFlags rangeOfString:@"-no_compat_check"].location == NSNotFound) {
+        kernelFlags = [kernelFlags stringByAppendingString:@" -no_compat_check"];
+    }
+    [bootPlist setObject:kernelFlags forKey:@"Kernel Flags"];
+    [bootPlist writeToFile:plistPath atomically:YES];
+}
+-(void)setPlatformSupportPlistAtPath:(NSString *)plistPath {
+    
+    const NSString *kSupportedBoardIDs = @"SupportedBoardIds";
+    const NSString *kSupportedModels = @"SupportedModelProperties";
+    
+    NSDictionary *legacyPlatformSupport = [[NSDictionary alloc] initWithContentsOfFile:[resourcePath stringByAppendingPathComponent:@"PlatformSupportLegacy.plist"]];
+    NSArray *legacyBoardSupport = [legacyPlatformSupport objectForKey:kSupportedBoardIDs];
+    NSArray *legacyModelSupport = [legacyPlatformSupport objectForKey:kSupportedModels];
+    
+    NSMutableDictionary *platformSupport = [[NSMutableDictionary alloc] initWithContentsOfFile:plistPath];
+    NSMutableArray *boardSupport = [platformSupport objectForKey:kSupportedBoardIDs];
+    NSMutableArray *modelSupport = [platformSupport objectForKey:kSupportedModels];
+    
+    for (NSString *boardID in legacyBoardSupport) {
+        if (![boardSupport containsObject:boardID]) {
+            [boardSupport addObject:boardID];
+        }
+    }
+    
+    for (NSString *modelID in legacyModelSupport) {
+        if (![modelSupport containsObject:modelID]) {
+            [modelSupport addObject:modelID];
+        }
+    }
+    
+    [platformSupport setObject:boardSupport forKey:kSupportedBoardIDs];
+    [platformSupport setObject:modelSupport forKey:kSupportedModels];
+    
+    [platformSupport writeToFile:plistPath atomically:YES];
+}
 @end

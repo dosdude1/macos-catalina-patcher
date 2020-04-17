@@ -23,6 +23,7 @@
 #import "VolumeControlPatch.h"
 #import "AMDSSE4.h"
 #import "LibraryValidation.h"
+#import "RecoveryPartitionPatch.h"
 
 @interface PostInstallHandler : NSObject
 {

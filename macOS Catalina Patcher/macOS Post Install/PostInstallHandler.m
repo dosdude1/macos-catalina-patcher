@@ -43,6 +43,7 @@
     [patches addObject:[[VolumeControlPatch alloc] init]];
     [patches addObject:[[AMDSSE4 alloc] init]];
     [patches addObject:[[LibraryValidation alloc] init]];
+    [patches addObject:[[RecoveryPartitionPatch alloc] init]];
     availablePatches = patches;
     
     NSMutableDictionary *d = [[NSMutableDictionary alloc] init];

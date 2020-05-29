@@ -13,13 +13,14 @@
 -(id)init {
     self = [super init];
     [self setID:@"recoveryPartitionPatch"];
-    [self setVersion:0];
+    [self setVersion:1];
     [self setName:@"Recovery Partition Patch"];
     return self;
 }
 -(int)applyToVolume:(NSString *)volumePath {
     
     int ret = 0;
+    BOOL isRecoveryOS = NO;
     NSString *recoveryVolumePath = @"/Volumes/Recovery";
     
     NSString *recoveryDisk = [[APFSManager sharedInstance] getRecoveryVolumeforAPFSVolumeAtPath:volumePath];
@@ -32,6 +33,12 @@
     [mount waitUntilExit];
     
     if (![[NSFileManager defaultManager] fileExistsAtPath:recoveryVolumePath]) {
+        isRecoveryOS = YES;
+        mount = [[NSTask alloc] init];
+        [mount setLaunchPath:@"/usr/sbin/diskutil"];
+        [mount setArguments:@[@"mount", @"-uw", recoveryDisk]];
+        [mount launch];
+        [mount waitUntilExit];
         recoveryVolumePath = @"/Volumes/Image Volume";
     }
     
@@ -43,12 +50,13 @@
     }
     ret = [self copyFile:[resourcePath stringByAppendingPathComponent:@"patchedfiles/boot.efi"] toDirectory:[NSString stringWithFormat:@"%@/%@", recoveryVolumePath, volumeUUID]];
     
-    
-    NSTask *unmount = [[NSTask alloc] init];
-    [unmount setLaunchPath:@"/usr/sbin/diskutil"];
-    [unmount setArguments:@[@"unmount", recoveryDisk]];
-    [unmount launch];
-    [unmount waitUntilExit];
+    if (!isRecoveryOS) {
+        NSTask *unmount = [[NSTask alloc] init];
+        [unmount setLaunchPath:@"/usr/sbin/diskutil"];
+        [unmount setArguments:@[@"unmount", recoveryDisk]];
+        [unmount launch];
+        [unmount waitUntilExit];
+    }
     
     return ret;
 }

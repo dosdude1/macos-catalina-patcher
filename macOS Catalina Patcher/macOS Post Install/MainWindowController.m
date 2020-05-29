@@ -270,9 +270,11 @@
             });
             err = [p applyToVolume:volumePath];
             if (err) {
-                dispatch_async(dispatch_get_main_queue(), ^{
-                    [self handleError:err];
-                });
+                if (!isInstaller) {
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        [self handleError:err];
+                    });
+                }
                 break;
             }
             [installedPatches setObject:[NSDictionary dictionaryWithObject:[NSNumber numberWithInt:[p getVersion]] forKey:@"version"] forKey:[p getID]];

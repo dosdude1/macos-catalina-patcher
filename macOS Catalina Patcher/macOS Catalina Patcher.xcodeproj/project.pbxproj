@@ -1868,58 +1868,14 @@
 					870D357322B1C12800432A8F = {
 						TestTargetID = 870D355222B1C12700432A8F;
 					};
-					873AF53722C052FE006A9A86 = {
-						DevelopmentTeam = C9R8PL7T6L;
-						ProvisioningStyle = Automatic;
-					};
-					875A7B1822EA0BEE009973DC = {
-						DevelopmentTeam = C9R8PL7T6L;
-						ProvisioningStyle = Automatic;
-					};
-					875A7B2B22EA0DE6009973DC = {
-						DevelopmentTeam = C9R8PL7T6L;
-						ProvisioningStyle = Automatic;
-					};
-					8766401622C87F3C0004E8F4 = {
-						DevelopmentTeam = C9R8PL7T6L;
-						ProvisioningStyle = Automatic;
-					};
-					87759D7722BD3C31009F9834 = {
-						DevelopmentTeam = C9R8PL7T6L;
-						ProvisioningStyle = Automatic;
-					};
 					87759D9122BD3C31009F9834 = {
 						TestTargetID = 870D355222B1C12700432A8F;
-					};
-					87AADBA922D045B2007AB927 = {
-						DevelopmentTeam = C9R8PL7T6L;
-						ProvisioningStyle = Automatic;
 					};
 					87AADBC322D045B2007AB927 = {
 						TestTargetID = 870D355222B1C12700432A8F;
 					};
-					87AADBF622D0478B007AB927 = {
-						DevelopmentTeam = C9R8PL7T6L;
-						ProvisioningStyle = Automatic;
-					};
-					87AADC2422D04E8D007AB927 = {
-						DevelopmentTeam = C9R8PL7T6L;
-						ProvisioningStyle = Automatic;
-					};
-					87B545982448DE74008C608D = {
-						DevelopmentTeam = C9R8PL7T6L;
-						ProvisioningStyle = Automatic;
-					};
 					87B545B22448DE74008C608D = {
 						TestTargetID = 870D355222B1C12700432A8F;
-					};
-					87F680C022FCFE9700D96B21 = {
-						DevelopmentTeam = C9R8PL7T6L;
-						ProvisioningStyle = Automatic;
-					};
-					87F680DF22FCFFBF00D96B21 = {
-						DevelopmentTeam = C9R8PL7T6L;
-						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -2762,9 +2718,6 @@
 		873AF54222C052FE006A9A86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "patcherd/patcherd-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2773,30 +2726,22 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		873AF54322C052FE006A9A86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "patcherd/patcherd-Prefix.pch";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
 		875A7B2222EA0BEF009973DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "apfsbless/apfsbless-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2804,29 +2749,21 @@
 					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		875A7B2322EA0BEF009973DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "apfsbless/apfsbless-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
 		875A7B3622EA0DE6009973DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "apfsinsta/apfsinsta-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2834,29 +2771,21 @@
 					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		875A7B3722EA0DE6009973DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "apfsinsta/apfsinsta-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
 		8766402122C87F3C0004E8F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "runposti/runposti-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2864,20 +2793,15 @@
 					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		8766402222C87F3C0004E8F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "runposti/runposti-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -2885,10 +2809,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "macOS Post Install/macOS Post Install-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2897,7 +2818,6 @@
 				);
 				INFOPLIST_FILE = "macOS Post Install/macOS Post Install-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2906,16 +2826,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "macOS Post Install/macOS Post Install-Prefix.pch";
 				INFOPLIST_FILE = "macOS Post Install/macOS Post Install-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -2964,10 +2880,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Patch Updater/Patch Updater-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2976,7 +2889,6 @@
 				);
 				INFOPLIST_FILE = "Patch Updater/Patch Updater-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2985,15 +2897,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Patch Updater/Patch Updater-Prefix.pch";
 				INFOPLIST_FILE = "Patch Updater/Patch Updater-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -3041,10 +2949,7 @@
 		87AADC0B22D0478B007AB927 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Patch Updater Prefpane/Patch Updater Prefpane-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -3054,7 +2959,6 @@
 				INFOPLIST_FILE = "Patch Updater Prefpane/Patch Updater Prefpane-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = prefPane;
 			};
 			name = Debug;
@@ -3062,16 +2966,12 @@
 		87AADC0C22D0478B007AB927 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Patch Updater Prefpane/Patch Updater Prefpane-Prefix.pch";
 				INFOPLIST_FILE = "Patch Updater Prefpane/Patch Updater Prefpane-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = prefPane;
 			};
 			name = Release;
@@ -3079,9 +2979,6 @@
 		87AADC2F22D04E8E007AB927 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "patchupdaterd/patchupdaterd-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -3089,20 +2986,15 @@
 					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		87AADC3022D04E8E007AB927 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "patchupdaterd/patchupdaterd-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -3110,10 +3002,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "APFSFirmwareVerification/APFSFirmwareVerification-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -3122,7 +3011,6 @@
 				);
 				INFOPLIST_FILE = "APFSFirmwareVerification/APFSFirmwareVerification-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -3131,15 +3019,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "APFSFirmwareVerification/APFSFirmwareVerification-Prefix.pch";
 				INFOPLIST_FILE = "APFSFirmwareVerification/APFSFirmwareVerification-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -3187,10 +3071,7 @@
 		87F680D422FCFE9700D96B21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "APFS Boot Selector/APFS Boot Selector-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -3200,7 +3081,6 @@
 				INFOPLIST_FILE = "APFS Boot Selector/APFS Boot Selector-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = prefPane;
 			};
 			name = Debug;
@@ -3208,16 +3088,12 @@
 		87F680D522FCFE9700D96B21 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "APFS Boot Selector/APFS Boot Selector-Prefix.pch";
 				INFOPLIST_FILE = "APFS Boot Selector/APFS Boot Selector-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = prefPane;
 			};
 			name = Release;
@@ -3225,9 +3101,6 @@
 		87F680EA22FCFFC000D96B21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "apfshelperd/apfshelperd-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -3235,20 +3108,15 @@
 					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		87F680EB22FCFFC000D96B21 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "apfshelperd/apfshelperd-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

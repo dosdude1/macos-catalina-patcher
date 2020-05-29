@@ -18,6 +18,9 @@
     return self;
 }
 -(int)applyToVolume:(NSString *)volumePath {
+    
+    int ret = 0;
+    
     NSString *plistPath = [volumePath stringByAppendingPathComponent:@"Library/Preferences/com.apple.security.libraryvalidation.plist"];
     NSMutableDictionary *libValPrefs;
     if ([[NSFileManager defaultManager] fileExistsAtPath:plistPath]) {
@@ -28,8 +31,7 @@
     [libValPrefs setObject:[NSNumber numberWithBool:YES] forKey:@"DisableLibraryValidation"];
     [libValPrefs writeToFile:plistPath atomically:YES];
     
-    
-    return 0;
+    return ret;
 }
 -(BOOL)shouldInstallOnMachineModel:(NSString *)model {
     NSDictionary *machinePatches = [macModels objectForKey:model];

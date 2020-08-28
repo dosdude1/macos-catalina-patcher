@@ -55,6 +55,9 @@
     [self.progressIndicator setMinValue:0.0];
     [self.progressIndicator setDoubleValue:0.0];
     downloadPath = [NSHomeDirectory() stringByAppendingPathComponent:@"Downloads"];
+    NSDictionary *attr = [[NSFileManager defaultManager] attributesOfItemAtPath:downloadPath error:nil];
+    if ( [[attr valueForKey:NSFileType] isEqualToString:NSFileTypeSymbolicLink] )
+        downloadPath = [[NSFileManager defaultManager] destinationOfSymbolicLinkAtPath:downloadPath error:nil];
     [downloader startDownloadingToPath:downloadPath withWindowForAlertSheets:self.window];
 }
 - (IBAction)cancelDownload:(id)sender {

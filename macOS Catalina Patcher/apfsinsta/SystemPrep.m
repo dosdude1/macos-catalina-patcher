@@ -81,11 +81,34 @@
     return NO;
 }
 -(void)setNoCompatCheckNVRAM {
-    NSTask *nvramSet = [[NSTask alloc] init];
-    [nvramSet setLaunchPath:@"/usr/sbin/nvram"];
-    [nvramSet setArguments:@[@"boot-args=-no_compat_check"]];
-    [nvramSet launch];
-    [nvramSet waitUntilExit];
+    NSPipe * result = [NSPipe pipe];
+    NSTask *nvramGet = [[NSTask alloc] init];
+    [nvramGet setLaunchPath:@"/usr/sbin/nvram"];
+    [nvramGet setArguments:@[@"boot-args"]];
+    [nvramGet setStandardOutput:result];
+    [nvramGet launch];
+    [nvramGet waitUntilExit];
+ 
+    NSFileHandle * read = [result fileHandleForReading];
+    NSData * dataRead = [read readDataToEndOfFile];
+    NSString * bootargs = [[NSString alloc] initWithData:dataRead encoding:NSUTF8StringEncoding];
+
+	if ([bootargs length] < 11 || ![[bootargs substringToIndex:10] isEqualToString:@"boot-args\t"] || ![[bootargs substringFromIndex:[bootargs length] - 1] isEqualToString:@"\n"]) {
+		// if boot-args doesn't exist or couldn't be read or has unexpected format then set it to zero length value
+		bootargs = @"boot-args\t\n"; // 11 characters for zero length boot-args
+	}
+
+	if ([bootargs rangeOfString:@"-no_compat_check"].location == NSNotFound)
+	{
+		bootargs = [bootargs stringByReplacingCharactersInRange:NSMakeRange([bootargs length] - 1, 1) withString:([bootargs length] < 12 ? @"" : @" ")]; // remove the linefeed, add a space if boot-args was not empty
+		bootargs = [bootargs stringByReplacingCharactersInRange:NSMakeRange(9, 1) withString:@"="]; // replace tab with =
+		bootargs = [bootargs stringByAppendingString:@"-no_compat_check"];
+		NSTask *nvramSet = [[NSTask alloc] init];
+		[nvramSet setLaunchPath:@"/usr/sbin/nvram"];
+		[nvramSet setArguments:@[bootargs]];
+		[nvramSet launch];
+		[nvramSet waitUntilExit];
+	}
 }
 -(NSString *)getMachineModel {
     NSString *macModel=@"";

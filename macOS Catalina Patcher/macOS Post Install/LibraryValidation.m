@@ -13,24 +13,14 @@
 -(id)init {
     self = [super init];
     [self setID:@"LibraryValidation"];
-    [self setVersion:3];
+    [self setVersion:4];
     [self setName:@"Library Validation Disabler Patch"];
     return self;
 }
 -(int)applyToVolume:(NSString *)volumePath {
     
     int ret = 0;
-    
-    NSString *plistPath = [volumePath stringByAppendingPathComponent:@"Library/Preferences/com.apple.security.libraryvalidation.plist"];
-    NSMutableDictionary *libValPrefs;
-    if ([[NSFileManager defaultManager] fileExistsAtPath:plistPath]) {
-        libValPrefs = [[NSMutableDictionary alloc] initWithContentsOfFile:plistPath];
-    } else {
-        libValPrefs = [[NSMutableDictionary alloc] init];
-    }
-    [libValPrefs setObject:[NSNumber numberWithBool:YES] forKey:@"DisableLibraryValidation"];
-    [libValPrefs writeToFile:plistPath atomically:YES];
-    
+    ret = [self copyFile:[resourcePath stringByAppendingPathComponent:@"addonkexts/DisableLibraryValidation.kext"] toDirectory:[volumePath stringByAppendingPathComponent:@"Library/Extensions"]];
     return ret;
 }
 -(BOOL)shouldInstallOnMachineModel:(NSString *)model {

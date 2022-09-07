@@ -13,7 +13,7 @@
 -(id)init {
     self = [super init];
     [self setID:@"amdSSE4"];
-    [self setVersion:2];
+    [self setVersion:3];
     [self setName:@"AMD Metal Driver SSE4.2 Emulation Layer"];
     return self;
 }

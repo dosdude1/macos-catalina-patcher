@@ -12,7 +12,7 @@
 -(id)init {
     self = [super init];
     [self setID:@"legacyGPU"];
-    [self setVersion:13];
+    [self setVersion:14];
     [self setName:@"Legacy Video Card Patch"];
     return self;
 }
@@ -35,6 +35,10 @@
         return ret;
     }
     ret = [self copyFilesFromDirectory:[resourcePath stringByAppendingPathComponent:@"videocardpatches/gfxshared/wrappers/SkyLight"] toPath:[volumePath stringByAppendingPathComponent:@"System/Library/PrivateFrameworks/SkyLight.framework/Versions/A"]];
+    if (ret) {
+        return ret;
+    }
+    ret = [self copyFilesFromDirectory:[resourcePath stringByAppendingPathComponent:@"videocardpatches/gfxshared/wrappers/QuartzCore"] toPath:[volumePath stringByAppendingPathComponent:@"System/Library/Frameworks/QuartzCore.framework/Versions/A"]];
     if (ret) {
         return ret;
     }

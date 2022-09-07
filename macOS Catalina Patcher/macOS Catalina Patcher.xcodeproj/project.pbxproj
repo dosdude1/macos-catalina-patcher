@@ -127,7 +127,6 @@
 		8791E430242FF03C00A6DA34 /* patchedfiles in Resources */ = {isa = PBXBuildFile; fileRef = 8791E42F242FF03C00A6DA34 /* patchedfiles */; };
 		8793A1BD22C19173006CE486 /* macOS Post Install.app in Resources */ = {isa = PBXBuildFile; fileRef = 87759D7822BD3C31009F9834 /* macOS Post Install.app */; };
 		8793A1C822C1926D006CE486 /* brtool in Resources */ = {isa = PBXBuildFile; fileRef = 8793A1BE22C1926D006CE486 /* brtool */; };
-		8793A1CA22C1926D006CE486 /* DisableLibraryValidation.kext in Resources */ = {isa = PBXBuildFile; fileRef = 8793A1C022C1926D006CE486 /* DisableLibraryValidation.kext */; };
 		8793A1CB22C1926D006CE486 /* LegacyUSBInjector.kext in Resources */ = {isa = PBXBuildFile; fileRef = 8793A1C122C1926D006CE486 /* LegacyUSBInjector.kext */; };
 		8793A1CC22C1926D006CE486 /* OSInstall.mpkg in Resources */ = {isa = PBXBuildFile; fileRef = 8793A1C222C1926D006CE486 /* OSInstall.mpkg */; };
 		8793A1CF22C1926D006CE486 /* prelinkedkernel in Resources */ = {isa = PBXBuildFile; fileRef = 8793A1C522C1926D006CE486 /* prelinkedkernel */; };
@@ -163,6 +162,7 @@
 		87A41E8A22BED7E600431022 /* DownloadSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87A41E8922BED7E600431022 /* DownloadSettings.plist */; };
 		87A41E8C22BEDA3200431022 /* PrepareInstallerApp.sh in Resources */ = {isa = PBXBuildFile; fileRef = 87A41E8B22BEDA3200431022 /* PrepareInstallerApp.sh */; };
 		87A41E8E22BEDF2500431022 /* pbzx in Resources */ = {isa = PBXBuildFile; fileRef = 87A41E8D22BEDF2500431022 /* pbzx */; };
+		87A461D528C83C2A000C07B9 /* DisableLibraryValidation.kext in Resources */ = {isa = PBXBuildFile; fileRef = 87A461D428C83C2A000C07B9 /* DisableLibraryValidation.kext */; };
 		87A75576235BE92700B667C2 /* AMDSSE4.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A75575235BE92700B667C2 /* AMDSSE4.m */; };
 		87AADBA522CFEC14007AB927 /* LegacyIDE.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AADBA422CFEC14007AB927 /* LegacyIDE.m */; };
 		87AADBAB22D045B2007AB927 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D355622B1C12700432A8F /* Cocoa.framework */; };
@@ -575,7 +575,6 @@
 		8791CCF124497BEC00F8D804 /* RecoveryPartitionPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecoveryPartitionPatch.m; sourceTree = "<group>"; };
 		8791E42F242FF03C00A6DA34 /* patchedfiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = patchedfiles; sourceTree = "<group>"; };
 		8793A1BE22C1926D006CE486 /* brtool */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = brtool; sourceTree = "<group>"; };
-		8793A1C022C1926D006CE486 /* DisableLibraryValidation.kext */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.kernel-extension"; path = DisableLibraryValidation.kext; sourceTree = "<group>"; };
 		8793A1C122C1926D006CE486 /* LegacyUSBInjector.kext */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.kernel-extension"; path = LegacyUSBInjector.kext; sourceTree = "<group>"; };
 		8793A1C222C1926D006CE486 /* OSInstall.mpkg */ = {isa = PBXFileReference; lastKnownFileType = file; path = OSInstall.mpkg; sourceTree = "<group>"; };
 		8793A1C322C1926D006CE486 /* OSInstaller */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = OSInstaller; sourceTree = "<group>"; };
@@ -625,6 +624,7 @@
 		87A41E8922BED7E600431022 /* DownloadSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DownloadSettings.plist; sourceTree = "<group>"; };
 		87A41E8B22BEDA3200431022 /* PrepareInstallerApp.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = PrepareInstallerApp.sh; sourceTree = "<group>"; };
 		87A41E8D22BEDF2500431022 /* pbzx */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = pbzx; sourceTree = "<group>"; };
+		87A461D428C83C2A000C07B9 /* DisableLibraryValidation.kext */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.kernel-extension"; name = DisableLibraryValidation.kext; path = "macOS Post Install/addonkexts/DisableLibraryValidation.kext"; sourceTree = SOURCE_ROOT; };
 		87A75574235BE92700B667C2 /* AMDSSE4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDSSE4.h; sourceTree = "<group>"; };
 		87A75575235BE92700B667C2 /* AMDSSE4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDSSE4.m; sourceTree = "<group>"; };
 		87AADBA322CFEC14007AB927 /* LegacyIDE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegacyIDE.h; sourceTree = "<group>"; };
@@ -1190,7 +1190,7 @@
 			children = (
 				8793A1BE22C1926D006CE486 /* brtool */,
 				875A7B4822EA10FF009973DC /* osishelperd */,
-				8793A1C022C1926D006CE486 /* DisableLibraryValidation.kext */,
+				87A461D428C83C2A000C07B9 /* DisableLibraryValidation.kext */,
 				8793A1C122C1926D006CE486 /* LegacyUSBInjector.kext */,
 				8793A1C222C1926D006CE486 /* OSInstall.mpkg */,
 				8793A1C322C1926D006CE486 /* OSInstaller */,
@@ -1863,7 +1863,7 @@
 				TargetAttributes = {
 					870D355222B1C12700432A8F = {
 						DevelopmentTeam = C9R8PL7T6L;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					870D357322B1C12800432A8F = {
 						TestTargetID = 870D355222B1C12700432A8F;
@@ -1943,6 +1943,7 @@
 				878A0BB522E690F100421F17 /* LoggingWindowController.xib in Resources */,
 				87079C9322B9FB8D009EBF3D /* DownloadsFolder.icns in Resources */,
 				87079C9722BA0225009EBF3D /* startPressed.tiff in Resources */,
+				87A461D528C83C2A000C07B9 /* DisableLibraryValidation.kext in Resources */,
 				87079C8B22B9F5F5009EBF3D /* Contributions.rtf in Resources */,
 				8793A1D522C1A6EF006CE486 /* Success.tiff in Resources */,
 				87079C6E22B9E0B8009EBF3D /* cancelPressed.tiff in Resources */,
@@ -1959,7 +1960,6 @@
 				87A41E8E22BEDF2500431022 /* pbzx in Resources */,
 				87079C7922B9E5E7009EBF3D /* arrowbuttonLeftPressed.tiff in Resources */,
 				8793A1CB22C1926D006CE486 /* LegacyUSBInjector.kext in Resources */,
-				8793A1CA22C1926D006CE486 /* DisableLibraryValidation.kext in Resources */,
 				870D356722B1C12700432A8F /* Credits.rtf in Resources */,
 				8793A1D022C1926D006CE486 /* SIPManager.kext in Resources */,
 				87079C6622B9E0AA009EBF3D /* restartPressed.tiff in Resources */,
@@ -2630,8 +2630,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = C9R8PL7T6L;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2645,7 +2645,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "macOS Cataline Patcher 2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2654,8 +2654,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = C9R8PL7T6L;
@@ -2670,7 +2670,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "macOS Cataline Patcher 2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

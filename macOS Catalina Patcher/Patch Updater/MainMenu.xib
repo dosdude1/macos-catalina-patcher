@@ -261,7 +261,7 @@ DQ
                                         <rect key="frame" x="0.0" y="0.0" width="458" height="255"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <clipView key="contentView" drawsBackground="NO" id="iDh-Ag-PdP">
-                                            <rect key="frame" x="1" y="1" width="456" height="253"/>
+                                            <rect key="frame" x="1" y="1" width="441" height="253"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <textView editable="NO" importsGraphics="NO" verticallyResizable="YES" findStyle="panel" allowsNonContiguousLayout="YES" id="GVF-VN-f6K">
@@ -269,7 +269,7 @@ DQ
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                                    <size key="minSize" width="456" height="253"/>
+                                                    <size key="minSize" width="441" height="253"/>
                                                     <size key="maxSize" width="474" height="10000000"/>
                                                     <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                 </textView>
@@ -280,7 +280,7 @@ DQ
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
                                         <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="UV4-uf-cqr">
-                                            <rect key="frame" x="441" y="1" width="16" height="253"/>
+                                            <rect key="frame" x="442" y="1" width="15" height="253"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
                                     </scrollView>

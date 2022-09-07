@@ -13,7 +13,7 @@
 -(id)init {
     self = [super init];
     [self setID:@"LibraryValidation"];
-    [self setVersion:4];
+    [self setVersion:5];
     [self setName:@"Library Validation Disabler Patch"];
     return self;
 }

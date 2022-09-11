@@ -105,6 +105,7 @@
 		87759DCF22BDAD9F009F9834 /* patchedkexts in Resources */ = {isa = PBXBuildFile; fileRef = 87759DCC22BDAD9F009F9834 /* patchedkexts */; };
 		87759DD022BDAD9F009F9834 /* videocardpatches in Resources */ = {isa = PBXBuildFile; fileRef = 87759DCD22BDAD9F009F9834 /* videocardpatches */; };
 		877E90FB22F6721B00AFAE35 /* PatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 877E90FA22F6721B00AFAE35 /* PatchManager.m */; };
+		8781968228CD4459000575F8 /* DisableLibraryValidation.kext in Resources */ = {isa = PBXBuildFile; fileRef = 8781968128CD4459000575F8 /* DisableLibraryValidation.kext */; };
 		87878581230C9D12005EC542 /* PatcherFlags.m in Sources */ = {isa = PBXBuildFile; fileRef = 87878580230C9D12005EC542 /* PatcherFlags.m */; };
 		87878582230CA159005EC542 /* PatcherFlags.m in Sources */ = {isa = PBXBuildFile; fileRef = 87878580230C9D12005EC542 /* PatcherFlags.m */; };
 		87878583230CA259005EC542 /* PatcherFlags.m in Sources */ = {isa = PBXBuildFile; fileRef = 87878580230C9D12005EC542 /* PatcherFlags.m */; };
@@ -162,7 +163,6 @@
 		87A41E8A22BED7E600431022 /* DownloadSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87A41E8922BED7E600431022 /* DownloadSettings.plist */; };
 		87A41E8C22BEDA3200431022 /* PrepareInstallerApp.sh in Resources */ = {isa = PBXBuildFile; fileRef = 87A41E8B22BEDA3200431022 /* PrepareInstallerApp.sh */; };
 		87A41E8E22BEDF2500431022 /* pbzx in Resources */ = {isa = PBXBuildFile; fileRef = 87A41E8D22BEDF2500431022 /* pbzx */; };
-		87A461D528C83C2A000C07B9 /* DisableLibraryValidation.kext in Resources */ = {isa = PBXBuildFile; fileRef = 87A461D428C83C2A000C07B9 /* DisableLibraryValidation.kext */; };
 		87A75576235BE92700B667C2 /* AMDSSE4.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A75575235BE92700B667C2 /* AMDSSE4.m */; };
 		87AADBA522CFEC14007AB927 /* LegacyIDE.m in Sources */ = {isa = PBXBuildFile; fileRef = 87AADBA422CFEC14007AB927 /* LegacyIDE.m */; };
 		87AADBAB22D045B2007AB927 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D355622B1C12700432A8F /* Cocoa.framework */; };
@@ -548,6 +548,7 @@
 		87759DCD22BDAD9F009F9834 /* videocardpatches */ = {isa = PBXFileReference; lastKnownFileType = folder; path = videocardpatches; sourceTree = "<group>"; };
 		877E90F922F6721B00AFAE35 /* PatchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatchManager.h; sourceTree = "<group>"; };
 		877E90FA22F6721B00AFAE35 /* PatchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatchManager.m; sourceTree = "<group>"; };
+		8781968128CD4459000575F8 /* DisableLibraryValidation.kext */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.kernel-extension"; path = DisableLibraryValidation.kext; sourceTree = "<group>"; };
 		8787857F230C9D12005EC542 /* PatcherFlags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatcherFlags.h; sourceTree = "<group>"; };
 		87878580230C9D12005EC542 /* PatcherFlags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatcherFlags.m; sourceTree = "<group>"; };
 		878A0BA622E6802F00421F17 /* LoggingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggingManager.h; sourceTree = "<group>"; };
@@ -624,7 +625,6 @@
 		87A41E8922BED7E600431022 /* DownloadSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DownloadSettings.plist; sourceTree = "<group>"; };
 		87A41E8B22BEDA3200431022 /* PrepareInstallerApp.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = PrepareInstallerApp.sh; sourceTree = "<group>"; };
 		87A41E8D22BEDF2500431022 /* pbzx */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = pbzx; sourceTree = "<group>"; };
-		87A461D428C83C2A000C07B9 /* DisableLibraryValidation.kext */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.kernel-extension"; name = DisableLibraryValidation.kext; path = "macOS Post Install/addonkexts/DisableLibraryValidation.kext"; sourceTree = SOURCE_ROOT; };
 		87A75574235BE92700B667C2 /* AMDSSE4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDSSE4.h; sourceTree = "<group>"; };
 		87A75575235BE92700B667C2 /* AMDSSE4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDSSE4.m; sourceTree = "<group>"; };
 		87AADBA322CFEC14007AB927 /* LegacyIDE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegacyIDE.h; sourceTree = "<group>"; };
@@ -1190,8 +1190,8 @@
 			children = (
 				8793A1BE22C1926D006CE486 /* brtool */,
 				875A7B4822EA10FF009973DC /* osishelperd */,
-				87A461D428C83C2A000C07B9 /* DisableLibraryValidation.kext */,
 				8793A1C122C1926D006CE486 /* LegacyUSBInjector.kext */,
+				8781968128CD4459000575F8 /* DisableLibraryValidation.kext */,
 				8793A1C222C1926D006CE486 /* OSInstall.mpkg */,
 				8793A1C322C1926D006CE486 /* OSInstaller */,
 				8793A1C422C1926D006CE486 /* OSInstallerSetupInternal */,
@@ -1943,7 +1943,7 @@
 				878A0BB522E690F100421F17 /* LoggingWindowController.xib in Resources */,
 				87079C9322B9FB8D009EBF3D /* DownloadsFolder.icns in Resources */,
 				87079C9722BA0225009EBF3D /* startPressed.tiff in Resources */,
-				87A461D528C83C2A000C07B9 /* DisableLibraryValidation.kext in Resources */,
+				8781968228CD4459000575F8 /* DisableLibraryValidation.kext in Resources */,
 				87079C8B22B9F5F5009EBF3D /* Contributions.rtf in Resources */,
 				8793A1D522C1A6EF006CE486 /* Success.tiff in Resources */,
 				87079C6E22B9E0B8009EBF3D /* cancelPressed.tiff in Resources */,

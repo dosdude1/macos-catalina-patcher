@@ -174,29 +174,24 @@
 }
 -(NSString *)locateOSDownloadKeyInProductDict:(NSDictionary *)products {
     NSArray *allKeys = products.allKeys;
-    int maxBugFix = 0;
+    NSDate *latestDate;
     NSString *foundKey = @"";
     
     for (long i=allKeys.count - 1; i > 0; i--) {
         NSString *key = [allKeys objectAtIndex:i];
         if ([[products objectForKey:key] objectForKey:@"ServerMetadataURL"] != nil && [[[products objectForKey:key] objectForKey:@"ServerMetadataURL"] rangeOfString:@"InstallAssistantAuto"].location != NSNotFound) {
             NSURL *ServerMetadataURL = [NSURL URLWithString:[[products objectForKey:key] objectForKey:@"ServerMetadataURL"]];
+            NSDate *postDate = [[products objectForKey:key] objectForKey:@"PostDate"];
             NSDictionary *metadata = [[NSDictionary alloc] initWithContentsOfURL:ServerMetadataURL];
             NSString *systemVersion = [metadata objectForKey:@"CFBundleShortVersionString"];
             NSArray *ver = [systemVersion componentsSeparatedByString:@"."];
-            int minor = 0, bugFix = 0;
+            int minor = 0;
             if (ver.count >= 2) {
                 minor = [[ver objectAtIndex:1] intValue];
-            }
-            if (minor == targetMinorVersion) {
-                if ([foundKey isEqualToString:@""]) {
-                    foundKey = key;
-                }
-                if (ver.count >= 3) {
-                    bugFix = [[ver objectAtIndex:2] intValue];
-                    if (bugFix >= maxBugFix) {
+                if (minor == targetMinorVersion) {
+                    if (!latestDate || [latestDate isLessThan:postDate]) {
+                        latestDate = postDate;
                         foundKey = key;
-                        maxBugFix = bugFix;
                     }
                 }
             }
